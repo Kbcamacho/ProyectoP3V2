@@ -34,15 +34,17 @@
             this.btnVolver = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.BtnGestionUsu = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.panel1.Controls.Add(this.btnVolver);
             this.panel1.Location = new System.Drawing.Point(-11, -2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(730, 52);
+            this.panel1.Size = new System.Drawing.Size(730, 59);
             this.panel1.TabIndex = 4;
             // 
             // btnSacarCita
@@ -50,7 +52,7 @@
             this.btnSacarCita.BackColor = System.Drawing.Color.LightCyan;
             this.btnSacarCita.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSacarCita.ForeColor = System.Drawing.Color.Black;
-            this.btnSacarCita.Location = new System.Drawing.Point(50, 83);
+            this.btnSacarCita.Location = new System.Drawing.Point(23, 41);
             this.btnSacarCita.Name = "btnSacarCita";
             this.btnSacarCita.Size = new System.Drawing.Size(199, 58);
             this.btnSacarCita.TabIndex = 2;
@@ -61,11 +63,11 @@
             // btnVolver
             // 
             this.btnVolver.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVolver.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnVolver.Location = new System.Drawing.Point(248, 274);
+            this.btnVolver.Location = new System.Drawing.Point(23, 14);
             this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(103, 47);
+            this.btnVolver.Size = new System.Drawing.Size(103, 36);
             this.btnVolver.TabIndex = 0;
             this.btnVolver.Text = "Salir";
             this.btnVolver.UseVisualStyleBackColor = false;
@@ -77,9 +79,9 @@
             this.groupBox1.Controls.Add(this.btnSacarCita);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.LightCyan;
-            this.groupBox1.Location = new System.Drawing.Point(12, 56);
+            this.groupBox1.Location = new System.Drawing.Point(12, 73);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(581, 196);
+            this.groupBox1.Size = new System.Drawing.Size(509, 126);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Seleccione una opción de su preferencia:";
@@ -89,7 +91,7 @@
             this.BtnGestionUsu.BackColor = System.Drawing.Color.LightCyan;
             this.BtnGestionUsu.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnGestionUsu.ForeColor = System.Drawing.Color.Black;
-            this.BtnGestionUsu.Location = new System.Drawing.Point(327, 83);
+            this.BtnGestionUsu.Location = new System.Drawing.Point(279, 41);
             this.BtnGestionUsu.Name = "BtnGestionUsu";
             this.BtnGestionUsu.Size = new System.Drawing.Size(199, 58);
             this.BtnGestionUsu.TabIndex = 5;
@@ -102,8 +104,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(613, 352);
-            this.Controls.Add(this.btnVolver);
+            this.ClientSize = new System.Drawing.Size(536, 206);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -113,6 +114,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestion de Citas";
             this.Load += new System.EventHandler(this.GestCitas_Load);
+            this.panel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 

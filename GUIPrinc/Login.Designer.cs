@@ -81,9 +81,9 @@
             // 
             // ChbUsuario
             // 
-            this.ChbUsuario.Location = new System.Drawing.Point(204, 138);
+            this.ChbUsuario.Location = new System.Drawing.Point(132, 138);
             this.ChbUsuario.Name = "ChbUsuario";
-            this.ChbUsuario.Size = new System.Drawing.Size(100, 38);
+            this.ChbUsuario.Size = new System.Drawing.Size(150, 38);
             this.ChbUsuario.TabIndex = 10;
             this.ChbUsuario.Text = "Usuarios";
             this.ChbUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -92,9 +92,9 @@
             // 
             // ChbDoctor
             // 
-            this.ChbDoctor.Location = new System.Drawing.Point(329, 138);
+            this.ChbDoctor.Location = new System.Drawing.Point(282, 138);
             this.ChbDoctor.Name = "ChbDoctor";
-            this.ChbDoctor.Size = new System.Drawing.Size(100, 38);
+            this.ChbDoctor.Size = new System.Drawing.Size(150, 38);
             this.ChbDoctor.TabIndex = 3;
             this.ChbDoctor.Text = "Doctor";
             this.ChbDoctor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -106,7 +106,7 @@
             this.btnCrearCuentaIS.BackColor = System.Drawing.Color.LightCyan;
             this.btnCrearCuentaIS.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCrearCuentaIS.ForeColor = System.Drawing.Color.Black;
-            this.btnCrearCuentaIS.Location = new System.Drawing.Point(252, 240);
+            this.btnCrearCuentaIS.Location = new System.Drawing.Point(251, 240);
             this.btnCrearCuentaIS.Name = "btnCrearCuentaIS";
             this.btnCrearCuentaIS.Size = new System.Drawing.Size(146, 28);
             this.btnCrearCuentaIS.TabIndex = 9;
@@ -117,7 +117,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(51, 243);
+            this.label4.Location = new System.Drawing.Point(34, 243);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(186, 20);
             this.label4.TabIndex = 8;
@@ -127,7 +127,7 @@
             // 
             this.btnLimpiarIS.BackColor = System.Drawing.Color.LightBlue;
             this.btnLimpiarIS.ForeColor = System.Drawing.Color.Black;
-            this.btnLimpiarIS.Location = new System.Drawing.Point(90, 182);
+            this.btnLimpiarIS.Location = new System.Drawing.Point(182, 182);
             this.btnLimpiarIS.Name = "btnLimpiarIS";
             this.btnLimpiarIS.Size = new System.Drawing.Size(100, 38);
             this.btnLimpiarIS.TabIndex = 6;
@@ -139,7 +139,7 @@
             // 
             this.btnIngresarIS.BackColor = System.Drawing.Color.LightBlue;
             this.btnIngresarIS.ForeColor = System.Drawing.Color.Black;
-            this.btnIngresarIS.Location = new System.Drawing.Point(270, 182);
+            this.btnIngresarIS.Location = new System.Drawing.Point(332, 182);
             this.btnIngresarIS.Name = "btnIngresarIS";
             this.btnIngresarIS.Size = new System.Drawing.Size(100, 38);
             this.btnIngresarIS.TabIndex = 4;
