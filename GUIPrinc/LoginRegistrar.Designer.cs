@@ -32,6 +32,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnVolverCC = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cmbSangre = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.TxtApellido = new System.Windows.Forms.TextBox();
@@ -51,7 +52,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.cmbSangre = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -60,16 +60,16 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.LightSkyBlue;
             this.panel1.Controls.Add(this.btnVolverCC);
-            this.panel1.Location = new System.Drawing.Point(-16, -20);
+            this.panel1.Location = new System.Drawing.Point(-15, 402);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(892, 69);
+            this.panel1.Size = new System.Drawing.Size(919, 120);
             this.panel1.TabIndex = 0;
             // 
             // btnVolverCC
             // 
             this.btnVolverCC.BackColor = System.Drawing.Color.PaleVioletRed;
             this.btnVolverCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolverCC.Location = new System.Drawing.Point(28, 32);
+            this.btnVolverCC.Location = new System.Drawing.Point(21, 15);
             this.btnVolverCC.Name = "btnVolverCC";
             this.btnVolverCC.Size = new System.Drawing.Size(104, 31);
             this.btnVolverCC.TabIndex = 0;
@@ -101,13 +101,32 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.LightCyan;
-            this.groupBox1.Location = new System.Drawing.Point(12, 55);
+            this.groupBox1.Location = new System.Drawing.Point(12, 21);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(684, 375);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cuenta para Paciente";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // cmbSangre
+            // 
+            this.cmbSangre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbSangre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbSangre.FormattingEnabled = true;
+            this.cmbSangre.Items.AddRange(new object[] {
+            "A+",
+            "A-",
+            "AB+",
+            "AB-",
+            "B+",
+            "B-",
+            "O+",
+            "O-"});
+            this.cmbSangre.Location = new System.Drawing.Point(21, 326);
+            this.cmbSangre.Name = "cmbSangre";
+            this.cmbSangre.Size = new System.Drawing.Size(297, 28);
+            this.cmbSangre.TabIndex = 38;
             // 
             // label8
             // 
@@ -306,31 +325,12 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Contraseña:";
             // 
-            // cmbSangre
-            // 
-            this.cmbSangre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbSangre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbSangre.FormattingEnabled = true;
-            this.cmbSangre.Items.AddRange(new object[] {
-            "A+",
-            "A-",
-            "AB+",
-            "AB-",
-            "B+",
-            "B-",
-            "O+",
-            "O-"});
-            this.cmbSangre.Location = new System.Drawing.Point(21, 326);
-            this.cmbSangre.Name = "cmbSangre";
-            this.cmbSangre.Size = new System.Drawing.Size(297, 28);
-            this.cmbSangre.TabIndex = 38;
-            // 
             // LoginRegistrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(707, 438);
+            this.ClientSize = new System.Drawing.Size(707, 453);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
