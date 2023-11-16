@@ -78,6 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConexionDB\ConexionBD.cs" />
+    <Compile Include="Repositorio\DCitas.cs" />
     <Compile Include="Repositorio\DDoctor.cs" />
     <Compile Include="Repositorio\DUsuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

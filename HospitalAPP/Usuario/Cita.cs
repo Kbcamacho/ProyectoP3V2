@@ -14,17 +14,20 @@ namespace HospitalAPP
         public Doctor Doctor { get; set; }
         public DateTime FechaCita { get; set; }
 
+        public DateTime HoraCita { get; set; }
+
         public Cita()
         {
 
         }
 
-        public Cita(String idCita, Paciente paciente, Doctor doctor, DateTime fechaCita)
+        public Cita(String idCita, Paciente paciente, Doctor doctor, DateTime fechaCita, DateTime horaCita)
         {
             IdCita = idCita;
             Paciente = paciente;
             Doctor = doctor;
             FechaCita = fechaCita;
+            HoraCita = horaCita;
         }
     }
 }
