@@ -46,3 +46,9 @@ C:\Users\User\OneDrive\Escritorio\PROY3\HospitalAPP\obj\Debug\Entidades.csproj.A
 C:\Users\User\OneDrive\Escritorio\PROY3\HospitalAPP\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\User\OneDrive\Escritorio\PROY3\HospitalAPP\obj\Debug\HospitalAPP.dll
 C:\Users\User\OneDrive\Escritorio\PROY3\HospitalAPP\obj\Debug\HospitalAPP.pdb
+C:\Users\camac\Desktop\ProyectoP3\HospitalAPP\bin\Debug\HospitalAPP.dll
+C:\Users\camac\Desktop\ProyectoP3\HospitalAPP\bin\Debug\HospitalAPP.pdb
+C:\Users\camac\Desktop\ProyectoP3\HospitalAPP\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\camac\Desktop\ProyectoP3\HospitalAPP\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\camac\Desktop\ProyectoP3\HospitalAPP\obj\Debug\HospitalAPP.dll
+C:\Users\camac\Desktop\ProyectoP3\HospitalAPP\obj\Debug\HospitalAPP.pdb

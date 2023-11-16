@@ -116,7 +116,7 @@ namespace Datos
             return Rpta;
         }
 
-        public string Eliminar(int Cedula)
+        public string Eliminar(string Cedula)
         {
             string Rpta = "";
             OracleConnection SqlCon = new OracleConnection();
