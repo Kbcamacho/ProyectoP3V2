@@ -125,9 +125,9 @@
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(17, 171);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(73, 20);
+            this.label9.Size = new System.Drawing.Size(82, 20);
             this.label9.TabIndex = 35;
-            this.label9.Text = "Apellido:";
+            this.label9.Text = "Apellidos:";
             this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // TxtApellido
@@ -164,16 +164,16 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(17, 106);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(149, 20);
+            this.label7.Size = new System.Drawing.Size(82, 20);
             this.label7.TabIndex = 29;
-            this.label7.Text = "Nombre Completo:";
+            this.label7.Text = "Nombres:";
             // 
             // btnLimpiarCP
             // 
             this.btnLimpiarCP.BackColor = System.Drawing.Color.LightBlue;
             this.btnLimpiarCP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpiarCP.ForeColor = System.Drawing.Color.Black;
-            this.btnLimpiarCP.Location = new System.Drawing.Point(473, 318);
+            this.btnLimpiarCP.Location = new System.Drawing.Point(463, 318);
             this.btnLimpiarCP.Name = "btnLimpiarCP";
             this.btnLimpiarCP.Size = new System.Drawing.Size(94, 36);
             this.btnLimpiarCP.TabIndex = 28;
@@ -282,9 +282,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(360, 41);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(131, 20);
+            this.label4.Size = new System.Drawing.Size(91, 20);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Numero Celular:";
+            this.label4.Text = "N° Celular:";
             // 
             // label3
             // 
@@ -292,9 +292,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(360, 236);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 20);
+            this.label3.Size = new System.Drawing.Size(154, 20);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Correo:";
+            this.label3.Text = "Correo Electronico:";
             // 
             // label2
             // 

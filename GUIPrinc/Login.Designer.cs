@@ -74,7 +74,7 @@
             this.groupBox1.ForeColor = System.Drawing.Color.LightCyan;
             this.groupBox1.Location = new System.Drawing.Point(12, 69);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(460, 288);
+            this.groupBox1.Size = new System.Drawing.Size(450, 288);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ingrese sus datos:";
@@ -125,9 +125,9 @@
             // 
             // btnLimpiarIS
             // 
-            this.btnLimpiarIS.BackColor = System.Drawing.Color.Wheat;
+            this.btnLimpiarIS.BackColor = System.Drawing.Color.LightBlue;
             this.btnLimpiarIS.ForeColor = System.Drawing.Color.Black;
-            this.btnLimpiarIS.Location = new System.Drawing.Point(204, 182);
+            this.btnLimpiarIS.Location = new System.Drawing.Point(90, 182);
             this.btnLimpiarIS.Name = "btnLimpiarIS";
             this.btnLimpiarIS.Size = new System.Drawing.Size(100, 38);
             this.btnLimpiarIS.TabIndex = 6;
@@ -139,7 +139,7 @@
             // 
             this.btnIngresarIS.BackColor = System.Drawing.Color.LightBlue;
             this.btnIngresarIS.ForeColor = System.Drawing.Color.Black;
-            this.btnIngresarIS.Location = new System.Drawing.Point(332, 182);
+            this.btnIngresarIS.Location = new System.Drawing.Point(270, 182);
             this.btnIngresarIS.Name = "btnIngresarIS";
             this.btnIngresarIS.Size = new System.Drawing.Size(100, 38);
             this.btnIngresarIS.TabIndex = 4;
