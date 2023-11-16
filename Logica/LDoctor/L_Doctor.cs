@@ -7,6 +7,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Datos.Repositorio.DDoctor;
 
 namespace Logica.LDoctor
 {
@@ -102,5 +103,16 @@ namespace Logica.LDoctor
         //        return dataAccessLayer.AuthenticateUser(username, password);
         //    }
         //}
+
+        public class BusinessLayerDoctor
+        {
+            DataAccessLayerDoctor dataAccessLayer = new DataAccessLayerDoctor();
+
+            public bool AuthenticateUser(string username1, string password1)
+            {
+                // Lógica de autenticación
+                return dataAccessLayer.AuthenticateUser(username1, password1);
+            }
+        }
     }
 }

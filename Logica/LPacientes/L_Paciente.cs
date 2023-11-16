@@ -21,15 +21,17 @@ namespace Logica.LPacientes
 
         public static string Guardar(Paciente oPa)
         {
+           
+                DUsuarios Datos = new DUsuarios();
             if (Exist(oPa))
             {
-                return "ID Repetido";
+                return "EL paciente ya existe";
             }
             else
             {
-                DUsuarios Datos = new DUsuarios();
                 return Datos.Guardar(oPa);
             }
+           
 
         }
         public static bool Exist(Paciente oPa)
@@ -40,9 +42,9 @@ namespace Logica.LPacientes
 
                 foreach (DataRow row in dataTable.Rows)
                 {
-                    int id = Convert.ToInt32(row[0]);
+                    string id = row[0].ToString();
 
-                    if (id == int.Parse(oPa.Cedula))
+                    if (id == oPa.Cedula)
                     {
                         return true;
                     }
@@ -70,10 +72,10 @@ namespace Logica.LPacientes
             {
                 return "No se encontró el ID";
             }
-            else if (Exist(NewPaciente) && NewPaciente.Cedula != (Cedula))
-            {
-                return "El cliente ingresado ya existe";
-            }
+            //else if (Exist(NewPaciente) && NewPaciente.Cedula != (Cedula))
+            //{
+            //    return "El cliente ingresado ya existe";
+            //}
             else
             {
                 //E_Clientes cliente_old = new E_Clientes;

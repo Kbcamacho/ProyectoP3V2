@@ -133,6 +133,38 @@ namespace Datos.Repositorio
             return Rpta;
         }
 
+        public class DataAccessLayerDoctor
+        {
+            string connectionString = "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=KliverGod)" +
+                                          "(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=xepdb1)))" +
+                                          ";User Id=CLINICA;Password=1234;";
+
+
+            public bool AuthenticateUser(string username1, string password1)
+            {
+
+                OracleConnection SqlCon = ConexionBD.GetInstancia().CrearConexion();
+
+                using (SqlCon)
+                {
+                    SqlCon.Open();
+
+                    string query = "SELECT COUNT(*) FROM DOCTOR WHERE ID_DOCTOR = :username1 AND PASSWORD = :password1";
+
+                    using (OracleCommand command = new OracleCommand(query, SqlCon))
+                    {
+                        command.Parameters.Add(new OracleParameter(":username1", username1));
+                        command.Parameters.Add(new OracleParameter(":password1", password1));
+
+                        int count = Convert.ToInt32(command.ExecuteScalar());
+
+
+                        return count > 0;
+                    }
+                }
+            }
+
+        }
     }
 }
 

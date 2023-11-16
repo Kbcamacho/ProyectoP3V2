@@ -127,6 +127,7 @@
             this.cmbSangre.Name = "cmbSangre";
             this.cmbSangre.Size = new System.Drawing.Size(297, 28);
             this.cmbSangre.TabIndex = 38;
+            this.cmbSangre.SelectedIndexChanged += new System.EventHandler(this.cmbSangre_SelectedIndexChanged);
             // 
             // label8
             // 

@@ -8,7 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using HospitalAPP;
 using static Logica.LPacientes.L_Paciente;
+using static Logica.LDoctor.L_Doctor;
+using Logica.LDoctor;
 
 namespace GUIPrinc
 {
@@ -52,11 +55,14 @@ namespace GUIPrinc
             {
                 string username = txtUserPaCC.Text;
                 string password = txtPassPaCC.Text;
+                string username1 = txtUserPaCC.Text;
+                string password1 = txtPassPaCC.Text;
 
-                BusinessLayer businessLayer = new BusinessLayer();
-                if (TipoUsuario = true)
+
+                if (TipoUsuario)
                 {
 
+                    BusinessLayer businessLayer = new BusinessLayer();
 
                     bool isAuthenticated = businessLayer.AuthenticateUser(username, password);
 
@@ -71,8 +77,23 @@ namespace GUIPrinc
                     {
                         MessageBox.Show("Inicio de sesión fallido.");
                     }
-                }else
+                }
+                else if (!TipoUsuario)
                 {
+                    BusinessLayerDoctor businessLayerDoctor = new BusinessLayerDoctor();
+                    bool isAuthenticated = businessLayerDoctor.AuthenticateUser(username1, password1);
+
+                    if (isAuthenticated)
+                    {
+                        MessageBox.Show("Inicio de sesión exitoso.");
+                        Form btIngresar = new GestCitas();
+                        btIngresar.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Inicio de sesión fallido.");
+                    }
 
                 }
             }
