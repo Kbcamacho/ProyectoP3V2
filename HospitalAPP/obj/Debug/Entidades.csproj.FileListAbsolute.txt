@@ -1,0 +1,42 @@
+C:\Users\User\Source\Repos\ProyectoP3\HospitalAPP\bin\Debug\HospitalAPP.dll
+C:\Users\User\Source\Repos\ProyectoP3\HospitalAPP\bin\Debug\HospitalAPP.pdb
+C:\Users\User\Source\Repos\ProyectoP3\HospitalAPP\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\ProyectoP3\HospitalAPP\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\ProyectoP3\HospitalAPP\obj\Debug\HospitalAPP.dll
+C:\Users\User\Source\Repos\ProyectoP3\HospitalAPP\obj\Debug\HospitalAPP.pdb
+C:\Users\camac\source\repos\HospitalAPP\HospitalAPP\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\camac\source\repos\HospitalAPP\HospitalAPP\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\camac\source\repos\HospitalAPP\HospitalAPP\obj\Debug\HospitalAPP.dll
+C:\Users\camac\source\repos\HospitalAPP\HospitalAPP\obj\Debug\HospitalAPP.pdb
+C:\Users\camac\source\repos\HospitalAPP\HospitalAPP\bin\Debug\HospitalAPP.dll
+C:\Users\camac\source\repos\HospitalAPP\HospitalAPP\bin\Debug\HospitalAPP.pdb
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\HospitalAPP\bin\Debug\HospitalAPP.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\HospitalAPP\bin\Debug\HospitalAPP.pdb
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\HospitalAPP\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\HospitalAPP\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\HospitalAPP\obj\Debug\HospitalAPP.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\HospitalAPP\obj\Debug\HospitalAPP.pdb
+C:\Users\User\OneDrive\Escritorio\P3\HospitalAPP\bin\Debug\HospitalAPP.dll
+C:\Users\User\OneDrive\Escritorio\P3\HospitalAPP\bin\Debug\HospitalAPP.pdb
+C:\Users\User\OneDrive\Escritorio\P3\HospitalAPP\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Escritorio\P3\HospitalAPP\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Escritorio\P3\HospitalAPP\obj\Debug\HospitalAPP.dll
+C:\Users\User\OneDrive\Escritorio\P3\HospitalAPP\obj\Debug\HospitalAPP.pdb
+C:\Users\camac\source\repos\Proyecto\HospitalAPP\bin\Debug\HospitalAPP.dll
+C:\Users\camac\source\repos\Proyecto\HospitalAPP\bin\Debug\HospitalAPP.pdb
+C:\Users\camac\source\repos\Proyecto\HospitalAPP\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\camac\source\repos\Proyecto\HospitalAPP\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\camac\source\repos\Proyecto\HospitalAPP\obj\Debug\HospitalAPP.dll
+C:\Users\camac\source\repos\Proyecto\HospitalAPP\obj\Debug\HospitalAPP.pdb
+C:\Users\User\OneDrive\Escritorio\P3P2\HospitalAPP\bin\Debug\HospitalAPP.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\HospitalAPP\bin\Debug\HospitalAPP.pdb
+C:\Users\User\OneDrive\Escritorio\P3P2\HospitalAPP\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Escritorio\P3P2\HospitalAPP\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Escritorio\P3P2\HospitalAPP\obj\Debug\HospitalAPP.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\HospitalAPP\obj\Debug\HospitalAPP.pdb
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\HospitalAPP\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\HospitalAPP\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\HospitalAPP\obj\Debug\HospitalAPP.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\HospitalAPP\obj\Debug\HospitalAPP.pdb
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\HospitalAPP\bin\Debug\HospitalAPP.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\HospitalAPP\bin\Debug\HospitalAPP.pdb

@@ -1,0 +1,183 @@
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\Datos.dll.config
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\Datos.dll
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\Datos.pdb
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\HospitalAPP.dll
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\System.Buffers.dll
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\System.Memory.dll
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\System.Text.Json.dll
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\System.ValueTuple.dll
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\HospitalAPP.pdb
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\System.Buffers.xml
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\System.Memory.xml
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\System.Text.Json.xml
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\camac\source\repos\HospitalAPP\Datos\bin\Debug\System.ValueTuple.xml
+C:\Users\camac\source\repos\HospitalAPP\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\camac\source\repos\HospitalAPP\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\camac\source\repos\HospitalAPP\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\camac\source\repos\HospitalAPP\Datos\obj\Debug\Datos.dll
+C:\Users\camac\source\repos\HospitalAPP\Datos\obj\Debug\Datos.pdb
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\Datos.dll.config
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\Datos.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\Datos.pdb
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\HospitalAPP.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\System.Buffers.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\System.Memory.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\System.Text.Json.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\System.ValueTuple.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\HospitalAPP.pdb
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\System.Buffers.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\System.Memory.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\System.Text.Json.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\bin\Debug\System.ValueTuple.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\obj\Debug\Datos.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\Datos\obj\Debug\Datos.pdb
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\Datos.dll.config
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\Datos.dll
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\Datos.pdb
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\HospitalAPP.dll
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\System.Buffers.dll
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\System.Memory.dll
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\System.Text.Json.dll
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\System.ValueTuple.dll
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\HospitalAPP.pdb
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\System.Buffers.xml
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\System.Memory.xml
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\System.Text.Json.xml
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\User\OneDrive\Escritorio\P3\Datos\bin\Debug\System.ValueTuple.xml
+C:\Users\User\OneDrive\Escritorio\P3\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Escritorio\P3\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Escritorio\P3\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\User\OneDrive\Escritorio\P3\Datos\obj\Debug\Datos.dll
+C:\Users\User\OneDrive\Escritorio\P3\Datos\obj\Debug\Datos.pdb
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\Datos.dll.config
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\Datos.dll
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\Datos.pdb
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\HospitalAPP.dll
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\System.Buffers.dll
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\System.Memory.dll
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\System.Text.Json.dll
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\System.ValueTuple.dll
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\HospitalAPP.pdb
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\System.Buffers.xml
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\System.Memory.xml
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\System.Text.Json.xml
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\System.ValueTuple.xml
+C:\Users\camac\source\repos\Proyecto\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\camac\source\repos\Proyecto\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\camac\source\repos\Proyecto\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\camac\source\repos\Proyecto\Datos\obj\Debug\Datos.dll
+C:\Users\camac\source\repos\Proyecto\Datos\obj\Debug\Datos.pdb
+C:\Users\camac\source\repos\Proyecto\Datos\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\Datos.dll.config
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\Datos.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\Datos.pdb
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\HospitalAPP.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\System.Buffers.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\System.Memory.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\System.Text.Json.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\System.ValueTuple.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\HospitalAPP.pdb
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\System.Buffers.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\System.Memory.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\System.Text.Json.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\bin\Debug\System.ValueTuple.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\obj\Debug\Datos.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\Datos\obj\Debug\Datos.pdb
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\obj\Debug\Datos.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\obj\Debug\Datos.pdb
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\Datos.dll.config
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\Datos.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\Datos.pdb
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\HospitalAPP.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\System.Buffers.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\System.Memory.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\System.Text.Json.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\System.ValueTuple.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\HospitalAPP.pdb
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\System.Buffers.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\System.Memory.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\System.Text.Json.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\bin\Debug\System.ValueTuple.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\Datos\obj\Debug\Datos.csproj.CopyComplete

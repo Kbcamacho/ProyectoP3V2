@@ -1,0 +1,9 @@
+Nom. Paciente: Daniel
+Tipo Ident: Cedula de Ciudadanía
+Identificación: 1067592619
+Genero: Hombre
+Celular: 3175697927
+Dirección: Mnz 43 Casa 1 Garupal 2
+Tipo de Cita: Endodoncia
+
+

@@ -1,0 +1,430 @@
+C:\Users\User\Source\Repos\ProyectoP3\GUIPrinc\bin\Debug\GUIPrinc.exe.config
+C:\Users\User\Source\Repos\ProyectoP3\GUIPrinc\bin\Debug\GUIPrinc.exe
+C:\Users\User\Source\Repos\ProyectoP3\GUIPrinc\bin\Debug\GUIPrinc.pdb
+C:\Users\User\Source\Repos\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.Properties.Resources.resources
+C:\Users\User\Source\Repos\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.csproj.GenerateResource.cache
+C:\Users\User\Source\Repos\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.exe
+C:\Users\User\Source\Repos\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.pdb
+C:\Users\User\Source\Repos\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.Principal.resources
+C:\Users\User\Source\Repos\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.GestCitas.resources
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\obj\Debug\GUIPrinc.csproj.AssemblyReference.cache
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\obj\Debug\GUIPrinc.GestCitas.resources
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\obj\Debug\GUIPrinc.Principal.resources
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\obj\Debug\GUIPrinc.Properties.Resources.resources
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\obj\Debug\GUIPrinc.csproj.GenerateResource.cache
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\obj\Debug\GUIPrinc.csproj.CoreCompileInputs.cache
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\obj\Debug\GUIPrinc.exe
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\obj\Debug\GUIPrinc.pdb
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\GUIPrinc.exe.config
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\GUIPrinc.exe
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\GUIPrinc.pdb
+C:\Users\User\OneDrive\Escritorio\ProyectoCitas\GUIPrinc\bin\Debug\GUIPrinc.exe.config
+C:\Users\User\OneDrive\Escritorio\ProyectoCitas\GUIPrinc\bin\Debug\GUIPrinc.exe
+C:\Users\User\OneDrive\Escritorio\ProyectoCitas\GUIPrinc\bin\Debug\GUIPrinc.pdb
+C:\Users\User\OneDrive\Escritorio\ProyectoCitas\GUIPrinc\obj\Debug\GUIPrinc.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Escritorio\ProyectoCitas\GUIPrinc\obj\Debug\GUIPrinc.GestCitas.resources
+C:\Users\User\OneDrive\Escritorio\ProyectoCitas\GUIPrinc\obj\Debug\GUIPrinc.Principal.resources
+C:\Users\User\OneDrive\Escritorio\ProyectoCitas\GUIPrinc\obj\Debug\GUIPrinc.Properties.Resources.resources
+C:\Users\User\OneDrive\Escritorio\ProyectoCitas\GUIPrinc\obj\Debug\GUIPrinc.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Escritorio\ProyectoCitas\GUIPrinc\obj\Debug\GUIPrinc.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Escritorio\ProyectoCitas\GUIPrinc\obj\Debug\GUIPrinc.exe
+C:\Users\User\OneDrive\Escritorio\ProyectoCitas\GUIPrinc\obj\Debug\GUIPrinc.pdb
+C:\Users\User\OneDrive\Escritorio\ProyectoCitas\GUIPrinc\obj\Debug\GUIPrinc.ProgramCita.resources
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\HospitalAPP.dll
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\Logica.dll
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\HospitalAPP.pdb
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\Logica.pdb
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\obj\Debug\GUIPrinc.ProgramCita.resources
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\obj\Debug\GUIPrinc.csproj.CopyComplete
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\Datos.dll
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\System.Text.Json.dll
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\Newtonsoft.Json.dll
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\System.Memory.dll
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\System.ValueTuple.dll
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\System.Buffers.dll
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\Datos.pdb
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\Datos.dll.config
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\System.Text.Json.xml
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\Newtonsoft.Json.xml
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\System.Memory.xml
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\System.ValueTuple.xml
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\System.Buffers.xml
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\obj\Debug\GUIPrinc.csproj.SuggestedBindingRedirects.cache
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\obj\Debug\GUIPrinc.exe.config
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.exe.config
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.GestCitas.resources
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.Principal.resources
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.ProgramCita.resources
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.Properties.Resources.resources
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.exe
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.pdb
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\GUIPrinc.exe.config
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\GUIPrinc.exe
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\GUIPrinc.pdb
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\HospitalAPP.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\Logica.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\Datos.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\System.Text.Json.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\System.Memory.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\System.ValueTuple.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\System.Buffers.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\HospitalAPP.pdb
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\Logica.pdb
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\Datos.pdb
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\Datos.dll.config
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\System.Text.Json.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\System.Memory.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\System.ValueTuple.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\System.Buffers.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.csproj.CopyComplete
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.Login.resources
+C:\Users\User\OneDrive\Escritorio\Proyecto P3\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.LoginRegistrar.resources
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\obj\Debug\GUIPrinc.Login.resources
+C:\Users\camac\source\repos\HospitalAPP\GUIPrinc\obj\Debug\GUIPrinc.LoginRegistrar.resources
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\GUIPrinc.exe.config
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\GUIPrinc.exe
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\GUIPrinc.pdb
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\HospitalAPP.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Logica.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Datos.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\System.Text.Json.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\System.Memory.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\System.ValueTuple.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\System.Buffers.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\HospitalAPP.pdb
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Logica.pdb
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Datos.pdb
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Datos.dll.config
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\System.Text.Json.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\System.Memory.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\System.ValueTuple.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\System.Buffers.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\obj\Debug\GUIPrinc.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\obj\Debug\GUIPrinc.GestCitas.resources
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\obj\Debug\GUIPrinc.Login.resources
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\obj\Debug\GUIPrinc.LoginRegistrar.resources
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\obj\Debug\GUIPrinc.ProgramCita.resources
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\obj\Debug\GUIPrinc.Properties.Resources.resources
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\obj\Debug\GUIPrinc.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\obj\Debug\GUIPrinc.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\obj\Debug\GUIPrinc.csproj.CopyComplete
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\obj\Debug\GUIPrinc.exe
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\obj\Debug\GUIPrinc.pdb
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.barcodes.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.commons.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.forms.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.io.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.kernel.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.layout.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.pdfa.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.sign.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.styledxmlparser.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.svg.dll
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.barcodes.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.commons.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.forms.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.io.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.kernel.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.layout.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.pdfa.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.sign.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.styledxmlparser.xml
+C:\Users\User\OneDrive\Escritorio\P3\GUIPrinc\bin\Debug\itext.svg.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\GUIPrinc.exe.config
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\GUIPrinc.exe
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\GUIPrinc.pdb
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\HospitalAPP.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.barcodes.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.commons.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.forms.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.io.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.kernel.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.layout.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.pdfa.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.sign.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.styledxmlparser.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.svg.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Logica.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Newtonsoft.Json.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\System.Buffers.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\System.Memory.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\System.ValueTuple.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Datos.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\System.Text.Json.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\HospitalAPP.pdb
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Logica.pdb
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.barcodes.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.commons.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.forms.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.io.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.kernel.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.layout.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.pdfa.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.sign.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.styledxmlparser.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\itext.svg.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Newtonsoft.Json.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\System.Buffers.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\System.Memory.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\System.ValueTuple.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Datos.pdb
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Datos.dll.config
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\System.Text.Json.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\obj\Debug\GUIPrinc.csproj.AssemblyReference.cache
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\obj\Debug\GUIPrinc.ConsGrilla.resources
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\obj\Debug\GUIPrinc.GestCitas.resources
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\obj\Debug\GUIPrinc.GrillCitas.resources
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\obj\Debug\GUIPrinc.Login.resources
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\obj\Debug\GUIPrinc.LoginRegistrar.resources
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\obj\Debug\GUIPrinc.ProgramCita.resources
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\obj\Debug\GUIPrinc.Properties.Resources.resources
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\obj\Debug\GUIPrinc.csproj.GenerateResource.cache
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\obj\Debug\GUIPrinc.csproj.CoreCompileInputs.cache
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\obj\Debug\GUIPrinc.csproj.CopyComplete
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\obj\Debug\GUIPrinc.exe
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\obj\Debug\GUIPrinc.pdb
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\obj\Debug\GUIPrinc.csproj.SuggestedBindingRedirects.cache
+C:\Users\camac\source\repos\Proyecto\GUIPrinc\obj\Debug\GUIPrinc.exe.config
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\GUIPrinc.exe.config
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\GUIPrinc.exe
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\GUIPrinc.pdb
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\HospitalAPP.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.barcodes.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.commons.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.forms.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.io.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.kernel.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.layout.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.pdfa.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.sign.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.styledxmlparser.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.svg.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Logica.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\System.Buffers.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\System.Memory.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\System.ValueTuple.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Datos.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\System.Text.Json.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\HospitalAPP.pdb
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Logica.pdb
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.barcodes.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.commons.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.forms.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.io.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.kernel.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.layout.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.pdfa.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.sign.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.styledxmlparser.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\itext.svg.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\System.Buffers.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\System.Memory.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\System.ValueTuple.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Datos.pdb
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\Datos.dll.config
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\System.Text.Json.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\obj\Debug\GUIPrinc.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\obj\Debug\GUIPrinc.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\obj\Debug\GUIPrinc.exe.config
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\obj\Debug\GUIPrinc.ConsGrilla.resources
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\obj\Debug\GUIPrinc.GestCitas.resources
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\obj\Debug\GUIPrinc.GrillCitas.resources
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\obj\Debug\GUIPrinc.Login.resources
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\obj\Debug\GUIPrinc.LoginRegistrar.resources
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\obj\Debug\GUIPrinc.ProgramCita.resources
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\obj\Debug\GUIPrinc.Properties.Resources.resources
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\obj\Debug\GUIPrinc.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\obj\Debug\GUIPrinc.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\obj\Debug\GUIPrinc.csproj.CopyComplete
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\obj\Debug\GUIPrinc.exe
+C:\Users\User\OneDrive\Escritorio\P3P2\GUIPrinc\obj\Debug\GUIPrinc.pdb
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\GUIPrinc.exe.config
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\GUIPrinc.exe
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\GUIPrinc.pdb
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\HospitalAPP.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.barcodes.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.commons.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.forms.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.io.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.kernel.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.layout.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.pdfa.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.sign.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.styledxmlparser.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.svg.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Logica.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Newtonsoft.Json.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\System.Buffers.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\System.Memory.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\System.ValueTuple.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Datos.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\HospitalAPP.pdb
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Logica.pdb
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.barcodes.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.commons.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.forms.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.io.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.kernel.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.layout.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.pdfa.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.sign.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.styledxmlparser.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\itext.svg.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Newtonsoft.Json.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\System.Buffers.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\System.Memory.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\System.ValueTuple.xml
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Datos.pdb
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\bin\Debug\Datos.dll.config
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.csproj.AssemblyReference.cache
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.csproj.SuggestedBindingRedirects.cache
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.exe.config
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.GrillUsuario.resources
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.GestCitas.resources
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.GrillCitas.resources
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.Login.resources
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.LoginRegistrar.resources
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.ProgramCita.resources
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.Properties.Resources.resources
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.csproj.GenerateResource.cache
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.csproj.CoreCompileInputs.cache
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.csproj.CopyComplete
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.exe
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.pdb
