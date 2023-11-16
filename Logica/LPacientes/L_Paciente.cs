@@ -62,7 +62,7 @@ namespace Logica.LPacientes
         {
             String PacienteOld;
             DataTable dataTable = Mostrar("%");
-            DataRow[] rows = dataTable.Select($"CEDULA = '{Cedula}'");
+            DataRow[] rows = dataTable.Select($"Id_paciente = '{Cedula}'");
 
             if (dataTable.Rows.Count == 0)
             {
@@ -106,6 +106,12 @@ namespace Logica.LPacientes
                 // Lógica de autenticación
                 return dataAccessLayer.AuthenticateUser(username, password);
             }
+        }
+
+        public static string Eliminar(string cedula)
+        {
+            DUsuarios Datos = new DUsuarios();
+            return Datos.Eliminar(cedula);
         }
     }
 }   

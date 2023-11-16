@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GestCitas));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnSacarCita = new System.Windows.Forms.Button();
             this.btnVolver = new System.Windows.Forms.Button();
+            this.btnSacarCita = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.BtnGestionUsu = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
@@ -47,19 +47,6 @@
             this.panel1.Size = new System.Drawing.Size(730, 59);
             this.panel1.TabIndex = 4;
             // 
-            // btnSacarCita
-            // 
-            this.btnSacarCita.BackColor = System.Drawing.Color.LightCyan;
-            this.btnSacarCita.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSacarCita.ForeColor = System.Drawing.Color.Black;
-            this.btnSacarCita.Location = new System.Drawing.Point(23, 41);
-            this.btnSacarCita.Name = "btnSacarCita";
-            this.btnSacarCita.Size = new System.Drawing.Size(199, 58);
-            this.btnSacarCita.TabIndex = 2;
-            this.btnSacarCita.Text = "Programar Cita";
-            this.btnSacarCita.UseVisualStyleBackColor = false;
-            this.btnSacarCita.Click += new System.EventHandler(this.btnSacarCita_Click);
-            // 
             // btnVolver
             // 
             this.btnVolver.BackColor = System.Drawing.Color.PaleVioletRed;
@@ -72,6 +59,19 @@
             this.btnVolver.Text = "Salir";
             this.btnVolver.UseVisualStyleBackColor = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
+            // btnSacarCita
+            // 
+            this.btnSacarCita.BackColor = System.Drawing.Color.LightCyan;
+            this.btnSacarCita.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSacarCita.ForeColor = System.Drawing.Color.Black;
+            this.btnSacarCita.Location = new System.Drawing.Point(23, 41);
+            this.btnSacarCita.Name = "btnSacarCita";
+            this.btnSacarCita.Size = new System.Drawing.Size(199, 58);
+            this.btnSacarCita.TabIndex = 2;
+            this.btnSacarCita.Text = "Programar Cita";
+            this.btnSacarCita.UseVisualStyleBackColor = false;
+            this.btnSacarCita.Click += new System.EventHandler(this.btnSacarCita_Click);
             // 
             // groupBox1
             // 
