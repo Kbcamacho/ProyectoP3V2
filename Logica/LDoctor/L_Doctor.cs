@@ -1,38 +1,38 @@
-﻿using Logica.LCitas;
+﻿using Datos;
+using Datos.Repositorio;
+using HospitalAPP;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Datos;
-using HospitalAPP;
-using static Datos.DUsuarios;
 
-namespace Logica.LPacientes
+namespace Logica.LDoctor
 {
-    public class L_Paciente
+    public class L_Doctor
     {
         public static DataTable Mostrar(string cTexto)
         {
-            DUsuarios Datos = new DUsuarios();
+            DDoctor Datos = new DDoctor();
             return Datos.Mostrar(cTexto);
         }
 
-        public static string Guardar(Paciente oPa)
+        public static string Guardar(Doctor oDc)
         {
-            if (Exist(oPa))
+            if (Exist(oDc))
             {
                 return "ID Repetido";
             }
             else
             {
-                DUsuarios Datos = new DUsuarios();
-                return Datos.Guardar(oPa);
+                DDoctor Datos = new DDoctor();
+                return Datos.Guardar(oDc);
             }
-
+              
         }
-        public static bool Exist(Paciente oPa)
+
+        public static bool Exist(Doctor oPa)
         {
             try
             {
@@ -56,9 +56,9 @@ namespace Logica.LPacientes
             }
         }
 
-        public static string Actualizar(Paciente NewPaciente, string Cedula)
+        public static string Actualizar(Doctor NewDoctor, string Cedula)
         {
-            String PacienteOld;
+            String DoctorOld;
             DataTable dataTable = Mostrar("%");
             DataRow[] rows = dataTable.Select($"CEDULA = '{Cedula}'");
 
@@ -70,7 +70,7 @@ namespace Logica.LPacientes
             {
                 return "No se encontró el ID";
             }
-            else if (Exist(NewPaciente) && NewPaciente.Cedula != (Cedula))
+            else if (Exist(NewDoctor) && NewDoctor.Cedula != (Cedula))
             {
                 return "El cliente ingresado ya existe";
             }
@@ -84,26 +84,23 @@ namespace Logica.LPacientes
                 //row["Telefono"] = cliente_new.Telefono;
                 //row["Correo"] = cliente_new.Correo;
 
-                PacienteOld = Cedula;
-                DUsuarios Datos = new DUsuarios();
-                return Datos.Actualizar(NewPaciente, Cedula);
+                DoctorOld = Cedula;
+                DDoctor Datos = new DDoctor();
+                return Datos.Actualizar(NewDoctor, Cedula);
             }
 
 
 
         }
+        //public class BusinessLayer
+        //{
+        //    DataAccessLayer dataAccessLayer = new DataAccessLayer();
 
-
-
-        public class BusinessLayer
-        {
-            DataAccessLayer dataAccessLayer = new DataAccessLayer();
-
-            public bool AuthenticateUser(string username, string password)
-            {
-                // Lógica de autenticación
-                return dataAccessLayer.AuthenticateUser(username, password);
-            }
-        }
+        //    public bool AuthenticateUser(string username, string password)
+        //    {
+        //        // Lógica de autenticación
+        //        return dataAccessLayer.AuthenticateUser(username, password);
+        //    }
+        //}
     }
-}   
+}
