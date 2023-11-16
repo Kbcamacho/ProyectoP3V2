@@ -12,7 +12,7 @@ namespace Datos
 {
     public class DUsuarios
     {
-        int IdUsuario;
+        int Idpaciente;
 
         public DataTable Mostrar(string cTexto)
         {
@@ -80,7 +80,7 @@ namespace Datos
             return Rpta;
         }
 
-        public string Actualizar(Paciente oPa, int Cedula)
+        public string Actualizar(Paciente oPa, string Cedula)
         {
             string Rpta = "";
             OracleConnection SqlCon = new OracleConnection();
