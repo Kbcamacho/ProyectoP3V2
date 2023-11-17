@@ -12,9 +12,18 @@ namespace GUIPrinc
 {
     public partial class GestCitas : Form
     {
+        bool TipoUsuario = true;
+       
         public GestCitas()
         {
             InitializeComponent();
+
+        }
+        public GestCitas(bool TipoUsuario)
+        {
+            InitializeComponent();
+            this.TipoUsuario = TipoUsuario;
+
         }
 
         private void panel5_Paint(object sender, PaintEventArgs e)
@@ -46,8 +55,8 @@ namespace GUIPrinc
 
         private void btnSacarCita_Click(object sender, EventArgs e)
         {
-            Form btProgCita = new ProgramCita();
-            btProgCita.Show();
+            Form GrillCitas = new GrillCitas();
+            GrillCitas.Show();
             this.Hide();
         }
 
@@ -71,9 +80,18 @@ namespace GUIPrinc
         private void BtnGestionUsu_Click(object sender, EventArgs e)
         {
 
-            Form BtnGestionUsu = new GrillUsuario();
-            BtnGestionUsu.Show();
-            this.Hide();
+            if (!TipoUsuario)
+            {
+                Form BtnGestionUsu = new GrillUsuario(TipoUsuario);
+                BtnGestionUsu.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Lo sentimos, no tiene permisos para acceder a esta sección");
+            }
+
+            
         }
     }
 }

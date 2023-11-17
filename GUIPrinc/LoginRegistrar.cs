@@ -56,48 +56,48 @@ namespace GUIPrinc
 
         private void Guardar()
         {
-            //if ( txtPassPaCC.Text == string.Empty || txtNombrePaCC.Text == string.Empty || TxtApellido.Text == string.Empty || txtIdenPaCC.Text == string.Empty || TxtTSangre.Text == string.Empty || txtNumPaCC.Text == string.Empty || dtFechaNacimiento.Text == string.Empty || cmbGeneroPaCC.Text == string.Empty || txtCorreoPaCC.Text == string.Empty)
-            //{
-            //    MessageBox.Show("Faltan Datos por ingresar", "Avisos del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            //}
-            //else //Guardamos la Informacion
-            //{
-            //    string Rpta = "";
-            //    try
-            //    {
+            if (txtPassPaCC.Text == string.Empty || txtNombrePaCC.Text == string.Empty || TxtApellido.Text == string.Empty || txtIdenPaCC.Text == string.Empty || cmbSangre.Text == string.Empty || txtNumPaCC.Text == string.Empty || dtFechaNacimiento.Text == string.Empty || cmbGeneroPaCC.Text == string.Empty || txtCorreoPaCC.Text == string.Empty)
+            {
+                MessageBox.Show("Faltan Datos por ingresar", "Avisos del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else //Guardamos la Informacion
+            {
+                string Rpta = "";
+                try
+                {
 
-            //        {
-            //            Paciente oPa = new Paciente();
-            //            //string Rpta = "";
-            //            oPa.Password = txtPassPaCC.Text;
-            //            oPa.Cedula = txtIdenPaCC.Text;
-            //            oPa.Nombre = txtNombrePaCC.Text;
-            //            oPa.Apellido = TxtApellido.Text;
-            //            oPa.TipoSangre = TxtTSangre.Text;
-            //            oPa.Telefono = txtNumPaCC.Text;
-            //            oPa.FechaNacimiento = Convert.ToDateTime(dtFechaNacimiento.Text);
-            //            oPa.Sexo = cmbGeneroPaCC.Text;
-            //            oPa.CorreoElectronico = txtCorreoPaCC.Text;
-                        
-            //            Rpta = L_Paciente.Guardar(oPa);
-            //            if (Rpta == "OK")
-            //            {
-                            
-            //                MessageBox.Show("Los datos han sido guardados correctamente", "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            
-            //            }
-            //            else
-            //            {
-            //                MessageBox.Show(Rpta, "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //            }
-            //        }
-            //    }
-            //    catch (Exception ex)
-            //    {
-            //        Rpta = ex.Message;
-            //        MessageBox.Show(Rpta, "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //    }
-            //}
+                    {
+                        Paciente oPa = new Paciente();
+                        //string Rpta = "";
+                        oPa.Password = txtPassPaCC.Text;
+                        oPa.Cedula = txtIdenPaCC.Text;
+                        oPa.Nombre = txtNombrePaCC.Text;
+                        oPa.Apellido = TxtApellido.Text;
+                        oPa.TipoSangre = cmbSangre.Text;
+                        oPa.Telefono = txtNumPaCC.Text;
+                        oPa.FechaNacimiento = Convert.ToDateTime(dtFechaNacimiento.Text);
+                        oPa.Sexo = cmbGeneroPaCC.Text;
+                        oPa.CorreoElectronico = txtCorreoPaCC.Text;
+
+                        Rpta = L_Paciente.Guardar(oPa);
+                        if (Rpta == "OK")
+                        {
+
+                            MessageBox.Show("Los datos han sido guardados correctamente", "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        }
+                        else
+                        {
+                            MessageBox.Show(Rpta, "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Rpta = ex.Message;
+                    MessageBox.Show(Rpta, "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
         }
        
 
@@ -204,6 +204,11 @@ namespace GUIPrinc
         }
 
         private void LoginRegistrar_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbSangre_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

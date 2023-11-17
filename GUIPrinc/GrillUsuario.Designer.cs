@@ -30,29 +30,29 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GrillUsuario));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnVolverCC = new System.Windows.Forms.Button();
             this.BtnBorrar = new System.Windows.Forms.Button();
             this.BtnBuscar = new System.Windows.Forms.Button();
             this.BtnModificar = new System.Windows.Forms.Button();
-            this.btnVolverCC = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.cmbSangre = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.txtCorreo = new System.Windows.Forms.TextBox();
             this.cmbSexo = new System.Windows.Forms.ComboBox();
             this.dtpFechaNac = new System.Windows.Forms.DateTimePicker();
-            this.label9 = new System.Windows.Forms.Label();
             this.txtNumero = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txtApellido = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.txtPass = new System.Windows.Forms.TextBox();
-            this.txtIdent = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtApellido = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtPass = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtIdent = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -73,6 +73,18 @@
             this.panel1.Size = new System.Drawing.Size(1695, 192);
             this.panel1.TabIndex = 1;
             // 
+            // btnVolverCC
+            // 
+            this.btnVolverCC.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.btnVolverCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolverCC.Location = new System.Drawing.Point(29, 13);
+            this.btnVolverCC.Name = "btnVolverCC";
+            this.btnVolverCC.Size = new System.Drawing.Size(104, 31);
+            this.btnVolverCC.TabIndex = 0;
+            this.btnVolverCC.Text = "Volver";
+            this.btnVolverCC.UseVisualStyleBackColor = false;
+            this.btnVolverCC.Click += new System.EventHandler(this.btnVolverCC_Click_1);
+            // 
             // BtnBorrar
             // 
             this.BtnBorrar.BackColor = System.Drawing.Color.LavenderBlush;
@@ -83,17 +95,19 @@
             this.BtnBorrar.TabIndex = 4;
             this.BtnBorrar.Text = "Borrar Usuario";
             this.BtnBorrar.UseVisualStyleBackColor = false;
+            this.BtnBorrar.Click += new System.EventHandler(this.BtnBorrar_Click);
             // 
             // BtnBuscar
             // 
             this.BtnBuscar.BackColor = System.Drawing.Color.LavenderBlush;
             this.BtnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnBuscar.Location = new System.Drawing.Point(714, 394);
+            this.BtnBuscar.Location = new System.Drawing.Point(550, 394);
             this.BtnBuscar.Name = "BtnBuscar";
             this.BtnBuscar.Size = new System.Drawing.Size(165, 28);
             this.BtnBuscar.TabIndex = 3;
             this.BtnBuscar.Text = "Buscar Usuario";
             this.BtnBuscar.UseVisualStyleBackColor = false;
+            this.BtnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
             // 
             // BtnModificar
             // 
@@ -106,18 +120,6 @@
             this.BtnModificar.Text = "Modificar Usuario";
             this.BtnModificar.UseVisualStyleBackColor = false;
             this.BtnModificar.Click += new System.EventHandler(this.BtnModificar_Click);
-            // 
-            // btnVolverCC
-            // 
-            this.btnVolverCC.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.btnVolverCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolverCC.Location = new System.Drawing.Point(29, 13);
-            this.btnVolverCC.Name = "btnVolverCC";
-            this.btnVolverCC.Size = new System.Drawing.Size(104, 31);
-            this.btnVolverCC.TabIndex = 0;
-            this.btnVolverCC.Text = "Volver";
-            this.btnVolverCC.UseVisualStyleBackColor = false;
-            this.btnVolverCC.Click += new System.EventHandler(this.btnVolverCC_Click_1);
             // 
             // groupBox1
             // 
@@ -207,6 +209,14 @@
             this.dtpFechaNac.Size = new System.Drawing.Size(236, 27);
             this.dtpFechaNac.TabIndex = 16;
             // 
+            // txtNumero
+            // 
+            this.txtNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumero.Location = new System.Drawing.Point(243, 202);
+            this.txtNumero.Name = "txtNumero";
+            this.txtNumero.Size = new System.Drawing.Size(236, 27);
+            this.txtNumero.TabIndex = 15;
+            // 
             // label9
             // 
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -217,13 +227,15 @@
             this.label9.Text = "Correo Electronico:";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtNumero
+            // label5
             // 
-            this.txtNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumero.Location = new System.Drawing.Point(243, 202);
-            this.txtNumero.Name = "txtNumero";
-            this.txtNumero.Size = new System.Drawing.Size(236, 27);
-            this.txtNumero.TabIndex = 15;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(20, 29);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(210, 20);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "N° Identificación:";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label8
             // 
@@ -235,16 +247,6 @@
             this.label8.Text = "Sexo:";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 162);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(200, 20);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Apellidos:";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -254,14 +256,6 @@
             this.label7.TabIndex = 6;
             this.label7.Text = "Fecha Nacimiento:";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtApellido
-            // 
-            this.txtApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellido.Location = new System.Drawing.Point(243, 159);
-            this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(236, 27);
-            this.txtApellido.TabIndex = 14;
             // 
             // label6
             // 
@@ -273,6 +267,14 @@
             this.label6.Text = "N° Celular:";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // txtApellido
+            // 
+            this.txtApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtApellido.Location = new System.Drawing.Point(243, 159);
+            this.txtApellido.Name = "txtApellido";
+            this.txtApellido.Size = new System.Drawing.Size(236, 27);
+            this.txtApellido.TabIndex = 14;
+            // 
             // txtNombre
             // 
             this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -281,6 +283,16 @@
             this.txtNombre.Size = new System.Drawing.Size(236, 27);
             this.txtNombre.TabIndex = 13;
             // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(30, 162);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(200, 20);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Apellidos:";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // txtPass
             // 
             this.txtPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -288,14 +300,6 @@
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(236, 27);
             this.txtPass.TabIndex = 12;
-            // 
-            // txtIdent
-            // 
-            this.txtIdent.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIdent.Location = new System.Drawing.Point(243, 26);
-            this.txtIdent.Name = "txtIdent";
-            this.txtIdent.Size = new System.Drawing.Size(236, 27);
-            this.txtIdent.TabIndex = 11;
             // 
             // label3
             // 
@@ -307,6 +311,14 @@
             this.label3.Text = "Nombres:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // txtIdent
+            // 
+            this.txtIdent.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdent.Location = new System.Drawing.Point(243, 26);
+            this.txtIdent.Name = "txtIdent";
+            this.txtIdent.Size = new System.Drawing.Size(236, 27);
+            this.txtIdent.TabIndex = 11;
+            // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -316,16 +328,6 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Contraseña:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label5
-            // 
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(20, 29);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(210, 20);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "N° Identificación:";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // groupBox2
             // 
@@ -385,12 +387,13 @@
             // 
             this.btnRegistrar.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(535, 394);
+            this.btnRegistrar.Location = new System.Drawing.Point(721, 394);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(165, 28);
             this.btnRegistrar.TabIndex = 10;
             this.btnRegistrar.Text = "Registrar Usuario";
             this.btnRegistrar.UseVisualStyleBackColor = false;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // GrillUsuario
             // 

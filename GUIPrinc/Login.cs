@@ -8,7 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using HospitalAPP;
 using static Logica.LPacientes.L_Paciente;
+using static Logica.LDoctor.L_Doctor;
+using Logica.LDoctor;
+using System.Security.Cryptography.X509Certificates;
 
 namespace GUIPrinc
 {
@@ -16,14 +20,16 @@ namespace GUIPrinc
     {
         bool marca = false;
         bool marca1 = false;
-        bool TipoUsuario = true;
+        private bool TipoUsuario = true;
+
+
         public Login()
         {
             InitializeComponent();
             ChbUsuario.CheckedChanged += ChbUsuario_CheckedChanged;
             ChbDoctor.CheckedChanged += ChbDoctor_CheckedChanged;
-           
-             
+            
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -52,18 +58,21 @@ namespace GUIPrinc
             {
                 string username = txtUserPaCC.Text;
                 string password = txtPassPaCC.Text;
+                string username1 = txtUserPaCC.Text;
+                string password1 = txtPassPaCC.Text;
 
-                BusinessLayer businessLayer = new BusinessLayer();
-                if (TipoUsuario = true)
+
+                if (TipoUsuario)
                 {
 
+                    BusinessLayer businessLayer = new BusinessLayer();
 
                     bool isAuthenticated = businessLayer.AuthenticateUser(username, password);
 
                     if (isAuthenticated)
                     {
                         MessageBox.Show("Inicio de sesión exitoso.");
-                        Form btIngresar = new GestCitas();
+                        Form btIngresar = new GestCitas(TipoUsuario);
                         btIngresar.Show();
                         this.Hide();
                     }
@@ -71,8 +80,23 @@ namespace GUIPrinc
                     {
                         MessageBox.Show("Inicio de sesión fallido.");
                     }
-                }else
+                }
+                else if (!TipoUsuario)
                 {
+                    BusinessLayerDoctor businessLayerDoctor = new BusinessLayerDoctor();
+                    bool isAuthenticated = businessLayerDoctor.AuthenticateUser(username1, password1);
+
+                    if (isAuthenticated)
+                    {
+                        MessageBox.Show("Inicio de sesión exitoso.");
+                        Form btIngresar = new GestCitas(TipoUsuario);
+                        btIngresar.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Inicio de sesión fallido.");
+                    }
 
                 }
             }
@@ -153,7 +177,9 @@ namespace GUIPrinc
                 ChbUsuario.Enabled = true;
                 ChbDoctor.Enabled = true;
             }
-
+            
+           
         }
+
     }
 }

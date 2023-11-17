@@ -58,8 +58,6 @@ namespace Datos
                 Comando.Parameters.Add("pFnacimiento", OracleDbType.Date).Value = oPa.FechaNacimiento;
                 Comando.Parameters.Add("pCorreo", OracleDbType.Varchar2).Value = oPa.CorreoElectronico;
                 Comando.Parameters.Add("pTelefono", OracleDbType.Varchar2).Value = oPa.Telefono;
-                Comando.Parameters.Add("pMedico_asignado", OracleDbType.Varchar2).Value = oPa.MedicoAsignado;
-                Comando.Parameters.Add("pEstadoSalud", OracleDbType.Varchar2).Value = oPa.EstadoSalud;
                 Comando.Parameters.Add("pPASSWORD", OracleDbType.Varchar2).Value = oPa.Password;
                 Comando.Parameters.Add("pTipoSangre", OracleDbType.Varchar2).Value = oPa.TipoSangre;
                 SqlCon.Open();
