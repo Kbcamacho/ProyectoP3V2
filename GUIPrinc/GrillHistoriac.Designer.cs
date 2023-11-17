@@ -41,6 +41,7 @@
             this.txtAnteceID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.dtpFechaHistorial = new System.Windows.Forms.DateTimePicker();
             this.txtDiag = new System.Windows.Forms.TextBox();
             this.txtHallaz = new System.Windows.Forms.TextBox();
             this.txtMotiv = new System.Windows.Forms.TextBox();
@@ -70,7 +71,6 @@
             this.label16 = new System.Windows.Forms.Label();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.BtnGuardarM = new System.Windows.Forms.Button();
-            this.dtpFechaHistorial = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -222,6 +222,15 @@
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos - Historial Medico";
+            // 
+            // dtpFechaHistorial
+            // 
+            this.dtpFechaHistorial.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpFechaHistorial.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpFechaHistorial.Location = new System.Drawing.Point(609, 168);
+            this.dtpFechaHistorial.Name = "dtpFechaHistorial";
+            this.dtpFechaHistorial.Size = new System.Drawing.Size(236, 27);
+            this.dtpFechaHistorial.TabIndex = 15;
             // 
             // txtDiag
             // 
@@ -438,6 +447,7 @@
             this.btnBuscar.TabIndex = 5;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // btnModificar
             // 
@@ -448,6 +458,7 @@
             this.btnModificar.TabIndex = 6;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // btnEliminar
             // 
@@ -458,6 +469,7 @@
             this.btnEliminar.TabIndex = 7;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // groupBox3
             // 
@@ -498,15 +510,7 @@
             this.BtnGuardarM.TabIndex = 9;
             this.BtnGuardarM.Text = "Guardar modificados";
             this.BtnGuardarM.UseVisualStyleBackColor = true;
-            // 
-            // dtpFechaHistorial
-            // 
-            this.dtpFechaHistorial.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpFechaHistorial.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpFechaHistorial.Location = new System.Drawing.Point(609, 168);
-            this.dtpFechaHistorial.Name = "dtpFechaHistorial";
-            this.dtpFechaHistorial.Size = new System.Drawing.Size(236, 27);
-            this.dtpFechaHistorial.TabIndex = 15;
+            this.BtnGuardarM.Click += new System.EventHandler(this.BtnGuardarM_Click);
             // 
             // GrillHistoriac
             // 

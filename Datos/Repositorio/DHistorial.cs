@@ -92,7 +92,7 @@ namespace Datos.Repositorio
                 Comando.Parameters.Add("pId_historial", OracleDbType.Int32).Value = oHi.IdHistorial;
                 Comando.Parameters.Add("pId_paciente", OracleDbType.Varchar2).Value = oHi.Id_usuario;
                 Comando.Parameters.Add("pRecomendacion", OracleDbType.Varchar2).Value = oHi.Recomendacion;
-                Comando.Parameters.Add("pObservacion", OracleDbType.Date).Value = oHi.Observacion;
+                Comando.Parameters.Add("pObservacion", OracleDbType.Varchar2).Value = oHi.Observacion;
                 Comando.Parameters.Add("pIndicacion", OracleDbType.Varchar2).Value = oHi.Indicacion;
                 Comando.Parameters.Add("pClasificacion", OracleDbType.Varchar2).Value = oHi.Clasificacion;
                 Comando.Parameters.Add("pMotivo", OracleDbType.Varchar2).Value = oHi.Motivo;

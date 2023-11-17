@@ -91,5 +91,141 @@ namespace GUIPrinc
         {
             Guardar();
         }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            Mostrar(txtBuscar.Text.Trim());
+        }
+
+        private void Mostrar(string cTexto)
+        {
+            try
+            {
+
+                dataGridView1.DataSource = L_Historial.Mostrar(cTexto);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + ex.StackTrace);
+            }
+        }
+
+        private void Selecciona_Item()
+        {
+            if (string.IsNullOrEmpty(dataGridView1.CurrentRow.Cells[0].Value.ToString()))
+            {
+                MessageBox.Show("Seleccione un Registro", "Aviso del sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                IdCi = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
+                txtPacID.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[1].Value);
+                txtRecom.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[2].Value);
+                txtObser.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[3].Value);
+                txtIndic.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[4].Value);
+                txtClasif.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[5].Value);
+                txtMotiv.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[6].Value);
+                txtHallaz.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[7].Value);
+                dtpFechaHistorial.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[8].Value);
+                txtDiag.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[9].Value);
+                
+
+
+
+            }
+
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            Selecciona_Item();
+        }
+
+        private void BtnGuardarM_Click(object sender, EventArgs e)
+        {
+            GuardarAc();
+            Mostrar("%");
+        }
+        private void GuardarAc()
+        {
+            if (txtPacID.Text == string.Empty)
+            {
+                MessageBox.Show("Faltan Datos por ingresar", "Avisos del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else //Actualizamos la Informacion
+            {
+
+                HistorialMedico oHi = new HistorialMedico();
+                string Rpta = "";
+                oHi.IdHistorial = IdCi;
+                oHi.Id_usuario = Convert.ToString(txtPacID.Text);
+                oHi.Recomendacion = Convert.ToString(txtRecom.Text);
+                oHi.Observacion = Convert.ToString(txtObser.Text);
+                oHi.Indicacion = Convert.ToString(txtIndic.Text);
+                oHi.Clasificacion = Convert.ToString(txtClasif.Text);
+                oHi.Motivo = Convert.ToString(txtMotiv.Text);
+                oHi.Hallazgo = Convert.ToString(txtHallaz.Text);
+                oHi.Diagnostico = Convert.ToString(txtDiag.Text);
+                oHi.FechaCreacion = DateTime.Parse(dtpFechaHistorial.Text);
+                Rpta = L_Historial.Actualizar(oHi);
+                if (Rpta == "OK")
+                {
+
+                    MessageBox.Show("Los datos han sido actualizados correctamente", "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+                }
+                else
+                {
+                    MessageBox.Show(Rpta, "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+            }
+
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            Eliminar();
+        }
+        private void Eliminar()
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                if (string.IsNullOrEmpty(dataGridView1.CurrentRow.Cells[0].Value.ToString()))
+                {
+                    MessageBox.Show("Seleccione un Registro", "Aviso del sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+                else
+                {
+                    DialogResult result = MessageBox.Show("¿Estás seguro de eliminar este historial?", "Confirmación de eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                    if (result == DialogResult.Yes)
+                    {
+                        string Rpta = "";
+                        IdCi = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
+                        Rpta = L_Historial.Eliminar(IdCi);
+
+                        if (Rpta == "OK")
+                        {
+                            Mostrar("%");
+                            MessageBox.Show("Los datos han sido eliminados correctamente", "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        else
+                        {
+                            MessageBox.Show(Rpta, "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                    else
+                    {
+
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("La tabla esta vacia", "Avisos Del sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
     }
 }

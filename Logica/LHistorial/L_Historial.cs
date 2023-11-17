@@ -29,7 +29,7 @@ namespace Logica.LHistorial
         }
         public static string Eliminar(int IdCi)
         {
-            DCitas Datos = new DCitas();
+            DHistorial Datos = new DHistorial();
             return Datos.Eliminar(IdCi);
         }
 
