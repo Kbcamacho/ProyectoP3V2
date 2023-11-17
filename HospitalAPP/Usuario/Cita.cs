@@ -9,25 +9,28 @@ namespace HospitalAPP
 {
     public class Cita
     {
-        public String IdCita { get; set; }
-        public Paciente Paciente { get; set; }
-        public Doctor Doctor { get; set; }
+        public int IdCita { get; set; }
+        public string IdPaciente { get; set; }
+        public string IdDoctor { get; set; }
         public DateTime FechaCita { get; set; }
 
-        public DateTime HoraCita { get; set; }
+        public string HoraCita { get; set; }
+        public string MedicoAsignado { get; set; }
 
         public Cita()
         {
 
         }
 
-        public Cita(String idCita, Paciente paciente, Doctor doctor, DateTime fechaCita, DateTime horaCita)
+        public Cita(int idCita, string idPaciente, string idDoctor, DateTime fechaCita, string horaCita, string medicoAsignado)
         {
             IdCita = idCita;
-            Paciente = paciente;
-            Doctor = doctor;
+            IdPaciente = idPaciente;
+            IdDoctor = idDoctor;
             FechaCita = fechaCita;
             HoraCita = horaCita;
+            MedicoAsignado = medicoAsignado;
         }
+    
     }
 }

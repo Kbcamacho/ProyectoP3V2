@@ -55,8 +55,8 @@ namespace GUIPrinc
 
         private void btnSacarCita_Click(object sender, EventArgs e)
         {
-            Form btProgCita = new ProgramCita();
-            btProgCita.Show();
+            Form GrillCitas = new GrillCitas();
+            GrillCitas.Show();
             this.Hide();
         }
 

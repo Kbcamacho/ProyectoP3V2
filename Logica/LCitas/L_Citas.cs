@@ -36,5 +36,16 @@ namespace Logica.LCitas
             DCitas Datos = new DCitas();
             return Datos.Eliminar(IdCi);
         }
+        public static DataTable listado_IdDo()
+        {
+            DCitas Datos = new DCitas();
+            return Datos.listado_IdDo();
+        }
+
+        public static DataTable listado_Do()
+        {
+            DCitas Datos = new DCitas();
+            return Datos.listado_Do();
+        }
     }
 }

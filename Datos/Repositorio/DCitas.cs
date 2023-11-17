@@ -40,7 +40,7 @@ namespace Datos.Repositorio
             }
         }
 
-        public DataTable listado_em()
+        public DataTable listado_IdDo()
         {
 
             OracleDataReader Resultado;
@@ -49,7 +49,34 @@ namespace Datos.Repositorio
             try
             {
                 SqlCon = ConexionBD.GetInstancia().CrearConexion();
-                OracleCommand Comando = new OracleCommand("SELECT Nombre || ' ' || Apellido AS NombreCompleto, Cedula FROM PACIENTES", SqlCon);
+                OracleCommand Comando = new OracleCommand("SELECT ID_DOCTOR AS Cedula FROM DOCTOR", SqlCon);
+                Comando.CommandType = CommandType.Text;
+                SqlCon.Open();
+                Resultado = Comando.ExecuteReader();
+                tabla.Load(Resultado);
+                return tabla;
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                if (SqlCon.State == ConnectionState.Open) SqlCon.Close();
+            }
+        }
+
+        public DataTable listado_Do()
+        {
+
+            OracleDataReader Resultado;
+            DataTable tabla = new DataTable();
+            OracleConnection SqlCon = new OracleConnection();
+            try
+            {
+                SqlCon = ConexionBD.GetInstancia().CrearConexion();
+                OracleCommand Comando = new OracleCommand("SELECT Nombre AS Nombres FROM DOCTOR", SqlCon);
                 Comando.CommandType = CommandType.Text;
                 SqlCon.Open();
                 Resultado = Comando.ExecuteReader();
@@ -78,12 +105,12 @@ namespace Datos.Repositorio
                 OracleCommand Comando = new OracleCommand("USP_GUARDAR_CI", SqlCon);
                 Comando.CommandType = CommandType.StoredProcedure;
                 //Comando.Parameters.Add("pId_Cita", OracleDbType.Int32).Value = oCi.Id_Cita;
-                Comando.Parameters.Add("pId_Cita", OracleDbType.Int32).Direction = ParameterDirection.Output; // Parámetro de salida para el ID de la cita
-                Comando.Parameters.Add("pPaciente_id", OracleDbType.Varchar2).Value = oCi.Paciente.Cedula;
-                Comando.Parameters.Add("pPaciente_id", OracleDbType.Varchar2).Value = oCi.Doctor.Cedula;
+                Comando.Parameters.Add("pId_Cita", OracleDbType.Int32).Value =oCi.IdCita; // Parámetro de salida para el ID de la cita
+                Comando.Parameters.Add("pPaciente_id", OracleDbType.Varchar2).Value = oCi.IdPaciente;
+                Comando.Parameters.Add("pDoctor_id", OracleDbType.Varchar2).Value = oCi.IdDoctor;
                 Comando.Parameters.Add("pFecha_cita", OracleDbType.Date).Value = oCi.FechaCita;
                 Comando.Parameters.Add("pHora_cita", OracleDbType.Varchar2).Value = oCi.HoraCita;
-                Comando.Parameters.Add("pMedico_asignado", OracleDbType.Int32).Value = oCi.Doctor.Nombre;
+                Comando.Parameters.Add("pMedico_asignado", OracleDbType.Varchar2).Value = oCi.MedicoAsignado;
                 
 
 
@@ -118,11 +145,11 @@ namespace Datos.Repositorio
                 OracleCommand Comando = new OracleCommand("USP_ACTUALIZAR_CI", SqlCon);
                 Comando.CommandType = CommandType.StoredProcedure;
                 Comando.Parameters.Add("pCita_id", OracleDbType.Int32).Value = oCi.IdCita;
-                Comando.Parameters.Add("pPaciente_id", OracleDbType.Varchar2).Value = oCi.Paciente.Cedula;
-                Comando.Parameters.Add("pDoctor_id", OracleDbType.Varchar2).Value = oCi.Doctor.Cedula;
+                Comando.Parameters.Add("pPaciente_id", OracleDbType.Varchar2).Value = oCi.IdPaciente;
+                Comando.Parameters.Add("pDoctor_id", OracleDbType.Varchar2).Value = oCi.IdDoctor;
                 Comando.Parameters.Add("pFecha_cita", OracleDbType.Date).Value = oCi.FechaCita;
                 Comando.Parameters.Add("pHora_cita", OracleDbType.Date).Value = oCi.HoraCita;
-                Comando.Parameters.Add("pMedico_asignado", OracleDbType.Varchar2).Value = oCi.Doctor.Nombre;
+                Comando.Parameters.Add("pMedico_asignado", OracleDbType.Varchar2).Value = oCi.MedicoAsignado;
 
 
 
@@ -169,7 +196,6 @@ namespace Datos.Repositorio
             }
             return Rpta;
         }
-
 
     }
 }
