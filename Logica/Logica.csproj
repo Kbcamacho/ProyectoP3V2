@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="LCitas\L_Citas.cs" />
     <Compile Include="LDoctor\L_Doctor.cs" />
+    <Compile Include="LHistorial\L_Historial.cs" />
     <Compile Include="LPacientes\L_Paciente.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

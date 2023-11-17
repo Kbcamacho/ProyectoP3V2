@@ -585,3 +585,4 @@ C:\Users\User\OneDrive\Escritorio\PROY3\GUIPrinc\obj\Debug\GUIPrinc.csproj.CopyC
 C:\Users\User\OneDrive\Escritorio\PROY3\GUIPrinc\obj\Debug\GUIPrinc.exe
 C:\Users\User\OneDrive\Escritorio\PROY3\GUIPrinc\obj\Debug\GUIPrinc.pdb
 C:\Users\User\OneDrive\Escritorio\PROY3\GUIPrinc\obj\Debug\GUIPrinc.GrillHistoriac.resources
+C:\Users\camac\Desktop\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.GrillHistoriac.resources

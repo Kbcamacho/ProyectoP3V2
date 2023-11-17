@@ -9,8 +9,8 @@ namespace HospitalAPP.Admin
 {
     public class HistorialMedico
     {
-       public String IdHistorial { get; set; }
-       public Paciente Cedula { get; set; }
+       public int IdHistorial { get; set; }
+       public string Id_usuario { get; set; }
        public String Recomendacion { get; set; }
        public String Observacion { get; set; }
        public String Indicacion { get; set; }
@@ -25,11 +25,10 @@ namespace HospitalAPP.Admin
 
         }
 
-        public HistorialMedico(String idHistorial, Paciente cedula, String recomendacion, String observacion, String indicacion, 
-            String clasificacion, String motivo, String hallazgo, DateTime fechaCreacion, String diagnostico)
+        public HistorialMedico(int idHistorial, string id_usuario, string recomendacion, string observacion, string indicacion, string clasificacion, string motivo, string hallazgo, DateTime fechaCreacion, string diagnostico)
         {
             IdHistorial = idHistorial;
-            Cedula = cedula;
+            Id_usuario = id_usuario;
             Recomendacion = recomendacion;
             Observacion = observacion;
             Indicacion = indicacion;

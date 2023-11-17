@@ -93,5 +93,12 @@ namespace GUIPrinc
 
             
         }
+
+        private void BtnHistorial_Click(object sender, EventArgs e)
+        {
+            Form BtnHistorial = new GrillHistoriac();
+            BtnHistorial.Show();
+            this.Hide();
+        }
     }
 }
