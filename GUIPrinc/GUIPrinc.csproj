@@ -129,6 +129,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GrillHistoriac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GrillHistoriac.Designer.cs">
+      <DependentUpon>GrillHistoriac.cs</DependentUpon>
+    </Compile>
     <Compile Include="GrillUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,6 +173,9 @@
       <DependentUpon>ProgramCita.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GrillHistoriac.resx">
+      <DependentUpon>GrillHistoriac.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GrillUsuario.resx">
       <DependentUpon>GrillUsuario.cs</DependentUpon>
     </EmbeddedResource>
