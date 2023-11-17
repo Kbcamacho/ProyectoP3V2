@@ -30,6 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GrillCitas));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.CmbHoraCita = new System.Windows.Forms.ComboBox();
+            this.CmbCedulaDoctor = new System.Windows.Forms.ComboBox();
+            this.CmbNombreDoctor = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.dtpFechaCita = new System.Windows.Forms.DateTimePicker();
             this.txtCedula = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -48,10 +52,7 @@
             this.btnBuscar = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.CmbNombreDoctor = new System.Windows.Forms.ComboBox();
-            this.CmbCedulaDoctor = new System.Windows.Forms.ComboBox();
-            this.CmbHoraCita = new System.Windows.Forms.ComboBox();
+            this.BtnGuardarActualizado = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -80,6 +81,44 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos";
+            // 
+            // CmbHoraCita
+            // 
+            this.CmbHoraCita.FormattingEnabled = true;
+            this.CmbHoraCita.Items.AddRange(new object[] {
+            "10:00 Am",
+            "11:00 Am",
+            "12:00 Am"});
+            this.CmbHoraCita.Location = new System.Drawing.Point(207, 258);
+            this.CmbHoraCita.Name = "CmbHoraCita";
+            this.CmbHoraCita.Size = new System.Drawing.Size(295, 28);
+            this.CmbHoraCita.TabIndex = 19;
+            // 
+            // CmbCedulaDoctor
+            // 
+            this.CmbCedulaDoctor.FormattingEnabled = true;
+            this.CmbCedulaDoctor.Location = new System.Drawing.Point(207, 124);
+            this.CmbCedulaDoctor.Name = "CmbCedulaDoctor";
+            this.CmbCedulaDoctor.Size = new System.Drawing.Size(295, 28);
+            this.CmbCedulaDoctor.TabIndex = 18;
+            // 
+            // CmbNombreDoctor
+            // 
+            this.CmbNombreDoctor.FormattingEnabled = true;
+            this.CmbNombreDoctor.Location = new System.Drawing.Point(207, 173);
+            this.CmbNombreDoctor.Name = "CmbNombreDoctor";
+            this.CmbNombreDoctor.Size = new System.Drawing.Size(295, 28);
+            this.CmbNombreDoctor.TabIndex = 17;
+            // 
+            // label6
+            // 
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(23, 176);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(170, 20);
+            this.label6.TabIndex = 16;
+            this.label6.Text = "Nombre de doctor:";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // dtpFechaCita
             // 
@@ -199,7 +238,7 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(680, 305);
+            this.dataGridView1.Size = new System.Drawing.Size(838, 305);
             this.dataGridView1.TabIndex = 0;
             // 
             // panel1
@@ -208,7 +247,7 @@
             this.panel1.Controls.Add(this.btnVolverCC);
             this.panel1.Location = new System.Drawing.Point(-20, 412);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1295, 72);
+            this.panel1.Size = new System.Drawing.Size(1462, 72);
             this.panel1.TabIndex = 4;
             // 
             // btnVolverCC
@@ -238,79 +277,57 @@
             // 
             this.btnBuscar.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.Location = new System.Drawing.Point(741, 355);
+            this.btnBuscar.Location = new System.Drawing.Point(726, 355);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(150, 28);
             this.btnBuscar.TabIndex = 12;
             this.btnBuscar.Text = "Buscar Cita";
             this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // btnModificar
             // 
             this.btnModificar.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.Location = new System.Drawing.Point(912, 352);
+            this.btnModificar.Location = new System.Drawing.Point(1087, 355);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(150, 28);
             this.btnModificar.TabIndex = 13;
             this.btnModificar.Text = "Modificar Cita";
             this.btnModificar.UseVisualStyleBackColor = false;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // btnCancelar
             // 
             this.btnCancelar.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(1087, 351);
+            this.btnCancelar.Location = new System.Drawing.Point(1258, 355);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(150, 28);
             this.btnCancelar.TabIndex = 14;
             this.btnCancelar.Text = "Cancelar Cita";
             this.btnCancelar.UseVisualStyleBackColor = false;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // label6
+            // BtnGuardarActualizado
             // 
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(23, 176);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(170, 20);
-            this.label6.TabIndex = 16;
-            this.label6.Text = "Nombre de doctor:";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // CmbNombreDoctor
-            // 
-            this.CmbNombreDoctor.FormattingEnabled = true;
-            this.CmbNombreDoctor.Location = new System.Drawing.Point(207, 173);
-            this.CmbNombreDoctor.Name = "CmbNombreDoctor";
-            this.CmbNombreDoctor.Size = new System.Drawing.Size(295, 28);
-            this.CmbNombreDoctor.TabIndex = 17;
-            // 
-            // CmbCedulaDoctor
-            // 
-            this.CmbCedulaDoctor.FormattingEnabled = true;
-            this.CmbCedulaDoctor.Location = new System.Drawing.Point(207, 124);
-            this.CmbCedulaDoctor.Name = "CmbCedulaDoctor";
-            this.CmbCedulaDoctor.Size = new System.Drawing.Size(295, 28);
-            this.CmbCedulaDoctor.TabIndex = 18;
-            // 
-            // CmbHoraCita
-            // 
-            this.CmbHoraCita.FormattingEnabled = true;
-            this.CmbHoraCita.Items.AddRange(new object[] {
-            "10:00 Am",
-            "11:00 Am",
-            "12:00 Am"});
-            this.CmbHoraCita.Location = new System.Drawing.Point(207, 258);
-            this.CmbHoraCita.Name = "CmbHoraCita";
-            this.CmbHoraCita.Size = new System.Drawing.Size(295, 28);
-            this.CmbHoraCita.TabIndex = 19;
+            this.BtnGuardarActualizado.BackColor = System.Drawing.Color.LavenderBlush;
+            this.BtnGuardarActualizado.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnGuardarActualizado.Location = new System.Drawing.Point(892, 355);
+            this.BtnGuardarActualizado.Name = "BtnGuardarActualizado";
+            this.BtnGuardarActualizado.Size = new System.Drawing.Size(177, 28);
+            this.BtnGuardarActualizado.TabIndex = 15;
+            this.BtnGuardarActualizado.Text = "Guardar cita actualizada";
+            this.BtnGuardarActualizado.UseVisualStyleBackColor = false;
+            this.BtnGuardarActualizado.Click += new System.EventHandler(this.BtnGuardarActualizado_Click);
             // 
             // GrillCitas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(1267, 473);
+            this.ClientSize = new System.Drawing.Size(1420, 473);
+            this.Controls.Add(this.BtnGuardarActualizado);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnBuscar);
@@ -360,5 +377,6 @@
         private System.Windows.Forms.ComboBox CmbNombreDoctor;
         private System.Windows.Forms.ComboBox CmbCedulaDoctor;
         private System.Windows.Forms.ComboBox CmbHoraCita;
+        private System.Windows.Forms.Button BtnGuardarActualizado;
     }
 }

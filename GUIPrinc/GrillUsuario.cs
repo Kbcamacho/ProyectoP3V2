@@ -170,7 +170,6 @@ namespace GUIPrinc
 
                 Paciente oPa = new Paciente();
                 string Rpta = "";
-                oPa.Password = txtPass.Text;
                 oPa.Cedula = txtIdent.Text;
                 oPa.Nombre = txtNombre.Text;
                 oPa.Apellido = txtApellido.Text;

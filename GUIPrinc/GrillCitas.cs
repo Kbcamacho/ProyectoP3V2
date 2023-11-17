@@ -1,5 +1,6 @@
 ﻿using HospitalAPP;
 using Logica.LCitas;
+using Logica.LPacientes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,6 +21,7 @@ namespace GUIPrinc
 
         }
         int nCodigo_pr = 0;
+        int IdCi; 
         private void agregarToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -29,6 +31,7 @@ namespace GUIPrinc
         {
             Listado_Do();
             Listado_IdDo();
+            Mostrar("%");
         }
 
         private void txtBuscar_TextChanged(object sender, EventArgs e)
@@ -40,6 +43,8 @@ namespace GUIPrinc
         {
             Guardar();
             Validaciones();
+            Mostrar("%");
+            
         }
 
         private void Guardar()
@@ -75,6 +80,40 @@ namespace GUIPrinc
 
 
 
+
+            }
+
+        }
+        private void GuardarAc()
+        {
+            if (txtCedula.Text == string.Empty)
+            {
+                MessageBox.Show("Faltan Datos por ingresar", "Avisos del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else //Actualizamos la Informacion
+            {
+
+                Cita oCi = new Cita();
+                string Rpta = "";
+                oCi.IdCita = IdCi;
+                oCi.IdPaciente = txtCedula.Text;
+                oCi.IdDoctor = Convert.ToString(CmbCedulaDoctor.Text);
+                oCi.MedicoAsignado = Convert.ToString(CmbNombreDoctor.Text);
+                oCi.FechaCita = Convert.ToDateTime(dtpFechaCita.Text);
+                oCi.HoraCita = CmbHoraCita.Text;
+                Rpta = L_Citas.Actualizar(oCi);
+                if (Rpta == "OK")
+                {
+
+                    MessageBox.Show("Los datos han sido actualizados correctamente", "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+                }
+                else
+                {
+                    MessageBox.Show(Rpta, "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
             }
 
         }
@@ -109,6 +148,83 @@ namespace GUIPrinc
             CmbCedulaDoctor.DataSource = L_Citas.listado_IdDo();
             CmbCedulaDoctor.ValueMember = "Cedula";
             CmbCedulaDoctor.DisplayMember = "Id_doctor";
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            Mostrar(txtBuscar.Text.Trim());
+        }
+        private void Selecciona_Item()
+        {
+            if (string.IsNullOrEmpty(dataGridView1.CurrentRow.Cells[0].Value.ToString()))
+            {
+                MessageBox.Show("Seleccione un Registro", "Aviso del sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+               IdCi = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
+                txtCedula.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[1].Value);
+                CmbCedulaDoctor.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[2].Value);
+                dtpFechaCita.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[3].Value);
+                CmbHoraCita.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[4].Value);
+                CmbNombreDoctor.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[5].Value);
+
+
+            }
+
+        }
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            Selecciona_Item();
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Eliminar();
+        }
+        private void Eliminar()
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                if (string.IsNullOrEmpty(dataGridView1.CurrentRow.Cells[0].Value.ToString()))
+                {
+                    MessageBox.Show("Seleccione un Registro", "Aviso del sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+                else
+                {
+                    DialogResult result = MessageBox.Show("¿Estás seguro de eliminar esta Cita?", "Confirmación de eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                    if (result == DialogResult.Yes)
+                    {
+                        string Rpta = "";
+                        IdCi = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
+                        Rpta = L_Citas.Eliminar(IdCi);
+
+                        if (Rpta == "OK")
+                        {
+                            Mostrar("%");
+                            MessageBox.Show("Los datos han sido eliminados correctamente", "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        else
+                        {
+                            MessageBox.Show(Rpta, "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                    else
+                    {
+
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("La tabla esta vacia", "Avisos Del sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+        private void BtnGuardarActualizado_Click(object sender, EventArgs e)
+        {
+            GuardarAc();
+            Mostrar("%");
         }
     }
 }
