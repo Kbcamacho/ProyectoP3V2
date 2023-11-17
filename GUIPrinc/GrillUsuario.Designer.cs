@@ -101,7 +101,7 @@
             // 
             this.BtnBuscar.BackColor = System.Drawing.Color.LavenderBlush;
             this.BtnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnBuscar.Location = new System.Drawing.Point(550, 394);
+            this.BtnBuscar.Location = new System.Drawing.Point(535, 394);
             this.BtnBuscar.Name = "BtnBuscar";
             this.BtnBuscar.Size = new System.Drawing.Size(165, 28);
             this.BtnBuscar.TabIndex = 3;
@@ -113,7 +113,7 @@
             // 
             this.BtnModificar.BackColor = System.Drawing.Color.LavenderBlush;
             this.BtnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnModificar.Location = new System.Drawing.Point(892, 394);
+            this.BtnModificar.Location = new System.Drawing.Point(893, 394);
             this.BtnModificar.Name = "BtnModificar";
             this.BtnModificar.Size = new System.Drawing.Size(165, 28);
             this.BtnModificar.TabIndex = 2;
@@ -387,7 +387,7 @@
             // 
             this.btnRegistrar.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(721, 394);
+            this.btnRegistrar.Location = new System.Drawing.Point(714, 394);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(165, 28);
             this.btnRegistrar.TabIndex = 10;
