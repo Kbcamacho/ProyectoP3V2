@@ -1,5 +1,6 @@
 ﻿using HospitalAPP;
 using HospitalAPP.Admin;
+using Logica.LAntecedente;
 using Logica.LCitas;
 using Logica.LHistorial;
 using System;
@@ -23,6 +24,7 @@ namespace GUIPrinc
         int nCodigo_pr = 0;
         int IdCi;
 
+
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
             
@@ -31,7 +33,140 @@ namespace GUIPrinc
         private void GrillHistoriac_Load(object sender, EventArgs e)
         {
             MostrarHistorial("%");
+            MostrarAntecedentes("%");
         }
+        private void MostrarAntecedentes(string cTexto)
+        {
+            try
+            {
+
+                dataGridView2.DataSource = L_Antecedente.Mostrar(cTexto);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + ex.StackTrace);
+            }
+        }
+        private void GuardarAntecedentes()
+        {
+            if ( cmbCirugia.Text == string.Empty || cmbAlergias.Text == string.Empty || cmbEnferm.Text == string.Empty)
+            {
+                MessageBox.Show("Faltan Datos por ingresar", "Avisos del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else //Guardamos la Informacion
+            {
+                Antecedentes oAn = new Antecedentes();
+                string Rpta = "";
+                oAn.IdAntecedente = IdCi;
+                oAn.Cirugia = Convert.ToString(cmbCirugia.Text);
+                oAn.Alergia = Convert.ToString(cmbAlergias.Text);
+                oAn.Enfermedad = Convert.ToString(cmbEnferm.Text);
+                oAn.IdHistorial = IdCi;
+
+
+
+                //L_Citas.GuardarCita_Servicios(serviciosSeleccionados);
+                Rpta = L_Antecedente.Guardar(oAn);
+                if (Rpta == "OK")
+                {
+                    MostrarAntecedentes("%");
+                    MessageBox.Show("Los datos han sido guardados correctamente", "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+                else
+                {
+                    MessageBox.Show(Rpta, "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+
+
+
+            }
+
+        }
+        private void Selecciona_ItemAntecedente()
+        {
+            if (string.IsNullOrEmpty(dataGridView2.CurrentRow.Cells[0].Value.ToString()))
+            {
+                MessageBox.Show("Seleccione un Registro", "Aviso del sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                IdCi = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
+                cmbCirugia.Text = Convert.ToString(dataGridView2.CurrentRow.Cells[1].Value);
+                cmbAlergias.Text = Convert.ToString(dataGridView2.CurrentRow.Cells[2].Value);
+                cmbEnferm.Text = Convert.ToString(dataGridView2.CurrentRow.Cells[3].Value);
+                IdCi = Convert.ToInt32(dataGridView2.CurrentRow.Cells[4].Value);
+
+            }
+
+        }
+        private void EliminarAntecedente()
+        {
+            if (dataGridView2.SelectedRows.Count > 0)
+            {
+                if (string.IsNullOrEmpty(dataGridView2.CurrentRow.Cells[0].Value.ToString()))
+                {
+                    MessageBox.Show("Seleccione un Registro", "Aviso del sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+                else
+                {
+                  
+                        string Rpta = "";
+                        IdCi = Convert.ToInt32(dataGridView2.CurrentRow.Cells[0].Value);
+                        Rpta = L_Antecedente.Eliminar(IdCi);
+
+                        if (Rpta == "OK")
+                        {
+                            MostrarAntecedentes("%");
+                            MessageBox.Show("Los datos han sido eliminados correctamente", "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        else
+                        {
+                            MessageBox.Show(Rpta, "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }               
+                }
+            }
+            else
+            {
+                MessageBox.Show("La tabla esta vacia", "Avisos Del sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+        private void GuardarAntecedentesAc()
+        {
+            if (cmbCirugia.Text == string.Empty || cmbAlergias.Text == string.Empty || cmbEnferm.Text == string.Empty)
+            {
+                MessageBox.Show("Faltan Datos por ingresar", "Avisos del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else //Actualizamos la Informacion
+            {
+
+                Antecedentes oAn = new Antecedentes();
+                string Rpta = "";
+                oAn.IdAntecedente = IdCi;
+                oAn.Cirugia = Convert.ToString(cmbCirugia.Text);
+                oAn.Alergia = Convert.ToString(cmbAlergias.Text);
+                oAn.Enfermedad = Convert.ToString(cmbEnferm.Text);
+                oAn.IdHistorial = IdCi;
+                
+                Rpta = L_Antecedente.Actualizar(oAn);
+                if (Rpta == "OK")
+                {
+
+                    MessageBox.Show("Los datos han sido actualizados correctamente", "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+                }
+                else
+                {
+                    MessageBox.Show(Rpta, "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+            }
+
+        }
+
+
         private void MostrarHistorial(string cTexto)
         {
             try
@@ -90,11 +225,13 @@ namespace GUIPrinc
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             Guardar();
+            GuardarAntecedentes();
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             Mostrar(txtBuscar.Text.Trim());
+            MostrarAntecedentes(txtBuscar.Text.Trim());
         }
 
         private void Mostrar(string cTexto)
@@ -139,12 +276,15 @@ namespace GUIPrinc
         private void btnModificar_Click(object sender, EventArgs e)
         {
             Selecciona_Item();
+            Selecciona_ItemAntecedente();
         }
 
         private void BtnGuardarM_Click(object sender, EventArgs e)
         {
             GuardarAc();
             Mostrar("%");
+            GuardarAntecedentesAc();
+            MostrarAntecedentes("%");
         }
         private void GuardarAc()
         {
@@ -187,6 +327,7 @@ namespace GUIPrinc
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             Eliminar();
+            EliminarAntecedente();
         }
         private void Eliminar()
         {

@@ -226,5 +226,12 @@ namespace GUIPrinc
             GuardarAc();
             Mostrar("%");
         }
+
+        private void btnVolverCC_Click(object sender, EventArgs e)
+        {
+            Form btaGestCitas = new GestCitas();
+            btaGestCitas.Show();
+            this.Hide();
+        }
     }
 }

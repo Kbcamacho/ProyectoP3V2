@@ -260,6 +260,7 @@
             this.btnVolverCC.TabIndex = 0;
             this.btnVolverCC.Text = "Volver";
             this.btnVolverCC.UseVisualStyleBackColor = false;
+            this.btnVolverCC.Click += new System.EventHandler(this.btnVolverCC_Click);
             // 
             // btnRegistrar
             // 
