@@ -84,7 +84,7 @@
             this.ChbUsuario.Location = new System.Drawing.Point(132, 138);
             this.ChbUsuario.Name = "ChbUsuario";
             this.ChbUsuario.Size = new System.Drawing.Size(150, 38);
-            this.ChbUsuario.TabIndex = 10;
+            this.ChbUsuario.TabIndex = 4;
             this.ChbUsuario.Text = "Usuarios";
             this.ChbUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.ChbUsuario.UseVisualStyleBackColor = true;
@@ -97,7 +97,7 @@
             this.btnIngresarIS.Location = new System.Drawing.Point(332, 182);
             this.btnIngresarIS.Name = "btnIngresarIS";
             this.btnIngresarIS.Size = new System.Drawing.Size(100, 38);
-            this.btnIngresarIS.TabIndex = 4;
+            this.btnIngresarIS.TabIndex = 6;
             this.btnIngresarIS.Text = "Ingresar";
             this.btnIngresarIS.UseVisualStyleBackColor = false;
             this.btnIngresarIS.Click += new System.EventHandler(this.btnIngresarIS_Click);
@@ -107,7 +107,7 @@
             this.ChbDoctor.Location = new System.Drawing.Point(282, 138);
             this.ChbDoctor.Name = "ChbDoctor";
             this.ChbDoctor.Size = new System.Drawing.Size(150, 38);
-            this.ChbDoctor.TabIndex = 3;
+            this.ChbDoctor.TabIndex = 5;
             this.ChbDoctor.Text = "Doctor";
             this.ChbDoctor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.ChbDoctor.UseVisualStyleBackColor = true;
@@ -120,7 +120,7 @@
             this.btnLimpiarIS.Location = new System.Drawing.Point(208, 182);
             this.btnLimpiarIS.Name = "btnLimpiarIS";
             this.btnLimpiarIS.Size = new System.Drawing.Size(100, 38);
-            this.btnLimpiarIS.TabIndex = 6;
+            this.btnLimpiarIS.TabIndex = 7;
             this.btnLimpiarIS.Text = "Limpiar";
             this.btnLimpiarIS.UseVisualStyleBackColor = false;
             this.btnLimpiarIS.Click += new System.EventHandler(this.btnLimpiarIS_Click);
@@ -133,7 +133,7 @@
             this.btnCrearCuentaIS.Location = new System.Drawing.Point(251, 240);
             this.btnCrearCuentaIS.Name = "btnCrearCuentaIS";
             this.btnCrearCuentaIS.Size = new System.Drawing.Size(146, 28);
-            this.btnCrearCuentaIS.TabIndex = 9;
+            this.btnCrearCuentaIS.TabIndex = 8;
             this.btnCrearCuentaIS.Text = "Crear Cuenta!";
             this.btnCrearCuentaIS.UseVisualStyleBackColor = false;
             this.btnCrearCuentaIS.Click += new System.EventHandler(this.button1_Click);

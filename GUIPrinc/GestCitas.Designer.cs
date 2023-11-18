@@ -32,9 +32,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnVolver = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.BtnHistorial = new System.Windows.Forms.Button();
             this.BtnGestionUsu = new System.Windows.Forms.Button();
             this.btnSacarCita = new System.Windows.Forms.Button();
-            this.BtnHistorial = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -73,7 +73,20 @@
             this.groupBox1.Size = new System.Drawing.Size(625, 157);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Seleccione una opción de su preferencia:";
+            this.groupBox1.Text = "Seleccione una Opción de su Preferencia:";
+            // 
+            // BtnHistorial
+            // 
+            this.BtnHistorial.BackColor = System.Drawing.Color.LightCyan;
+            this.BtnHistorial.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnHistorial.ForeColor = System.Drawing.Color.Black;
+            this.BtnHistorial.Location = new System.Drawing.Point(215, 53);
+            this.BtnHistorial.Name = "BtnHistorial";
+            this.BtnHistorial.Size = new System.Drawing.Size(199, 58);
+            this.BtnHistorial.TabIndex = 6;
+            this.BtnHistorial.Text = "Gestion de Historiales";
+            this.BtnHistorial.UseVisualStyleBackColor = false;
+            this.BtnHistorial.Click += new System.EventHandler(this.BtnHistorial_Click);
             // 
             // BtnGestionUsu
             // 
@@ -100,19 +113,6 @@
             this.btnSacarCita.Text = "Gestion de Cita";
             this.btnSacarCita.UseVisualStyleBackColor = false;
             this.btnSacarCita.Click += new System.EventHandler(this.btnSacarCita_Click);
-            // 
-            // BtnHistorial
-            // 
-            this.BtnHistorial.BackColor = System.Drawing.Color.LightCyan;
-            this.BtnHistorial.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnHistorial.ForeColor = System.Drawing.Color.Black;
-            this.BtnHistorial.Location = new System.Drawing.Point(215, 53);
-            this.BtnHistorial.Name = "BtnHistorial";
-            this.BtnHistorial.Size = new System.Drawing.Size(199, 58);
-            this.BtnHistorial.TabIndex = 6;
-            this.BtnHistorial.Text = "Gestion de Historiales";
-            this.BtnHistorial.UseVisualStyleBackColor = false;
-            this.BtnHistorial.Click += new System.EventHandler(this.BtnHistorial_Click);
             // 
             // GestCitas
             // 

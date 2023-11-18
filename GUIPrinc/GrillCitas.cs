@@ -49,21 +49,28 @@ namespace GUIPrinc
 
         private void Guardar()
         {
-            if (txtCedula.Text == string.Empty || CmbCedulaDoctor.Text == string.Empty || dtpFechaCita.Text == string.Empty || CmbHoraCita.Text == string.Empty)
+            DateTime fechaCita = DateTime.Parse(dtpFechaCita.Text);
+            if (fechaCita < DateTime.Now)
             {
-                MessageBox.Show("Faltan Datos por ingresar", "Avisos del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Por favor, digite una fecha valida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
-            else //Guardamos la Informacion
+            else
             {
+                if (txtCedula.Text == string.Empty || CmbCedulaDoctor.Text == string.Empty || dtpFechaCita.Text == string.Empty || CmbHoraCita.Text == string.Empty)
+                {
+                    MessageBox.Show("Faltan Datos por ingresar", "Avisos del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+                else //Guardamos la Informacion
+                {
                     Cita oCi = new Cita();
                     string Rpta = "";
                     oCi.IdCita = nCodigo_pr;
                     oCi.FechaCita = DateTime.Parse(dtpFechaCita.Text);
-                    oCi.HoraCita = Convert.ToString(CmbHoraCita.Text); 
-                    oCi.IdPaciente = Convert.ToString(txtCedula.Text); 
+                    oCi.HoraCita = Convert.ToString(CmbHoraCita.Text);
+                    oCi.IdPaciente = Convert.ToString(txtCedula.Text);
                     oCi.IdDoctor = Convert.ToString(CmbCedulaDoctor.SelectedValue);
                     oCi.MedicoAsignado = Convert.ToString(CmbNombreDoctor.SelectedValue);
-                
+
 
                     //L_Citas.GuardarCita_Servicios(serviciosSeleccionados);
                     Rpta = L_Citas.Guardar(oCi);
@@ -77,45 +84,47 @@ namespace GUIPrinc
                     {
                         MessageBox.Show(Rpta, "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
-
-
-
-
+                }
             }
-
         }
         private void GuardarAc()
         {
-            if (txtCedula.Text == string.Empty)
+            DateTime fechaCita = DateTime.Parse(dtpFechaCita.Text);
+            if (fechaCita < DateTime.Now)
             {
-                MessageBox.Show("Faltan Datos por ingresar", "Avisos del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Por favor, digite una fecha valida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
-            else //Actualizamos la Informacion
+            else
             {
-
-                Cita oCi = new Cita();
-                string Rpta = "";
-                oCi.IdCita = IdCi;
-                oCi.IdPaciente = txtCedula.Text;
-                oCi.IdDoctor = Convert.ToString(CmbCedulaDoctor.Text);
-                oCi.MedicoAsignado = Convert.ToString(CmbNombreDoctor.Text);
-                oCi.FechaCita = Convert.ToDateTime(dtpFechaCita.Text);
-                oCi.HoraCita = CmbHoraCita.Text;
-                Rpta = L_Citas.Actualizar(oCi);
-                if (Rpta == "OK")
+                if (txtCedula.Text == string.Empty)
+                {
+                    MessageBox.Show("Faltan Datos por ingresar", "Avisos del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+                else //Actualizamos la Informacion
                 {
 
-                    MessageBox.Show("Los datos han sido actualizados correctamente", "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Cita oCi = new Cita();
+                    string Rpta = "";
+                    oCi.IdCita = IdCi;
+                    oCi.IdPaciente = txtCedula.Text;
+                    oCi.IdDoctor = Convert.ToString(CmbCedulaDoctor.Text);
+                    oCi.MedicoAsignado = Convert.ToString(CmbNombreDoctor.Text);
+                    oCi.FechaCita = Convert.ToDateTime(dtpFechaCita.Text);
+                    oCi.HoraCita = CmbHoraCita.Text;
+                    Rpta = L_Citas.Actualizar(oCi);
+                    if (Rpta == "OK")
+                    {
+
+                        MessageBox.Show("Los datos han sido actualizados correctamente", "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
+                    }
+                    else
+                    {
+                        MessageBox.Show(Rpta, "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
-                else
-                {
-                    MessageBox.Show(Rpta, "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-
             }
-
         }
         public void Validaciones()
         {
@@ -126,7 +135,6 @@ namespace GUIPrinc
         {
             try
             {
-
                 dataGridView1.DataSource = L_Citas.Mostrar(cTexto);
             }
             catch (Exception ex)
@@ -232,6 +240,22 @@ namespace GUIPrinc
             Form btaGestCitas = new GestCitas();
             btaGestCitas.Show();
             this.Hide();
+        }
+
+        private void txtCedula_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != (char)Keys.Back)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtBuscar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != (char)Keys.Back)
+            {
+                e.Handled = true;
+            }
         }
     }
 }

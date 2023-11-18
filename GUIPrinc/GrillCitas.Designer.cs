@@ -77,45 +77,57 @@
             this.groupBox1.ForeColor = System.Drawing.Color.LightCyan;
             this.groupBox1.Location = new System.Drawing.Point(12, 23);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(536, 295);
+            this.groupBox1.Size = new System.Drawing.Size(536, 312);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos";
             // 
             // CmbHoraCita
             // 
+            this.CmbHoraCita.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CmbHoraCita.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CmbHoraCita.FormattingEnabled = true;
             this.CmbHoraCita.Items.AddRange(new object[] {
+            "08:00 Am",
+            "09:00 Am",
             "10:00 Am",
             "11:00 Am",
-            "12:00 Am"});
+            "02:00 Pm",
+            "03:00 Pm",
+            "04:00 Pm",
+            "05:00 Pm",
+            "06:00 Pm"});
             this.CmbHoraCita.Location = new System.Drawing.Point(207, 258);
             this.CmbHoraCita.Name = "CmbHoraCita";
             this.CmbHoraCita.Size = new System.Drawing.Size(295, 28);
-            this.CmbHoraCita.TabIndex = 19;
+            this.CmbHoraCita.TabIndex = 14;
             // 
             // CmbCedulaDoctor
             // 
+            this.CmbCedulaDoctor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CmbCedulaDoctor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CmbCedulaDoctor.FormattingEnabled = true;
             this.CmbCedulaDoctor.Location = new System.Drawing.Point(207, 124);
             this.CmbCedulaDoctor.Name = "CmbCedulaDoctor";
             this.CmbCedulaDoctor.Size = new System.Drawing.Size(295, 28);
-            this.CmbCedulaDoctor.TabIndex = 18;
+            this.CmbCedulaDoctor.TabIndex = 11;
             // 
             // CmbNombreDoctor
             // 
+            this.CmbNombreDoctor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CmbNombreDoctor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CmbNombreDoctor.FormattingEnabled = true;
             this.CmbNombreDoctor.Location = new System.Drawing.Point(207, 173);
             this.CmbNombreDoctor.Name = "CmbNombreDoctor";
             this.CmbNombreDoctor.Size = new System.Drawing.Size(295, 28);
-            this.CmbNombreDoctor.TabIndex = 17;
+            this.CmbNombreDoctor.TabIndex = 12;
             // 
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(23, 176);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(170, 20);
+            this.label6.Size = new System.Drawing.Size(189, 20);
             this.label6.TabIndex = 16;
             this.label6.Text = "Nombre de doctor:";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -127,7 +139,7 @@
             this.dtpFechaCita.Location = new System.Drawing.Point(207, 217);
             this.dtpFechaCita.Name = "dtpFechaCita";
             this.dtpFechaCita.Size = new System.Drawing.Size(295, 27);
-            this.dtpFechaCita.TabIndex = 14;
+            this.dtpFechaCita.TabIndex = 13;
             // 
             // txtCedula
             // 
@@ -136,6 +148,7 @@
             this.txtCedula.Name = "txtCedula";
             this.txtCedula.Size = new System.Drawing.Size(295, 27);
             this.txtCedula.TabIndex = 10;
+            this.txtCedula.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCedula_KeyPress);
             // 
             // label5
             // 
@@ -152,6 +165,7 @@
             this.txtIdCita.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIdCita.Location = new System.Drawing.Point(207, 36);
             this.txtIdCita.Name = "txtIdCita";
+            this.txtIdCita.ReadOnly = true;
             this.txtIdCita.Size = new System.Drawing.Size(295, 27);
             this.txtIdCita.TabIndex = 9;
             // 
@@ -178,9 +192,9 @@
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(23, 127);
+            this.label3.Location = new System.Drawing.Point(6, 127);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(170, 20);
+            this.label3.Size = new System.Drawing.Size(226, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "N° Identidad Doctor:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -201,7 +215,7 @@
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.LightCyan;
-            this.groupBox2.Location = new System.Drawing.Point(12, 324);
+            this.groupBox2.Location = new System.Drawing.Point(12, 341);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(536, 71);
             this.groupBox2.TabIndex = 2;
@@ -211,20 +225,21 @@
             // txtBuscar
             // 
             this.txtBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBuscar.Location = new System.Drawing.Point(207, 28);
+            this.txtBuscar.Location = new System.Drawing.Point(283, 28);
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(295, 27);
-            this.txtBuscar.TabIndex = 4;
+            this.txtBuscar.Size = new System.Drawing.Size(219, 27);
+            this.txtBuscar.TabIndex = 15;
             this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
+            this.txtBuscar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBuscar_KeyPress);
             // 
             // label10
             // 
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(23, 31);
+            this.label10.Location = new System.Drawing.Point(6, 31);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(170, 20);
+            this.label10.Size = new System.Drawing.Size(271, 20);
             this.label10.TabIndex = 3;
-            this.label10.Text = "Cita ID:";
+            this.label10.Text = "N° Identificación Paciente:";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // dataGridView1
@@ -233,28 +248,28 @@
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.HighlightText;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(570, 23);
+            this.dataGridView1.Location = new System.Drawing.Point(571, 23);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(838, 305);
+            this.dataGridView1.Size = new System.Drawing.Size(909, 429);
             this.dataGridView1.TabIndex = 0;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.LightSkyBlue;
             this.panel1.Controls.Add(this.btnVolverCC);
-            this.panel1.Location = new System.Drawing.Point(-20, 412);
+            this.panel1.Location = new System.Drawing.Point(-20, 515);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1462, 72);
+            this.panel1.Size = new System.Drawing.Size(1552, 142);
             this.panel1.TabIndex = 4;
             // 
             // btnVolverCC
             // 
             this.btnVolverCC.BackColor = System.Drawing.Color.PaleVioletRed;
             this.btnVolverCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolverCC.Location = new System.Drawing.Point(32, 29);
+            this.btnVolverCC.Location = new System.Drawing.Point(32, 24);
             this.btnVolverCC.Name = "btnVolverCC";
             this.btnVolverCC.Size = new System.Drawing.Size(104, 31);
             this.btnVolverCC.TabIndex = 0;
@@ -266,7 +281,7 @@
             // 
             this.btnRegistrar.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(570, 355);
+            this.btnRegistrar.Location = new System.Drawing.Point(570, 470);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(150, 28);
             this.btnRegistrar.TabIndex = 11;
@@ -278,7 +293,7 @@
             // 
             this.btnBuscar.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.Location = new System.Drawing.Point(726, 355);
+            this.btnBuscar.Location = new System.Drawing.Point(755, 470);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(150, 28);
             this.btnBuscar.TabIndex = 12;
@@ -290,7 +305,7 @@
             // 
             this.btnModificar.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.Location = new System.Drawing.Point(1087, 355);
+            this.btnModificar.Location = new System.Drawing.Point(1142, 470);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(150, 28);
             this.btnModificar.TabIndex = 13;
@@ -302,7 +317,7 @@
             // 
             this.btnCancelar.BackColor = System.Drawing.Color.LavenderBlush;
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(1258, 355);
+            this.btnCancelar.Location = new System.Drawing.Point(1329, 470);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(150, 28);
             this.btnCancelar.TabIndex = 14;
@@ -314,7 +329,7 @@
             // 
             this.BtnGuardarActualizado.BackColor = System.Drawing.Color.LavenderBlush;
             this.BtnGuardarActualizado.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnGuardarActualizado.Location = new System.Drawing.Point(892, 355);
+            this.BtnGuardarActualizado.Location = new System.Drawing.Point(933, 470);
             this.BtnGuardarActualizado.Name = "BtnGuardarActualizado";
             this.BtnGuardarActualizado.Size = new System.Drawing.Size(177, 28);
             this.BtnGuardarActualizado.TabIndex = 15;
@@ -327,7 +342,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(1420, 473);
+            this.ClientSize = new System.Drawing.Size(1491, 588);
             this.Controls.Add(this.BtnGuardarActualizado);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnModificar);

@@ -161,38 +161,45 @@ namespace GUIPrinc
 
         private void GuardarAc()
         {
-            if (txtNombre.Text == string.Empty)
+            DateTime fechaNacimiento = DateTime.Parse(dtpFechaNac.Text);
+            if (fechaNacimiento > DateTime.Now)
             {
-                MessageBox.Show("Faltan Datos por ingresar", "Avisos del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Por favor, digite una fecha valida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
-            else //Actualizamos la Informacion
+            else
             {
-
-                Paciente oPa = new Paciente();
-                string Rpta = "";
-                oPa.Cedula = txtIdent.Text;
-                oPa.Nombre = txtNombre.Text;
-                oPa.Apellido = txtApellido.Text;
-                oPa.TipoSangre = cmbSangre.Text;
-                oPa.Telefono = txtNumero.Text;
-                oPa.FechaNacimiento = Convert.ToDateTime(dtpFechaNac.Text);
-                oPa.Sexo = cmbSexo.Text;
-                oPa.CorreoElectronico = txtCorreo.Text;
-                Rpta = L_Paciente.Actualizar(oPa, txtIdent.Text);
-                if (Rpta == "OK")
+                if (txtNombre.Text == string.Empty)
+                {
+                    MessageBox.Show("Faltan Datos por ingresar", "Avisos del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+                else //Actualizamos la Informacion
                 {
 
-                    MessageBox.Show("Los datos han sido actualizados correctamente", "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Paciente oPa = new Paciente();
+                    string Rpta = "";
+                    oPa.Cedula = txtIdent.Text;
+                    oPa.Nombre = txtNombre.Text;
+                    oPa.Apellido = txtApellido.Text;
+                    oPa.TipoSangre = cmbSangre.Text;
+                    oPa.Telefono = txtNumero.Text;
+                    oPa.FechaNacimiento = Convert.ToDateTime(dtpFechaNac.Text);
+                    oPa.Sexo = cmbSexo.Text;
+                    oPa.CorreoElectronico = txtCorreo.Text;
+                    Rpta = L_Paciente.Actualizar(oPa, txtIdent.Text);
+                    if (Rpta == "OK")
+                    {
 
+                        MessageBox.Show("Los datos han sido actualizados correctamente", "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+                    }
+                    else
+                    {
+                        MessageBox.Show(Rpta, "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
 
                 }
-                else
-                {
-                    MessageBox.Show(Rpta, "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-
             }
-        
         }
 
         private void Eliminar()
@@ -232,6 +239,62 @@ namespace GUIPrinc
             else
             {
                 MessageBox.Show("La tabla esta vacia", "Avisos Del sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void txtIdent_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != (char)Keys.Back)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtBuscar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != (char)Keys.Back)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtNumero_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != (char)Keys.Back)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtPass_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == ' ')
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtCorreo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == ' ')
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsLetter(e.KeyChar) && e.KeyChar != (char)Keys.Space && e.KeyChar != (char)Keys.Back)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtApellido_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsLetter(e.KeyChar) && e.KeyChar != (char)Keys.Space && e.KeyChar != (char)Keys.Back)
+            {
+                e.Handled = true;
             }
         }
     }

@@ -126,7 +126,7 @@
             this.cmbSangre.Location = new System.Drawing.Point(21, 326);
             this.cmbSangre.Name = "cmbSangre";
             this.cmbSangre.Size = new System.Drawing.Size(297, 28);
-            this.cmbSangre.TabIndex = 38;
+            this.cmbSangre.TabIndex = 11;
             this.cmbSangre.SelectedIndexChanged += new System.EventHandler(this.cmbSangre_SelectedIndexChanged);
             // 
             // label8
@@ -156,7 +156,8 @@
             this.TxtApellido.Location = new System.Drawing.Point(21, 194);
             this.TxtApellido.Name = "TxtApellido";
             this.TxtApellido.Size = new System.Drawing.Size(297, 27);
-            this.TxtApellido.TabIndex = 34;
+            this.TxtApellido.TabIndex = 9;
+            this.TxtApellido.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtApellido_KeyPress);
             // 
             // dtFechaNacimiento
             // 
@@ -165,7 +166,7 @@
             this.dtFechaNacimiento.Location = new System.Drawing.Point(364, 130);
             this.dtFechaNacimiento.Name = "dtFechaNacimiento";
             this.dtFechaNacimiento.Size = new System.Drawing.Size(297, 22);
-            this.dtFechaNacimiento.TabIndex = 33;
+            this.dtFechaNacimiento.TabIndex = 13;
             this.dtFechaNacimiento.ValueChanged += new System.EventHandler(this.dtFechaNacimiento_ValueChanged);
             // 
             // txtNombrePaCC
@@ -174,7 +175,7 @@
             this.txtNombrePaCC.Location = new System.Drawing.Point(21, 129);
             this.txtNombrePaCC.Name = "txtNombrePaCC";
             this.txtNombrePaCC.Size = new System.Drawing.Size(297, 27);
-            this.txtNombrePaCC.TabIndex = 30;
+            this.txtNombrePaCC.TabIndex = 8;
             this.txtNombrePaCC.TextChanged += new System.EventHandler(this.txtNombrePaCC_TextChanged);
             this.txtNombrePaCC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombrePaCC_KeyPress);
             // 
@@ -196,7 +197,7 @@
             this.btnLimpiarCP.Location = new System.Drawing.Point(463, 318);
             this.btnLimpiarCP.Name = "btnLimpiarCP";
             this.btnLimpiarCP.Size = new System.Drawing.Size(94, 36);
-            this.btnLimpiarCP.TabIndex = 28;
+            this.btnLimpiarCP.TabIndex = 17;
             this.btnLimpiarCP.Text = "Limpiar";
             this.btnLimpiarCP.UseVisualStyleBackColor = false;
             this.btnLimpiarCP.Click += new System.EventHandler(this.btnLimpiarCP_Click);
@@ -232,7 +233,7 @@
             this.btnCrearPacCC.Location = new System.Drawing.Point(586, 318);
             this.btnCrearPacCC.Name = "btnCrearPacCC";
             this.btnCrearPacCC.Size = new System.Drawing.Size(75, 36);
-            this.btnCrearPacCC.TabIndex = 12;
+            this.btnCrearPacCC.TabIndex = 16;
             this.btnCrearPacCC.Text = "Crear";
             this.btnCrearPacCC.UseVisualStyleBackColor = false;
             this.btnCrearPacCC.Click += new System.EventHandler(this.btnCrearPacCC_Click);
@@ -243,7 +244,7 @@
             this.txtCorreoPaCC.Location = new System.Drawing.Point(364, 259);
             this.txtCorreoPaCC.Name = "txtCorreoPaCC";
             this.txtCorreoPaCC.Size = new System.Drawing.Size(297, 27);
-            this.txtCorreoPaCC.TabIndex = 10;
+            this.txtCorreoPaCC.TabIndex = 15;
             this.txtCorreoPaCC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCorreoPaCC_KeyPress);
             // 
             // txtNumPaCC
@@ -252,7 +253,7 @@
             this.txtNumPaCC.Location = new System.Drawing.Point(364, 64);
             this.txtNumPaCC.Name = "txtNumPaCC";
             this.txtNumPaCC.Size = new System.Drawing.Size(297, 27);
-            this.txtNumPaCC.TabIndex = 9;
+            this.txtNumPaCC.TabIndex = 12;
             this.txtNumPaCC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumPaCC_KeyPress);
             // 
             // txtIdenPaCC
@@ -261,7 +262,7 @@
             this.txtIdenPaCC.Location = new System.Drawing.Point(21, 259);
             this.txtIdenPaCC.Name = "txtIdenPaCC";
             this.txtIdenPaCC.Size = new System.Drawing.Size(297, 27);
-            this.txtIdenPaCC.TabIndex = 8;
+            this.txtIdenPaCC.TabIndex = 10;
             this.txtIdenPaCC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtIdenPaCC_KeyPress);
             // 
             // txtPassPaCC
