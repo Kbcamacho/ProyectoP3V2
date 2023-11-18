@@ -12,7 +12,7 @@ namespace Datos.Repositorio
 {
     public class DAntecedente
     {
-        int IdCi;
+        int IdHis;
         public DataTable Mostrar(string cTexto)
         {
             OracleDataReader Resultado;
@@ -42,7 +42,7 @@ namespace Datos.Repositorio
         public string Actualizar(Antecedentes oAn)
         {
             string Rpta = "";
-            string IdCi;
+            string IdHis;
             OracleConnection SqlCon = new OracleConnection();
             try
             {
@@ -59,7 +59,7 @@ namespace Datos.Repositorio
 
                 SqlCon.Open();
                 Comando.ExecuteNonQuery();
-                IdCi = Convert.ToString(oAn.IdAntecedente);
+                IdHis = Convert.ToString(oAn.IdAntecedente);
                 Rpta = "OK";
             }
             catch (Exception ex)
@@ -74,7 +74,7 @@ namespace Datos.Repositorio
             return Rpta;
         }
 
-        public string Eliminar(int idCi)
+        public string Eliminar(int IdHis)
         {
             string Rpta = "";
             OracleConnection SqlCon = new OracleConnection();
@@ -84,7 +84,7 @@ namespace Datos.Repositorio
                 SqlCon.Open();
                 OracleCommand Comando = new OracleCommand("USP_ELIMINAR_ANT", SqlCon);
                 Comando.CommandType = CommandType.StoredProcedure;
-                Comando.Parameters.Add("pId_antecedente", OracleDbType.Int32).Value = idCi;
+                Comando.Parameters.Add("pId_antecedente", OracleDbType.Int32).Value = IdHis;
                 //SqlCon.Open();
                 Comando.ExecuteNonQuery();
 
@@ -126,7 +126,7 @@ namespace Datos.Repositorio
 
                 //Obtener el valor del ID de la cita generado
                 recibe = Convert.ToString(Comando.Parameters["pId_antecedente"].Value);
-                IdCi = Convert.ToInt32(recibe);
+                IdHis = Convert.ToInt32(recibe);
 
                 Rpta = "OK";
             }

@@ -22,6 +22,8 @@ namespace GUIPrinc
             InitializeComponent();
         }
         int nCodigo_pr = 0;
+        int nValor_pr = 0;
+        int idHis;
         int IdCi;
         int IdHis;
 
@@ -57,7 +59,7 @@ namespace GUIPrinc
             {
                 Antecedentes oAn = new Antecedentes();
                 string Rpta = "";
-                oAn.IdAntecedente = nCodigo_pr;
+                oAn.IdAntecedente = nValor_pr;
                 oAn.Cirugia = Convert.ToString(cmbCirugia.Text);
                 oAn.Alergia = Convert.ToString(cmbAlergias.Text);
                 oAn.Enfermedad = Convert.ToString(cmbEnferm.Text);
@@ -92,11 +94,11 @@ namespace GUIPrinc
             }
             else
             {
-                IdCi = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
+                idHis = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
                 cmbCirugia.Text = Convert.ToString(dataGridView2.CurrentRow.Cells[1].Value);
                 cmbAlergias.Text = Convert.ToString(dataGridView2.CurrentRow.Cells[2].Value);
                 cmbEnferm.Text = Convert.ToString(dataGridView2.CurrentRow.Cells[3].Value);
-                IdCi = Convert.ToInt32(dataGridView2.CurrentRow.Cells[4].Value);
+                idHis = Convert.ToInt32(dataGridView2.CurrentRow.Cells[4].Value);
 
             }
 
@@ -113,8 +115,8 @@ namespace GUIPrinc
                 {
                   
                         string Rpta = "";
-                        IdCi = Convert.ToInt32(dataGridView2.CurrentRow.Cells[0].Value);
-                        Rpta = L_Antecedente.Eliminar(IdCi);
+                    idHis = Convert.ToInt32(dataGridView2.CurrentRow.Cells[0].Value);
+                        Rpta = L_Antecedente.Eliminar(idHis);
 
                         if (Rpta == "OK")
                         {
@@ -143,11 +145,11 @@ namespace GUIPrinc
 
                 Antecedentes oAn = new Antecedentes();
                 string Rpta = "";
-                oAn.IdAntecedente = nCodigo_pr;
+                oAn.IdAntecedente = idHis;
                 oAn.Cirugia = Convert.ToString(cmbCirugia.Text);
                 oAn.Alergia = Convert.ToString(cmbAlergias.Text);
                 oAn.Enfermedad = Convert.ToString(cmbEnferm.Text);
-                oAn.IdHistorial = nCodigo_pr;
+                oAn.IdHistorial = idHis;
                 Rpta = L_Antecedente.Actualizar(oAn);
                 if (Rpta == "OK")
                 {
@@ -281,8 +283,8 @@ namespace GUIPrinc
         private void BtnGuardarM_Click(object sender, EventArgs e)
         {
             GuardarAc();
-            Mostrar("%");
             GuardarAntecedentesAc();
+            Mostrar("%");
             MostrarAntecedentes("%");
         }
         private void GuardarAc()
