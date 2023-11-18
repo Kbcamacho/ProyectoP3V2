@@ -12,7 +12,7 @@ namespace Datos.Repositorio
 {
     public class DAntecedente
     {
-        int IdCi2;
+        int IdCi;
         public DataTable Mostrar(string cTexto)
         {
             OracleDataReader Resultado;
@@ -47,7 +47,7 @@ namespace Datos.Repositorio
             try
             {
                 SqlCon = ConexionBD.GetInstancia().CrearConexion();
-                OracleCommand Comando = new OracleCommand("USP_ACTUALIZAR_HIS", SqlCon);
+                OracleCommand Comando = new OracleCommand("USP_ACTUALIZAR_ANT", SqlCon);
                 Comando.CommandType = CommandType.StoredProcedure;
                 Comando.Parameters.Add("pId_antecedente", OracleDbType.Int32).Value = oAn.IdAntecedente; // Parámetro de salida para el ID de la cita
                 Comando.Parameters.Add("pcirugia", OracleDbType.Varchar2).Value = oAn.Cirugia;
@@ -59,7 +59,7 @@ namespace Datos.Repositorio
 
                 SqlCon.Open();
                 Comando.ExecuteNonQuery();
-                IdCi = Convert.ToString(oAn.IdHistorial);
+                IdCi = Convert.ToString(oAn.IdAntecedente);
                 Rpta = "OK";
             }
             catch (Exception ex)
@@ -126,7 +126,8 @@ namespace Datos.Repositorio
 
                 //Obtener el valor del ID de la cita generado
                 recibe = Convert.ToString(Comando.Parameters["pId_antecedente"].Value);
-                IdCi2 = Convert.ToInt32(recibe);
+                IdCi = Convert.ToInt32(recibe);
+
                 Rpta = "OK";
             }
             catch (Exception ex)

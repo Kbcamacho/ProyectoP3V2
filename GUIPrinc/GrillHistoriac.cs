@@ -23,7 +23,7 @@ namespace GUIPrinc
         }
         int nCodigo_pr = 0;
         int IdCi;
-
+        int IdHis;
 
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
@@ -57,11 +57,11 @@ namespace GUIPrinc
             {
                 Antecedentes oAn = new Antecedentes();
                 string Rpta = "";
-                oAn.IdAntecedente = IdCi;
+                oAn.IdAntecedente = nCodigo_pr;
                 oAn.Cirugia = Convert.ToString(cmbCirugia.Text);
                 oAn.Alergia = Convert.ToString(cmbAlergias.Text);
                 oAn.Enfermedad = Convert.ToString(cmbEnferm.Text);
-                oAn.IdHistorial = IdCi;
+                oAn.IdHistorial = IdHis;
 
 
 
@@ -143,12 +143,11 @@ namespace GUIPrinc
 
                 Antecedentes oAn = new Antecedentes();
                 string Rpta = "";
-                oAn.IdAntecedente = IdCi;
+                oAn.IdAntecedente = nCodigo_pr;
                 oAn.Cirugia = Convert.ToString(cmbCirugia.Text);
                 oAn.Alergia = Convert.ToString(cmbAlergias.Text);
                 oAn.Enfermedad = Convert.ToString(cmbEnferm.Text);
-                oAn.IdHistorial = IdCi;
-                
+                oAn.IdHistorial = nCodigo_pr;
                 Rpta = L_Antecedente.Actualizar(oAn);
                 if (Rpta == "OK")
                 {
