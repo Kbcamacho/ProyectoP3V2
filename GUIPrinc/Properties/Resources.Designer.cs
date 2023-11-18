@@ -99,5 +99,21 @@ namespace GUIPrinc.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a &lt;!DOTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;head&gt;
+        ///    &lt;title&gt;Web Page Desing&lt;/title&gt;
+        ///&lt;/head&gt;
+        ///&lt;body&gt;
+        ///&lt;/body&gt;
+        ///&lt;/html&gt;.
+        /// </summary>
+        internal static string plantilla {
+            get {
+                return ResourceManager.GetString("plantilla", resourceCulture);
+            }
+        }
     }
 }

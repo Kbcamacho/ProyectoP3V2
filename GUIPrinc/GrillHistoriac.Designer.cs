@@ -71,6 +71,8 @@
             this.label16 = new System.Windows.Forms.Label();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.BtnGuardarM = new System.Windows.Forms.Button();
+            this.btnPDF = new System.Windows.Forms.Button();
+            this.btnVolverCC = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -101,8 +103,19 @@
             // 
             // cmbEnferm
             // 
+            this.cmbEnferm.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbEnferm.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbEnferm.FormattingEnabled = true;
+            this.cmbEnferm.Items.AddRange(new object[] {
+            "ACV",
+            "ANTICOAGULADO",
+            "DIABETES",
+            "ENF. CORONARIA",
+            "ENF. PULMONAR",
+            "HIPERTENSO",
+            "INFARTO RECIENTE",
+            "PARTO RECIENTE",
+            "OTROS"});
             this.cmbEnferm.Location = new System.Drawing.Point(173, 210);
             this.cmbEnferm.Name = "cmbEnferm";
             this.cmbEnferm.Size = new System.Drawing.Size(237, 28);
@@ -110,8 +123,12 @@
             // 
             // cmbAlergias
             // 
+            this.cmbAlergias.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbAlergias.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbAlergias.FormattingEnabled = true;
+            this.cmbAlergias.Items.AddRange(new object[] {
+            "CONFIRMA",
+            "NIEGA"});
             this.cmbAlergias.Location = new System.Drawing.Point(173, 167);
             this.cmbAlergias.Name = "cmbAlergias";
             this.cmbAlergias.Size = new System.Drawing.Size(237, 28);
@@ -119,8 +136,12 @@
             // 
             // cmbCirugia
             // 
+            this.cmbCirugia.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbCirugia.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbCirugia.FormattingEnabled = true;
+            this.cmbCirugia.Items.AddRange(new object[] {
+            "CONFIRMA",
+            "NIEGA"});
             this.cmbCirugia.Location = new System.Drawing.Point(173, 124);
             this.cmbCirugia.Name = "cmbCirugia";
             this.cmbCirugia.Size = new System.Drawing.Size(237, 28);
@@ -171,6 +192,7 @@
             this.txtHistoAntID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtHistoAntID.Location = new System.Drawing.Point(173, 80);
             this.txtHistoAntID.Name = "txtHistoAntID";
+            this.txtHistoAntID.ReadOnly = true;
             this.txtHistoAntID.Size = new System.Drawing.Size(237, 27);
             this.txtHistoAntID.TabIndex = 6;
             // 
@@ -179,6 +201,7 @@
             this.txtAnteceID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAnteceID.Location = new System.Drawing.Point(173, 34);
             this.txtAnteceID.Name = "txtAnteceID";
+            this.txtAnteceID.ReadOnly = true;
             this.txtAnteceID.Size = new System.Drawing.Size(237, 27);
             this.txtAnteceID.TabIndex = 5;
             // 
@@ -234,6 +257,7 @@
             // 
             // txtDiag
             // 
+            this.txtDiag.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDiag.Location = new System.Drawing.Point(609, 210);
             this.txtDiag.Name = "txtDiag";
             this.txtDiag.Size = new System.Drawing.Size(237, 27);
@@ -241,6 +265,7 @@
             // 
             // txtHallaz
             // 
+            this.txtHallaz.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtHallaz.Location = new System.Drawing.Point(609, 124);
             this.txtHallaz.Name = "txtHallaz";
             this.txtHallaz.Size = new System.Drawing.Size(237, 27);
@@ -248,6 +273,7 @@
             // 
             // txtMotiv
             // 
+            this.txtMotiv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMotiv.Location = new System.Drawing.Point(609, 80);
             this.txtMotiv.Name = "txtMotiv";
             this.txtMotiv.Size = new System.Drawing.Size(237, 27);
@@ -255,6 +281,7 @@
             // 
             // txtClasif
             // 
+            this.txtClasif.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtClasif.Location = new System.Drawing.Point(609, 34);
             this.txtClasif.Name = "txtClasif";
             this.txtClasif.Size = new System.Drawing.Size(237, 27);
@@ -263,9 +290,9 @@
             // label15
             // 
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(443, 170);
+            this.label15.Location = new System.Drawing.Point(426, 170);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(160, 20);
+            this.label15.Size = new System.Drawing.Size(198, 20);
             this.label15.TabIndex = 9;
             this.label15.Text = "Fecha de Creación:";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -331,6 +358,7 @@
             this.txtPacID.Name = "txtPacID";
             this.txtPacID.Size = new System.Drawing.Size(237, 27);
             this.txtPacID.TabIndex = 1;
+            this.txtPacID.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPacID_KeyPress);
             // 
             // txtHistoID
             // 
@@ -340,6 +368,7 @@
             this.txtHistoID.Size = new System.Drawing.Size(237, 27);
             this.txtHistoID.TabIndex = 0;
             this.txtHistoID.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
+            this.txtHistoID.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtHistoID_KeyPress);
             // 
             // label12
             // 
@@ -386,7 +415,7 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(17, 127);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(160, 20);
+            this.label8.Size = new System.Drawing.Size(177, 20);
             this.label8.TabIndex = 2;
             this.label8.Text = "Recomendaciones:";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -405,26 +434,28 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.HighlightText;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 286);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(865, 215);
+            this.dataGridView1.Size = new System.Drawing.Size(883, 215);
             this.dataGridView1.TabIndex = 2;
             // 
             // dataGridView2
             // 
             this.dataGridView2.AllowUserToAddRows = false;
             this.dataGridView2.AllowUserToDeleteRows = false;
+            this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.HighlightText;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Location = new System.Drawing.Point(12, 520);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(865, 215);
+            this.dataGridView2.Size = new System.Drawing.Size(883, 215);
             this.dataGridView2.TabIndex = 3;
             // 
             // btnAgregar
@@ -432,7 +463,7 @@
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregar.Location = new System.Drawing.Point(921, 406);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(417, 53);
+            this.btnAgregar.Size = new System.Drawing.Size(418, 45);
             this.btnAgregar.TabIndex = 4;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -441,9 +472,9 @@
             // btnBuscar
             // 
             this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.Location = new System.Drawing.Point(921, 485);
+            this.btnBuscar.Location = new System.Drawing.Point(921, 466);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(416, 53);
+            this.btnBuscar.Size = new System.Drawing.Size(418, 45);
             this.btnBuscar.TabIndex = 5;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
@@ -452,9 +483,9 @@
             // btnModificar
             // 
             this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.Location = new System.Drawing.Point(921, 632);
+            this.btnModificar.Location = new System.Drawing.Point(921, 578);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(416, 53);
+            this.btnModificar.Size = new System.Drawing.Size(418, 45);
             this.btnModificar.TabIndex = 6;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
@@ -463,9 +494,9 @@
             // btnEliminar
             // 
             this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(921, 707);
+            this.btnEliminar.Location = new System.Drawing.Point(921, 634);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(416, 53);
+            this.btnEliminar.Size = new System.Drawing.Size(418, 45);
             this.btnEliminar.TabIndex = 7;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
@@ -496,28 +527,56 @@
             // 
             // txtBuscar
             // 
+            this.txtBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBuscar.Location = new System.Drawing.Point(163, 42);
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(237, 27);
             this.txtBuscar.TabIndex = 15;
+            this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
+            this.txtBuscar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBuscar_KeyPress);
             // 
             // BtnGuardarM
             // 
             this.BtnGuardarM.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnGuardarM.Location = new System.Drawing.Point(921, 559);
+            this.BtnGuardarM.Location = new System.Drawing.Point(921, 522);
             this.BtnGuardarM.Name = "BtnGuardarM";
-            this.BtnGuardarM.Size = new System.Drawing.Size(416, 53);
+            this.BtnGuardarM.Size = new System.Drawing.Size(418, 45);
             this.BtnGuardarM.TabIndex = 9;
-            this.BtnGuardarM.Text = "Guardar modificados";
+            this.BtnGuardarM.Text = "Guardar Modificados";
             this.BtnGuardarM.UseVisualStyleBackColor = true;
             this.BtnGuardarM.Click += new System.EventHandler(this.BtnGuardarM_Click);
+            // 
+            // btnPDF
+            // 
+            this.btnPDF.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPDF.Location = new System.Drawing.Point(921, 690);
+            this.btnPDF.Name = "btnPDF";
+            this.btnPDF.Size = new System.Drawing.Size(418, 45);
+            this.btnPDF.TabIndex = 10;
+            this.btnPDF.Text = "Generar PDF";
+            this.btnPDF.UseVisualStyleBackColor = true;
+            this.btnPDF.Click += new System.EventHandler(this.btnPDF_Click);
+            // 
+            // btnVolverCC
+            // 
+            this.btnVolverCC.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.btnVolverCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolverCC.Location = new System.Drawing.Point(12, 754);
+            this.btnVolverCC.Name = "btnVolverCC";
+            this.btnVolverCC.Size = new System.Drawing.Size(104, 31);
+            this.btnVolverCC.TabIndex = 11;
+            this.btnVolverCC.Text = "Volver";
+            this.btnVolverCC.UseVisualStyleBackColor = false;
+            this.btnVolverCC.Click += new System.EventHandler(this.btnVolverCC_Click);
             // 
             // GrillHistoriac
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(1370, 795);
+            this.ClientSize = new System.Drawing.Size(1370, 806);
+            this.Controls.Add(this.btnVolverCC);
+            this.Controls.Add(this.btnPDF);
             this.Controls.Add(this.BtnGuardarM);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.btnEliminar);
@@ -532,6 +591,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "GrillHistoriac";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Antecedentes";
             this.Load += new System.EventHandler(this.GrillHistoriac_Load);
             this.groupBox1.ResumeLayout(false);
@@ -590,5 +650,7 @@
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.Button BtnGuardarM;
         private System.Windows.Forms.DateTimePicker dtpFechaHistorial;
+        private System.Windows.Forms.Button btnPDF;
+        private System.Windows.Forms.Button btnVolverCC;
     }
 }
