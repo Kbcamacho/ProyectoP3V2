@@ -257,5 +257,20 @@ namespace GUIPrinc
                 e.Handled = true;
             }
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CmbCedulaDoctor_SelectedIndexChanged(object sender, EventArgs e)
+        {
+        
+        }
+
+        private void CmbNombreDoctor_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }    
     }
 }

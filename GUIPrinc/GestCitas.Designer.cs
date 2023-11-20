@@ -70,7 +70,7 @@
             this.groupBox1.ForeColor = System.Drawing.Color.LightCyan;
             this.groupBox1.Location = new System.Drawing.Point(12, 73);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(625, 157);
+            this.groupBox1.Size = new System.Drawing.Size(625, 140);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Seleccione una Opción de su Preferencia:";
@@ -80,7 +80,7 @@
             this.BtnHistorial.BackColor = System.Drawing.Color.LightCyan;
             this.BtnHistorial.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnHistorial.ForeColor = System.Drawing.Color.Black;
-            this.BtnHistorial.Location = new System.Drawing.Point(215, 53);
+            this.BtnHistorial.Location = new System.Drawing.Point(211, 53);
             this.BtnHistorial.Name = "BtnHistorial";
             this.BtnHistorial.Size = new System.Drawing.Size(199, 58);
             this.BtnHistorial.TabIndex = 6;
@@ -93,7 +93,7 @@
             this.BtnGestionUsu.BackColor = System.Drawing.Color.LightCyan;
             this.BtnGestionUsu.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnGestionUsu.ForeColor = System.Drawing.Color.Black;
-            this.BtnGestionUsu.Location = new System.Drawing.Point(420, 53);
+            this.BtnGestionUsu.Location = new System.Drawing.Point(416, 53);
             this.BtnGestionUsu.Name = "BtnGestionUsu";
             this.BtnGestionUsu.Size = new System.Drawing.Size(199, 58);
             this.BtnGestionUsu.TabIndex = 5;
@@ -119,7 +119,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(649, 242);
+            this.ClientSize = new System.Drawing.Size(649, 225);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
