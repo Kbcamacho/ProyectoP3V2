@@ -24,9 +24,10 @@
             <td style="width:20%"></td>
             <td style="width:60%" align="center" valign="top">
                 <table>
-                    <tr><td align="center"><h4 style="margin:0px">CLINICA TRES RÍOS</h4></td></tr>
-                    <tr><td align="center">Direccion: av. Las Gatas Malas 3 </td></tr>
+                    <tr><td align="center"><h4 style="margin:0px">CLÍNICA TRES RÍOS</h4></td></tr>
+                    <tr><td align="center">Dirección: av. Las Gatas Malas 3 </td></tr>
                     <tr><td align="center">Telefono: 567-546-55</td></tr>
+                    <tr><td align="center">Valledupar - Cesar</td></tr>
                 </table>
             </td>
             <td style="width:20%">
@@ -38,20 +39,26 @@
             </td>
         </tr>
 
-        <tr><td colspan="3" height="20"></td></tr>
+        <tr><td colspan="3" height="30"></td></tr>
 
         <tr>
             <td colspan="2">
                 <table style="width:100%">
                     <tr>
-                        <td colspan="1" style="width:20%">Nombre:</td>
-                        <td colspan="3" style="width:80%;border-bottom:1px solid black">@NOMBRE</td>
+                        <td style="width:30%">Identificación:</td>
+                        <td style="width:80%;border-bottom:1px solid black">@IDENTIFICACION</td>
                     </tr>
                 </table>
                 <table style="width:100%">
                     <tr>
-                        <td style="width:20%">Identificación:</td>
-                        <td style="width:80%;border-bottom:1px solid black">@IDENTIFICACION</td>
+                        <td style="width:30%">Fecha de Consulta:</td>
+                        <td style="width:80%;border-bottom:1px solid black">@FECONSUL</td>
+                    </tr>
+                </table>
+                <table style="width:100%">
+                    <tr>
+                        <td style="width:30%">Clasificación:</td>
+                        <td style="width:80%;border-bottom:1px solid black">@CLASIF</td>
                     </tr>
                 </table>
             </td>
@@ -59,13 +66,12 @@
         </tr>
 
         <tr><td colspan="3" height="30"></td></tr>
-
         <tr>
             <td colspan="3">
                 <table class="border" style="width:100%;">
                     <thead>
-                        <tr style="background-color:#D8D8D8">
-                            <th>Motivos de la Consulta</th>
+                        <tr style="background-color:#D8D8D8" align="left">
+                            <th>MOTIVOS DE CONSULTA</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -83,8 +89,27 @@
             <td colspan="3">
                 <table class="border" style="width:100%;">
                     <thead>
-                        <tr style="background-color:#D8D8D8">
-                            <th>Observaciones</th>
+                        <tr style="background-color:#D8D8D8" align="left">
+                            <th>RECOMENDACIONES</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> @RECO</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 0px !important"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <table class="border" style="width:100%;">
+                    <thead>
+                        <tr style="background-color:#D8D8D8" align="left">
+                            <th>OBSERVACIONES</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -100,10 +125,29 @@
         </tr>
         <tr>
             <td colspan="3">
+                <table class="border" style="width:100%;" align="left">
+                    <thead>
+                        <tr style="background-color:#D8D8D8" align="left">
+                            <th>HALLAZGOS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> @HALLAZGO</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 0px !important"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
                 <table class="border" style="width:100%;">
                     <thead>
-                        <tr style="background-color:#D8D8D8">
-                            <th>Diagnostico</th>
+                        <tr style="background-color:#D8D8D8" align="left">
+                            <th>DIAGNOSTICO</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -117,6 +161,54 @@
                 </table>
             </td>
         </tr>
+        <tr>
+            <td colspan="3">
+                <table class="border" style="width:100%;">
+                    <thead>
+                        <tr style="background-color:#D8D8D8" align="left">
+                            <th>ANTECEDENTES</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cirugias: @CIRUGIAS</td>
+                        </tr>
+                        <tr>
+                            <td>Alergias: @ALERGIAS</td>
+                        </tr>
+                        <tr>
+                            <td>Enfermedades: @ENFERMEDADES</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 0px !important"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <table class="border" style="width:100%;">
+                    <thead>
+                        <tr style="background-color:#D8D8D8">
+                            <th>INDICACIONES</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> @INDIC</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 0px !important"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
     </table>
+    <footer>
+        <p>Fecha de emisión: @FECHA</p>
+        <p>Copyright © 2023 Clínica Tres Ríos</p>
+    </footer>
 </body>
 </html>

@@ -434,11 +434,29 @@ namespace GUIPrinc
 
             paginahtml_texto = paginahtml_texto.Replace("@IDENTIFICACION", txtPacID.Text);
 
+            paginahtml_texto = paginahtml_texto.Replace("@FECONSUL", DateTime.Now.ToString());
+
+            paginahtml_texto = paginahtml_texto.Replace("@CLASIF", txtClasif.Text);
+
             paginahtml_texto = paginahtml_texto.Replace("@MOTIVO", txtMotiv.Text);
+
+            paginahtml_texto = paginahtml_texto.Replace("@RECO", txtRecom.Text);
 
             paginahtml_texto = paginahtml_texto.Replace("@OBSERVACION", txtObser.Text);
 
+            paginahtml_texto = paginahtml_texto.Replace("@HALLAZGO", txtHallaz.Text);
+
             paginahtml_texto = paginahtml_texto.Replace("@DIAG", txtDiag.Text);
+
+            paginahtml_texto = paginahtml_texto.Replace("@CIRUGIAS", cmbCirugia.Text);
+
+            paginahtml_texto = paginahtml_texto.Replace("@ALERGIAS", cmbAlergias.Text);
+
+            paginahtml_texto = paginahtml_texto.Replace("@ENFERMEDADES", cmbEnferm.Text);
+
+            paginahtml_texto = paginahtml_texto.Replace("@INDIC", txtIndic.Text);
+
+            paginahtml_texto = paginahtml_texto.Replace("@FECHA", dtpFechaHistorial.Text);
 
 
             if (guardar.ShowDialog() == DialogResult.OK)
