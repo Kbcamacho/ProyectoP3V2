@@ -23,10 +23,12 @@ namespace GUIPrinc
 {
     public partial class GrillHistoriac : Form
     {
-        public GrillHistoriac()
+        public GrillHistoriac(bool tipoUsuario)
         {
             InitializeComponent();
+            TipoUsuario = tipoUsuario;
         }
+        bool TipoUsuario = true;
         int nCodigo_pr = 0;
         int nValor_pr = 0;
         int idHis;
@@ -100,7 +102,9 @@ namespace GUIPrinc
             }
             else
             {
+                txtHistoAntID.Text = txtHistoID.Text;
                 idHis = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
+                txtAnteceID.Text = Convert.ToString(dataGridView2.CurrentRow.Cells[0].Value);
                 cmbCirugia.Text = Convert.ToString(dataGridView2.CurrentRow.Cells[1].Value);
                 cmbAlergias.Text = Convert.ToString(dataGridView2.CurrentRow.Cells[2].Value);
                 cmbEnferm.Text = Convert.ToString(dataGridView2.CurrentRow.Cells[3].Value);
@@ -266,6 +270,7 @@ namespace GUIPrinc
             else
             {
                 IdCi = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
+                txtHistoID.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[0].Value);
                 txtPacID.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[1].Value);
                 txtRecom.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[2].Value);
                 txtObser.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[3].Value);
@@ -393,7 +398,7 @@ namespace GUIPrinc
 
         private void btnVolverCC_Click(object sender, EventArgs e)
         {
-            Form btaGestCitas = new GestCitas();
+            Form btaGestCitas = new GestCitas(TipoUsuario);
             btaGestCitas.Show();
             this.Hide();
         }

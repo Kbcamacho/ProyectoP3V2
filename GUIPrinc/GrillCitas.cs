@@ -15,9 +15,14 @@ namespace GUIPrinc
 {
     public partial class GrillCitas : Form
     {
-        public GrillCitas()
+        bool TipoUsuario = true;
+        public GrillCitas(bool tipoUsuario)
+
         {
+            // Llama a las funciones de listado al iniciar el formulario
+
             InitializeComponent();
+           this.TipoUsuario = tipoUsuario;
 
         }
         int nCodigo_pr = 0;
@@ -149,6 +154,7 @@ namespace GUIPrinc
             CmbNombreDoctor.DataSource = L_Citas.listado_Do();
             CmbNombreDoctor.ValueMember = "Nombres";
             CmbNombreDoctor.DisplayMember = "Nombre";
+
         }
         private void Listado_IdDo()
         {
@@ -156,6 +162,7 @@ namespace GUIPrinc
             CmbCedulaDoctor.DataSource = L_Citas.listado_IdDo();
             CmbCedulaDoctor.ValueMember = "Cedula";
             CmbCedulaDoctor.DisplayMember = "Id_doctor";
+
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
@@ -171,6 +178,7 @@ namespace GUIPrinc
             else
             {
                IdCi = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
+                txtIdCita.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[0].Value);
                 txtCedula.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[1].Value);
                 CmbCedulaDoctor.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[2].Value);
                 dtpFechaCita.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[3].Value);
@@ -237,7 +245,7 @@ namespace GUIPrinc
 
         private void btnVolverCC_Click(object sender, EventArgs e)
         {
-            Form btaGestCitas = new GestCitas();
+            Form btaGestCitas = new GestCitas(TipoUsuario);
             btaGestCitas.Show();
             this.Hide();
         }
@@ -265,12 +273,22 @@ namespace GUIPrinc
 
         private void CmbCedulaDoctor_SelectedIndexChanged(object sender, EventArgs e)
         {
-        
+
+
+
+
         }
 
         private void CmbNombreDoctor_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
-        }    
+
+
+
+        }
+
+        private void txtCedula_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

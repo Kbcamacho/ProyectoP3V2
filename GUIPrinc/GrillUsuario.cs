@@ -97,7 +97,7 @@ namespace GUIPrinc
         private void btnVolverCC_Click_1(object sender, EventArgs e)
         {
 
-            Form btantCitas = new GestCitas();
+            Form btantCitas = new GestCitas(TipoUsuario);
             btantCitas.Show();
             this.Dispose();
 
