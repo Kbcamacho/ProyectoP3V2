@@ -56,7 +56,7 @@ namespace GUIPrinc
 
         private void Guardar()
         {
-            DateTime fechaNacimiento = DateTime.Now;
+            DateTime fechaNacimiento = dtFechaNacimiento.Value;
             if (fechaNacimiento > DateTime.Now)
             {
                 MessageBox.Show("Por favor, digite una fecha valida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
