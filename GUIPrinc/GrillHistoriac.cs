@@ -195,7 +195,7 @@ namespace GUIPrinc
             }
             else
             {
-                if (txtPacID.Text == string.Empty || txtRecom.Text == string.Empty || txtObser.Text == string.Empty || txtIndic.Text == string.Empty || txtClasif.Text == string.Empty || txtMotiv.Text == string.Empty || txtHallaz.Text == string.Empty || txtIndic.Text == string.Empty || dtpFechaHistorial.Text == string.Empty || txtDiag.Text == string.Empty)
+                if (txtPacID.Text == string.Empty || txtRecom.Text == string.Empty || txtObser.Text == string.Empty || txtIndic.Text == string.Empty || cmbClasif.Text == string.Empty || txtMotiv.Text == string.Empty || txtHallaz.Text == string.Empty || txtIndic.Text == string.Empty || dtpFechaHistorial.Text == string.Empty || txtDiag.Text == string.Empty)
                 {
                     MessageBox.Show("Faltan Datos por ingresar", "Avisos del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
@@ -208,7 +208,7 @@ namespace GUIPrinc
                     oHi.Recomendacion = Convert.ToString(txtRecom.Text);
                     oHi.Observacion = Convert.ToString(txtObser.Text);
                     oHi.Indicacion = Convert.ToString(txtIndic.Text);
-                    oHi.Clasificacion = Convert.ToString(txtClasif.Text);
+                    oHi.Clasificacion = Convert.ToString(cmbClasif.Text);
                     oHi.Motivo = Convert.ToString(txtMotiv.Text);
                     oHi.Hallazgo = Convert.ToString(txtHallaz.Text);
                     oHi.Diagnostico = Convert.ToString(txtDiag.Text);
@@ -270,7 +270,7 @@ namespace GUIPrinc
                 txtRecom.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[2].Value);
                 txtObser.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[3].Value);
                 txtIndic.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[4].Value);
-                txtClasif.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[5].Value);
+                cmbClasif.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[5].Value);
                 txtMotiv.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[6].Value);
                 txtHallaz.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[7].Value);
                 dtpFechaHistorial.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[8].Value);
@@ -319,7 +319,7 @@ namespace GUIPrinc
                     oHi.Recomendacion = Convert.ToString(txtRecom.Text);
                     oHi.Observacion = Convert.ToString(txtObser.Text);
                     oHi.Indicacion = Convert.ToString(txtIndic.Text);
-                    oHi.Clasificacion = Convert.ToString(txtClasif.Text);
+                    oHi.Clasificacion = Convert.ToString(cmbClasif.Text);
                     oHi.Motivo = Convert.ToString(txtMotiv.Text);
                     oHi.Hallazgo = Convert.ToString(txtHallaz.Text);
                     oHi.Diagnostico = Convert.ToString(txtDiag.Text);
@@ -436,7 +436,7 @@ namespace GUIPrinc
 
             paginahtml_texto = paginahtml_texto.Replace("@FECONSUL", DateTime.Now.ToString());
 
-            paginahtml_texto = paginahtml_texto.Replace("@CLASIF", txtClasif.Text);
+            paginahtml_texto = paginahtml_texto.Replace("@CLASIF",  cmbClasif.Text);
 
             paginahtml_texto = paginahtml_texto.Replace("@MOTIVO", txtMotiv.Text);
 
@@ -487,6 +487,11 @@ namespace GUIPrinc
                     stream.Close();
                 }
             }
+        }
+
+        private void txtClasif_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
