@@ -492,8 +492,6 @@ C:\Users\camac\Desktop\ProyectoP3\GUIPrinc\bin\Debug\System.ValueTuple.xml
 C:\Users\camac\Desktop\ProyectoP3\GUIPrinc\bin\Debug\Datos.pdb
 C:\Users\camac\Desktop\ProyectoP3\GUIPrinc\bin\Debug\Datos.dll.config
 C:\Users\camac\Desktop\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.csproj.AssemblyReference.cache
-C:\Users\camac\Desktop\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.csproj.SuggestedBindingRedirects.cache
-C:\Users\camac\Desktop\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.exe.config
 C:\Users\camac\Desktop\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.GrillUsuario.resources
 C:\Users\camac\Desktop\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.GestCitas.resources
 C:\Users\camac\Desktop\ProyectoP3\GUIPrinc\obj\Debug\GUIPrinc.GrillCitas.resources
@@ -590,3 +588,9 @@ C:\Users\User\OneDrive\Escritorio\PROY3\GUIPrinc\bin\Debug\itextsharp.xmlworker.
 C:\Users\User\OneDrive\Escritorio\PROY3\GUIPrinc\bin\Debug\System.Text.Json.dll
 C:\Users\User\OneDrive\Escritorio\PROY3\GUIPrinc\bin\Debug\System.Text.Encodings.Web.dll
 C:\Users\User\OneDrive\Escritorio\PROY3\GUIPrinc\bin\Debug\itextsharp.xml
+C:\Users\camac\Desktop\ProyectoP3\GUIPrinc\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\camac\Desktop\ProyectoP3\GUIPrinc\bin\Debug\itextsharp.dll
+C:\Users\camac\Desktop\ProyectoP3\GUIPrinc\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\camac\Desktop\ProyectoP3\GUIPrinc\bin\Debug\System.Text.Json.dll
+C:\Users\camac\Desktop\ProyectoP3\GUIPrinc\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\camac\Desktop\ProyectoP3\GUIPrinc\bin\Debug\itextsharp.xml

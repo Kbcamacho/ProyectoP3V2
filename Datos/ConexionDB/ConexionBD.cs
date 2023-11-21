@@ -22,9 +22,9 @@ namespace Datos
             OracleConnection conexion = new OracleConnection();
             try
             {
-                conexion.ConnectionString = "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=DESKTOP-MTFJRES)" +
+                conexion.ConnectionString = "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=KliverGod)" +
                                           "(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=xepdb1)))" +
-                                          ";User Id=Clinica;Password=1234;";  // CAMBIAR    POR LA CONTRASEÑA DE LA BASE DE DATOS
+                                          ";User Id=CLINICA;Password=1234;";  // CAMBIAR    POR LA CONTRASEÑA DE LA BASE DE DATOS
 
             }
             catch (Exception ex) 
