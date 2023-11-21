@@ -55,7 +55,7 @@ namespace GUIPrinc
 
         private void btnSacarCita_Click(object sender, EventArgs e)
         {
-            Form GrillCitas = new GrillCitas();
+            Form GrillCitas = new GrillCitas(TipoUsuario);
             GrillCitas.Show();
             this.Hide();
         }
@@ -96,9 +96,17 @@ namespace GUIPrinc
 
         private void BtnHistorial_Click(object sender, EventArgs e)
         {
-            Form BtnHistorial = new GrillHistoriac();
-            BtnHistorial.Show();
-            this.Hide();
+            if (!TipoUsuario)
+            {
+                Form BtnHistorial = new GrillHistoriac(TipoUsuario);
+                BtnHistorial.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Lo sentimos, no tiene permisos para acceder a esta sección");
+            }
+
         }
     }
 }
