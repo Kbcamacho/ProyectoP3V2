@@ -45,7 +45,6 @@
             this.txtDiag = new System.Windows.Forms.TextBox();
             this.txtHallaz = new System.Windows.Forms.TextBox();
             this.txtMotiv = new System.Windows.Forms.TextBox();
-            this.txtClasif = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.txtIndic = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -73,6 +72,7 @@
             this.BtnGuardarM = new System.Windows.Forms.Button();
             this.btnPDF = new System.Windows.Forms.Button();
             this.btnVolverCC = new System.Windows.Forms.Button();
+            this.cmbClasif = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -217,11 +217,11 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.cmbClasif);
             this.groupBox2.Controls.Add(this.dtpFechaHistorial);
             this.groupBox2.Controls.Add(this.txtDiag);
             this.groupBox2.Controls.Add(this.txtHallaz);
             this.groupBox2.Controls.Add(this.txtMotiv);
-            this.groupBox2.Controls.Add(this.txtClasif);
             this.groupBox2.Controls.Add(this.label15);
             this.groupBox2.Controls.Add(this.txtIndic);
             this.groupBox2.Controls.Add(this.label11);
@@ -278,14 +278,6 @@
             this.txtMotiv.Name = "txtMotiv";
             this.txtMotiv.Size = new System.Drawing.Size(237, 27);
             this.txtMotiv.TabIndex = 11;
-            // 
-            // txtClasif
-            // 
-            this.txtClasif.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtClasif.Location = new System.Drawing.Point(609, 34);
-            this.txtClasif.Name = "txtClasif";
-            this.txtClasif.Size = new System.Drawing.Size(237, 27);
-            this.txtClasif.TabIndex = 10;
             // 
             // label15
             // 
@@ -569,6 +561,20 @@
             this.btnVolverCC.UseVisualStyleBackColor = false;
             this.btnVolverCC.Click += new System.EventHandler(this.btnVolverCC_Click);
             // 
+            // cmbClasif
+            // 
+            this.cmbClasif.FormattingEnabled = true;
+            this.cmbClasif.Items.AddRange(new object[] {
+            "Urgente",
+            "Preferente",
+            "Normal",
+            "Rutinaria",
+            "Preoperatoria"});
+            this.cmbClasif.Location = new System.Drawing.Point(609, 34);
+            this.cmbClasif.Name = "cmbClasif";
+            this.cmbClasif.Size = new System.Drawing.Size(237, 28);
+            this.cmbClasif.TabIndex = 16;
+            // 
             // GrillHistoriac
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -638,7 +644,6 @@
         private System.Windows.Forms.TextBox txtDiag;
         private System.Windows.Forms.TextBox txtHallaz;
         private System.Windows.Forms.TextBox txtMotiv;
-        private System.Windows.Forms.TextBox txtClasif;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.Button btnAgregar;
@@ -652,5 +657,6 @@
         private System.Windows.Forms.DateTimePicker dtpFechaHistorial;
         private System.Windows.Forms.Button btnPDF;
         private System.Windows.Forms.Button btnVolverCC;
+        private System.Windows.Forms.ComboBox cmbClasif;
     }
 }
