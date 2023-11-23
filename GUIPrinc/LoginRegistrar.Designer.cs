@@ -67,8 +67,9 @@
             // 
             // btnVolverCC
             // 
-            this.btnVolverCC.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.btnVolverCC.BackColor = System.Drawing.Color.SteelBlue;
             this.btnVolverCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolverCC.ForeColor = System.Drawing.Color.White;
             this.btnVolverCC.Location = new System.Drawing.Point(21, 15);
             this.btnVolverCC.Name = "btnVolverCC";
             this.btnVolverCC.Size = new System.Drawing.Size(104, 31);

@@ -63,6 +63,46 @@ namespace GUIPrinc.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1490793870_user_interface25_82355 {
+            get {
+                object obj = ResourceManager.GetObject("1490793870-user-interface25_82355", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1492790846_9cancel_84247 {
+            get {
+                object obj = ResourceManager.GetObject("1492790846-9cancel_84247", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1492790860_8check_84164 {
+            get {
+                object obj = ResourceManager.GetObject("1492790860-8check_84164", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap add_circle_create_expand_new_plus_icon_123218 {
+            get {
+                object obj = ResourceManager.GetObject("add_circle_create_expand_new_plus_icon_123218", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap circulo_de_usuario {
             get {
                 object obj = ResourceManager.GetObject("circulo-de-usuario", resourceCulture);
@@ -83,9 +123,69 @@ namespace GUIPrinc.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap edit_modify_icon_icons_com_72390 {
+            get {
+                object obj = ResourceManager.GetObject("edit_modify_icon-icons.com_72390", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap editdocument_105148 {
+            get {
+                object obj = ResourceManager.GetObject("editdocument_105148", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap editdocument_1051481 {
+            get {
+                object obj = ResourceManager.GetObject("editdocument_1051481", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap editdocument_1051482 {
+            get {
+                object obj = ResourceManager.GetObject("editdocument_1051482", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Imagen2 {
             get {
                 object obj = ResourceManager.GetObject("Imagen2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap magnifier_1_icon_icons_com_56924 {
+            get {
+                object obj = ResourceManager.GetObject("magnifier-1_icon-icons.com_56924", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap msexcel_93695 {
+            get {
+                object obj = ResourceManager.GetObject("msexcel_93695", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -101,18 +201,103 @@ namespace GUIPrinc.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a &lt;!DOTYPE html&gt;
-        ///&lt;html&gt;
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pdf_filetype_icon_177525 {
+            get {
+                object obj = ResourceManager.GetObject("pdf_filetype_icon_177525", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap person_add_icon_icons_com_50077 {
+            get {
+                object obj = ResourceManager.GetObject("person-add_icon-icons.com_50077", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a &lt;!DOCTYPE html&gt;
+        ///&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
         ///&lt;head&gt;
-        ///    &lt;title&gt;Web Page Desing&lt;/title&gt;
+        ///    &lt;title&gt;INFORME HISTORIAL MEDICO&lt;/title&gt;
+        ///    &lt;style&gt;
+        ///        table.border {
+        ///            border-collapse: collapse;
+        ///        }
+        ///
+        ///            table.border th {
+        ///                padding: 5px;
+        ///                border: 1px solid black;
+        ///            }
+        ///
+        ///            table.border td {
+        ///                padding: 5px;
+        ///                border: 1px solid black;
+        ///            }
+        ///    &lt;/style&gt;
         ///&lt;/head&gt;
         ///&lt;body&gt;
-        ///&lt;/body&gt;
-        ///&lt;/html&gt;.
+        ///    &lt;table style=&quot;width:100%&quot;&gt;
+        ///     [resto de la cadena truncado]&quot;;.
         /// </summary>
         internal static string plantilla {
             get {
                 return ResourceManager.GetString("plantilla", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap save_78935 {
+            get {
+                object obj = ResourceManager.GetObject("save_78935", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap save_789351 {
+            get {
+                object obj = ResourceManager.GetObject("save_789351", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap seo_social_web_network_internet_262_icon_icons_com_61518 {
+            get {
+                object obj = ResourceManager.GetObject("seo-social-web-network-internet_262_icon-icons.com_61518", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap seo_social_web_network_internet_262_icon_icons1 {
+            get {
+                object obj = ResourceManager.GetObject("seo-social-web-network-internet_262_icon-icons1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap session_exit_sign_out_log_logout_ecommerce_icon_224958 {
+            get {
+                object obj = ResourceManager.GetObject("session_exit_sign_out_log_logout_ecommerce_icon_224958", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

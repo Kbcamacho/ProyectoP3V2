@@ -178,6 +178,7 @@ namespace GUIPrinc
                     Paciente oPa = new Paciente();
                     string Rpta = "";
                     oPa.Cedula = txtIdent.Text;
+                    oPa.Password = txtPass.Text;
                     oPa.Nombre = txtNombre.Text;
                     oPa.Apellido = txtApellido.Text;
                     oPa.TipoSangre = cmbSangre.Text;
@@ -296,6 +297,11 @@ namespace GUIPrinc
             {
                 e.Handled = true;
             }
+        }
+
+        private void txtCorreo_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

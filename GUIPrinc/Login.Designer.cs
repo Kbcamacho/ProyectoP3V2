@@ -54,7 +54,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(289, 36);
             this.label1.TabIndex = 0;
-            this.label1.Text = "INICIO DE SESION";
+            this.label1.Text = "INICIO DE SESIÓN";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // groupBox1
@@ -70,17 +70,18 @@
             this.groupBox1.Controls.Add(this.txtUserPaCC);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.LightCyan;
             this.groupBox1.Location = new System.Drawing.Point(12, 69);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(450, 288);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Ingrese sus datos:";
+            this.groupBox1.Text = "Ingrese los Datos:";
             // 
             // ChbUsuario
             // 
+            this.ChbUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ChbUsuario.Location = new System.Drawing.Point(132, 138);
             this.ChbUsuario.Name = "ChbUsuario";
             this.ChbUsuario.Size = new System.Drawing.Size(150, 38);
@@ -93,6 +94,7 @@
             // btnIngresarIS
             // 
             this.btnIngresarIS.BackColor = System.Drawing.Color.LightBlue;
+            this.btnIngresarIS.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIngresarIS.ForeColor = System.Drawing.Color.Black;
             this.btnIngresarIS.Location = new System.Drawing.Point(332, 182);
             this.btnIngresarIS.Name = "btnIngresarIS";
@@ -104,6 +106,7 @@
             // 
             // ChbDoctor
             // 
+            this.ChbDoctor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ChbDoctor.Location = new System.Drawing.Point(282, 138);
             this.ChbDoctor.Name = "ChbDoctor";
             this.ChbDoctor.Size = new System.Drawing.Size(150, 38);
@@ -116,6 +119,7 @@
             // btnLimpiarIS
             // 
             this.btnLimpiarIS.BackColor = System.Drawing.Color.LightBlue;
+            this.btnLimpiarIS.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpiarIS.ForeColor = System.Drawing.Color.Black;
             this.btnLimpiarIS.Location = new System.Drawing.Point(208, 182);
             this.btnLimpiarIS.Name = "btnLimpiarIS";
@@ -141,7 +145,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(34, 243);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.LightCyan;
+            this.label4.Location = new System.Drawing.Point(45, 243);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(186, 20);
             this.label4.TabIndex = 8;
@@ -149,7 +155,8 @@
             // 
             // txtPassPaCC
             // 
-            this.txtPassPaCC.Location = new System.Drawing.Point(132, 96);
+            this.txtPassPaCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassPaCC.Location = new System.Drawing.Point(132, 100);
             this.txtPassPaCC.Name = "txtPassPaCC";
             this.txtPassPaCC.PasswordChar = '*';
             this.txtPassPaCC.Size = new System.Drawing.Size(300, 27);
@@ -157,7 +164,8 @@
             // 
             // txtUserPaCC
             // 
-            this.txtUserPaCC.Location = new System.Drawing.Point(132, 45);
+            this.txtUserPaCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUserPaCC.Location = new System.Drawing.Point(132, 42);
             this.txtUserPaCC.Name = "txtUserPaCC";
             this.txtUserPaCC.Size = new System.Drawing.Size(300, 27);
             this.txtUserPaCC.TabIndex = 2;
@@ -165,21 +173,23 @@
             // 
             // label3
             // 
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(6, 103);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(120, 20);
             this.label3.TabIndex = 1;
             this.label3.Text = "Contraseña:";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label2
             // 
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(6, 45);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(120, 20);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Usuario:";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.Text = "Identificación:";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Login
@@ -187,7 +197,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(487, 369);
+            this.ClientSize = new System.Drawing.Size(477, 369);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
