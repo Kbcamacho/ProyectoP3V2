@@ -18,11 +18,14 @@ using iTextSharp.text.pdf;
 using iTextSharp.tool.xml;
 using System.IO;
 
+using Microsoft.Office.Interop.Excel;
+using objExcel = Microsoft.Office.Interop.Excel;
 
 namespace GUIPrinc
 {
     public partial class GrillHistoriac : Form
     {
+        string ruta = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
         public GrillHistoriac(bool tipoUsuario)
         {
             InitializeComponent();
@@ -280,12 +283,7 @@ namespace GUIPrinc
                 txtHallaz.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[7].Value);
                 dtpFechaHistorial.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[8].Value);
                 txtDiag.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[9].Value);
-                
-
-
-
             }
-
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
@@ -495,6 +493,24 @@ namespace GUIPrinc
         }
 
         private void txtClasif_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEXCEL_Click(object sender, EventArgs e)
+        {
+            objExcel.Application objApplication = new objExcel.Application();
+            Workbook objExcel = objApplication.Workbooks.Add(XlSheetType.xlWorksheet);
+            Worksheet objHoja = (Worksheet)objApplication.ActiveSheet;
+
+            objApplication.Visible = false;
+
+            MostrarHistorial("%");
+
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

@@ -118,19 +118,70 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="circulo-de-usuario1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\circulo-de-usuario1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="session_exit_sign_out_log_logout_ecommerce_icon_224958" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\session_exit_sign_out_log_logout_ecommerce_icon_224958.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editdocument_1051481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editdocument_1051481.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="person-add_icon-icons.com_50077" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\person-add_icon-icons.com_50077.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="circulo-de-usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\circulo-de-usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="msexcel_93695" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\msexcel_93695.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1492790860-8check_84164" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1492790860-8check_84164.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editdocument_105148" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editdocument_105148.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save_789351" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save_789351.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_circle_create_expand_new_plus_icon_123218" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_circle_create_expand_new_plus_icon_123218.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1490793870-user-interface25_82355" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1490793870-user-interface25_82355.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdf_filetype_icon_177525" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdf_filetype_icon_177525.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save_78935" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save_78935.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Imagen2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Imagen2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1492790846-9cancel_84247" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1492790846-9cancel_84247.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circulo-de-usuario1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circulo-de-usuario1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seo-social-web-network-internet_262_icon-icons.com_61518" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seo-social-web-network-internet_262_icon-icons.com_61518.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pdf" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pdf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="editdocument_1051482" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editdocument_1051482.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_modify_icon-icons.com_72390" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit_modify_icon-icons.com_72390.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="plantilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plantilla.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="magnifier-1_icon-icons.com_56924" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\magnifier-1_icon-icons.com_56924.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seo-social-web-network-internet_262_icon-icons1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seo-social-web-network-internet_262_icon-icons.com_615181.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -270,6 +270,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="NewLogo_1.ico" />
+    <None Include="Resources\seo-social-web-network-internet_262_icon-icons.com_615181.png" />
+    <None Include="Resources\editdocument_1051482.png" />
+    <None Include="Resources\save_789351.png" />
+    <None Include="Resources\add_circle_create_expand_new_plus_icon_123218.png" />
+    <None Include="Resources\msexcel_93695.png" />
+    <None Include="Resources\pdf_filetype_icon_177525.png" />
+    <None Include="Resources\edit_modify_icon-icons.com_72390.png" />
+    <None Include="Resources\seo-social-web-network-internet_262_icon-icons.com_61518.png" />
+    <None Include="Resources\editdocument_1051481.png" />
+    <None Include="Resources\person-add_icon-icons.com_50077.png" />
+    <None Include="Resources\1492790846-9cancel_84247.png" />
+    <None Include="Resources\editdocument_105148.png" />
+    <None Include="Resources\save_78935.png" />
+    <None Include="Resources\1492790860-8check_84164.png" />
+    <None Include="Resources\magnifier-1_icon-icons.com_56924.png" />
+    <None Include="Resources\1490793870-user-interface25_82355.png" />
+    <None Include="Resources\session_exit_sign_out_log_logout_ecommerce_icon_224958.png" />
     <None Include="Resources\plantilla.html" />
   </ItemGroup>
   <ItemGroup>
@@ -283,6 +300,35 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

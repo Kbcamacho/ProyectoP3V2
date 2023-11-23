@@ -52,7 +52,7 @@ namespace GUIPrinc
         {
             if (marca1 == false && marca == false)
             {
-                MessageBox.Show("Inicio de sesión fallido no ha marcado alguna de las 2 casillas.");
+                MessageBox.Show("Verfique los datos.", "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
@@ -71,14 +71,13 @@ namespace GUIPrinc
 
                     if (isAuthenticated)
                     {
-                        MessageBox.Show("Inicio de sesión exitoso.");
                         Form btIngresar = new GestCitas(TipoUsuario);
                         btIngresar.Show();
                         this.Hide();
                     }
                     else
                     {
-                        MessageBox.Show("Inicio de sesión fallido.");
+                        MessageBox.Show("Verfique los datos.", "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
                 else if (!TipoUsuario)
@@ -88,14 +87,13 @@ namespace GUIPrinc
 
                     if (isAuthenticated)
                     {
-                        MessageBox.Show("Inicio de sesión exitoso.");
                         Form btIngresar = new GestCitas(TipoUsuario);
                         btIngresar.Show();
                         this.Hide();
                     }
                     else
                     {
-                        MessageBox.Show("Inicio de sesión fallido.");
+                        MessageBox.Show("Verfique los datos.", "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
 
                 }
