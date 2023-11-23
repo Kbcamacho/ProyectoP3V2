@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\GUIPrinc"
   ],
-  "SelectedNode": "\\HospitalAPP.sln",
+  "SelectedNode": "\\GUIPrinc\\LoginRegistrar.cs",
   "PreviewInSolutionExplorer": false
 }
