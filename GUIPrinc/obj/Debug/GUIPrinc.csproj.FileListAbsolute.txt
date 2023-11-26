@@ -765,3 +765,13 @@ C:\Users\User\OneDrive\Escritorio\pv3\GUIPrinc\obj\Debug\GUIPrinc.csproj.CopyCom
 C:\Users\User\OneDrive\Escritorio\pv3\GUIPrinc\obj\Debug\GUIPrinc.exe
 C:\Users\User\OneDrive\Escritorio\pv3\GUIPrinc\obj\Debug\GUIPrinc.pdb
 >>>>>>> 53aa4bc9cfb2dc8139ccdde53eba8a8f753da2d1
+C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\GUIPrinc\bin\Debug\Logica.dll.config
+C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\GUIPrinc\bin\Debug\System.Text.Json.xml
+C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\GUIPrinc\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\GUIPrinc\bin\Debug\EPPlus.dll
+C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\GUIPrinc\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\GUIPrinc\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\GUIPrinc\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\GUIPrinc\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\GUIPrinc\bin\Debug\EPPlus.xml
+C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\GUIPrinc\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml

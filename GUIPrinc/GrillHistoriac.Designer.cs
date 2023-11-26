@@ -748,7 +748,6 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox txtObser;
         private System.Windows.Forms.TextBox txtRecom;
-        private System.Windows.Forms.TextBox txtPacID;
         private System.Windows.Forms.TextBox txtHistoID;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
@@ -784,5 +783,6 @@
         private System.Windows.Forms.Button btnEXCEL;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button btnDetalles;
+        public System.Windows.Forms.TextBox txtPacID;
     }
 }

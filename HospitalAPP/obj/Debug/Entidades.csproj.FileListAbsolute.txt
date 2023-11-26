@@ -64,3 +64,11 @@ C:\Users\User\OneDrive\Escritorio\pv3\HospitalAPP\obj\Debug\Entidades.csproj.Ass
 C:\Users\User\OneDrive\Escritorio\pv3\HospitalAPP\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\User\OneDrive\Escritorio\pv3\HospitalAPP\obj\Debug\HospitalAPP.dll
 C:\Users\User\OneDrive\Escritorio\pv3\HospitalAPP\obj\Debug\HospitalAPP.pdb
+C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\HospitalAPP\bin\Debug\EPPlus.dll
+C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\HospitalAPP\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\HospitalAPP\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\HospitalAPP\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\HospitalAPP\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\HospitalAPP\bin\Debug\EPPlus.xml
+C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\HospitalAPP\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\HospitalAPP\obj\Debug\Entidades.csproj.CopyComplete

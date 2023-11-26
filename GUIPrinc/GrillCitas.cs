@@ -16,6 +16,7 @@ namespace GUIPrinc
     public partial class GrillCitas : Form
     {
         bool TipoUsuario = true;
+
         public GrillCitas(bool tipoUsuario)
 
         {
@@ -196,7 +197,15 @@ namespace GUIPrinc
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-            Eliminar();
+            if (!TipoUsuario)
+            {
+                Eliminar();
+            }
+            else
+            {
+                MessageBox.Show("No tiene permisos para realizar esta acción", "Aviso del sistema", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            
         }
         private void Eliminar()
         {
@@ -289,6 +298,17 @@ namespace GUIPrinc
         private void txtCedula_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            GrillHistoriac Historial = new GrillHistoriac(TipoUsuario);
+            Historial.txtPacID.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            Historial.ShowDialog();
+            this.Hide();
+
+            
+            
         }
     }
 }

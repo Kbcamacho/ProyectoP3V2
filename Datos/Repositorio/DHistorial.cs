@@ -22,7 +22,7 @@ namespace Datos.Repositorio
             {
                 cTexto = "%" + cTexto + "%";
                 SqlCon = ConexionBD.GetInstancia().CrearConexion();
-                OracleCommand Comando = new OracleCommand("select * from VISTA_HISTORIALMEDICO where Id_historial like '" + cTexto + "' ", SqlCon);
+                OracleCommand Comando = new OracleCommand("select * from VISTA_HISTORIALMEDICO where ID_PACIENTE like '" + cTexto + "' ", SqlCon);
                 Comando.CommandType = CommandType.Text;
                 SqlCon.Open();
                 Resultado = Comando.ExecuteReader();

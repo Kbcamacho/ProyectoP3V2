@@ -20,12 +20,14 @@ using System.IO;
 
 using Microsoft.Office.Interop.Excel;
 using objExcel = Microsoft.Office.Interop.Excel;
-
+using OfficeOpenXml;
+using OfficeOpenXml.Style;
 
 namespace GUIPrinc
 {
     public partial class GrillHistoriac : Form
     {
+
         string ruta = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
         public GrillHistoriac(bool tipoUsuario)
         {
@@ -36,6 +38,7 @@ namespace GUIPrinc
         int nCodigo_pr = 0;
         int nValor_pr = 0;
         int idHis;
+        String IdHist;
         int IdCi;
         int IdHis;
 
@@ -249,7 +252,13 @@ namespace GUIPrinc
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             Mostrar(txtBuscar.Text.Trim());
-            MostrarAntecedentes(txtBuscar.Text.Trim());
+            if (dataGridView1.Rows.Count == 0)
+            {
+                IdHist = Convert.ToString(dataGridView1.CurrentRow.Cells[0].Value);
+                MostrarAntecedentes(IdHist);
+
+            }
+
         }
 
         private void Mostrar(string cTexto)
@@ -500,50 +509,50 @@ namespace GUIPrinc
 
         private void btnEXCEL_Click(object sender, EventArgs e)
         {
-            //try
-            //{
-            //    if (dataGridView1.Rows.Count > 0)
-            //    {
-            //        using (SaveFileDialog sfd = new SaveFileDialog() { Filter = "Excel Workbook|*.xlsx", ValidateNames = true })
-            //        {
-            //            if (sfd.ShowDialog() == DialogResult.OK)
-            //            {
-            //                FileInfo fi = new FileInfo(sfd.FileName);
-            //                using (ExcelPackage package = new ExcelPackage(fi))
-            //                {
-            //                    ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("Nomina");
-            //                    for (int i = 1; i <= dataGridView1.Columns.Count; i++)
-            //                    {
-            //                        worksheet.Cells[1, i].Value = dataGridView1.Columns[i - 1].HeaderText;
-            //                        worksheet.Cells[1, i].Style.Font.Bold = true;
-            //                        worksheet.Cells[1, i].Style.Fill.PatternType = ExcelFillStyle.Solid;
-            //                        worksheet.Cells[1, i].Style.Fill.BackgroundColor.SetColor(Color.FromArgb(79, 129, 189));
-            //                        worksheet.Cells[1, i].Style.Font.Color.SetColor(Color.White);
-            //                    }
-            //                    for (int i = 0; i < dataGridView1.Rows.Count; i++)
-            //                    {
-            //                        for (int j = 0; j < dataGridView1.Columns.Count; j++)
-            //                        {
-            //                            worksheet.Cells[i + 2, j + 1].Value = dataGridView1.Rows[i].Cells[j].Value.ToString();
-            //                        }
-            //                    }
+            try
+            {
+                if (dataGridView1.Rows.Count > 0)
+                {
+                    using (SaveFileDialog sfd = new SaveFileDialog() { Filter = "Excel Workbook|*.xlsx", ValidateNames = true })
+                    {
+                        if (sfd.ShowDialog() == DialogResult.OK)
+                        {
+                            FileInfo fi = new FileInfo(sfd.FileName);
+                            using (ExcelPackage package = new ExcelPackage(fi))
+                            {
+                                ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("Nomina");
+                                for (int i = 1; i <= dataGridView1.Columns.Count; i++)
+                                {
+                                    worksheet.Cells[1, i].Value = dataGridView1.Columns[i - 1].HeaderText;
+                                    worksheet.Cells[1, i].Style.Font.Bold = true;
+                                    worksheet.Cells[1, i].Style.Fill.PatternType = ExcelFillStyle.Solid;
+                                    worksheet.Cells[1, i].Style.Fill.BackgroundColor.SetColor(Color.FromArgb(79, 129, 189));
+                                    worksheet.Cells[1, i].Style.Font.Color.SetColor(Color.White);
+                                }
+                                for (int i = 0; i < dataGridView1.Rows.Count; i++)
+                                {
+                                    for (int j = 0; j < dataGridView1.Columns.Count; j++)
+                                    {
+                                        worksheet.Cells[i + 2, j + 1].Value = dataGridView1.Rows[i].Cells[j].Value.ToString();
+                                    }
+                                }
 
-            //                    package.Save();
-            //                }
+                                package.Save();
+                            }
 
-            //                MessageBox.Show("Datos exportados a Excel con éxito.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //            }
-            //        }
-            //    }
-            //    else
-            //    {
-            //        MessageBox.Show("No hay datos para exportar.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //    }
-            //}
-            //catch (Exception ex)
-            //{
-            //    MessageBox.Show($"Error al exportar a Excel: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //}
+                            MessageBox.Show("Datos exportados a Excel con éxito.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("No hay datos para exportar.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al exportar a Excel: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
