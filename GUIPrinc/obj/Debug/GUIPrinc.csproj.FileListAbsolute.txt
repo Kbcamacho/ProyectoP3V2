@@ -775,3 +775,4 @@ C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\GUIPrinc\bin\Debug\Microsoft.
 C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\GUIPrinc\bin\Debug\System.ComponentModel.Annotations.dll
 C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\GUIPrinc\bin\Debug\EPPlus.xml
 C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\GUIPrinc\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\GUIPrinc\obj\Debug\GUIPrinc.DetallesHi.resources

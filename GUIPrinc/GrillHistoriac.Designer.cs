@@ -80,7 +80,6 @@
             this.btnVolverCC = new System.Windows.Forms.Button();
             this.btnEXCEL = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.btnDetalles = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -551,6 +550,7 @@
             this.dataGridView1.Size = new System.Drawing.Size(903, 135);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGridView1.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentDoubleClick);
             // 
             // dataGridView2
             // 
@@ -615,7 +615,7 @@
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(183, 20);
             this.label16.TabIndex = 15;
-            this.label16.Text = "N° Identificación:";
+            this.label16.Text = "N° Historial:";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtBuscar
@@ -687,23 +687,11 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Detalles";
             // 
-            // btnDetalles
-            // 
-            this.btnDetalles.BackColor = System.Drawing.Color.LightBlue;
-            this.btnDetalles.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDetalles.Location = new System.Drawing.Point(897, 349);
-            this.btnDetalles.Name = "btnDetalles";
-            this.btnDetalles.Size = new System.Drawing.Size(213, 65);
-            this.btnDetalles.TabIndex = 17;
-            this.btnDetalles.Text = "DETALLES HISTORIAL";
-            this.btnDetalles.UseVisualStyleBackColor = false;
-            // 
             // GrillHistoriac
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(1287, 755);
-            this.Controls.Add(this.btnDetalles);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.btnEXCEL);
             this.Controls.Add(this.btnVolverCC);
@@ -782,7 +770,6 @@
         private System.Windows.Forms.ComboBox cmbClasif;
         private System.Windows.Forms.Button btnEXCEL;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Button btnDetalles;
         public System.Windows.Forms.TextBox txtPacID;
     }
 }

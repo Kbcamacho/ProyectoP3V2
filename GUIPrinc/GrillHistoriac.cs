@@ -39,6 +39,7 @@ namespace GUIPrinc
         int nValor_pr = 0;
         int idHis;
         String IdHist;
+
         int IdCi;
         int IdHis;
 
@@ -252,12 +253,8 @@ namespace GUIPrinc
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             Mostrar(txtBuscar.Text.Trim());
-            if (dataGridView1.Rows.Count == 0)
-            {
-                IdHist = Convert.ToString(dataGridView1.CurrentRow.Cells[0].Value);
-                MostrarAntecedentes(IdHist);
+            MostrarAntecedentes(txtBuscar.Text.Trim());
 
-            }
 
         }
 
@@ -563,6 +560,14 @@ namespace GUIPrinc
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DetallesHi Historial = new DetallesHi();
+            Historial.txtHistorial.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            Historial.ShowDialog();
+            this.Hide();
         }
     }
 }
