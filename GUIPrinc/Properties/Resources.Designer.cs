@@ -103,6 +103,16 @@ namespace GUIPrinc.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap adobe_pdf_document_14979 {
+            get {
+                object obj = ResourceManager.GetObject("adobe_pdf_document_14979", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap circulo_de_usuario {
             get {
                 object obj = ResourceManager.GetObject("circulo-de-usuario", resourceCulture);
@@ -163,6 +173,16 @@ namespace GUIPrinc.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ext_pdf_filetype_icon_176234 {
+            get {
+                object obj = ResourceManager.GetObject("ext_pdf_filetype_icon_176234", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Imagen2 {
             get {
                 object obj = ResourceManager.GetObject("Imagen2", resourceCulture);
@@ -206,6 +226,16 @@ namespace GUIPrinc.Properties {
         internal static System.Drawing.Bitmap pdf_filetype_icon_177525 {
             get {
                 object obj = ResourceManager.GetObject("pdf_filetype_icon_177525", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pdf_filetype_icon_1775251 {
+            get {
+                object obj = ResourceManager.GetObject("pdf_filetype_icon_1775251", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

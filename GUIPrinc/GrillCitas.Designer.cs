@@ -240,7 +240,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(226, 20);
             this.label10.TabIndex = 3;
-            this.label10.Text = "N° Identificación Paciente:";
+            this.label10.Text = "N° Identificación:";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
@@ -358,7 +358,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(1924, 502);
+            this.ClientSize = new System.Drawing.Size(1300, 502);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.CmbCedulaDoctor);
             this.Controls.Add(this.btnBuscar);

@@ -212,3 +212,16 @@ C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3V2\Logica\obj\Debug\Logica.cspro
 C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3V2\Logica\obj\Debug\Logica.csproj.CopyComplete
 C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3V2\Logica\obj\Debug\Logica.dll
 C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3V2\Logica\obj\Debug\Logica.pdb
+C:\Users\User\OneDrive\Escritorio\pv3\Logica\bin\Debug\Logica.dll
+C:\Users\User\OneDrive\Escritorio\pv3\Logica\bin\Debug\Logica.pdb
+C:\Users\User\OneDrive\Escritorio\pv3\Logica\bin\Debug\Datos.dll
+C:\Users\User\OneDrive\Escritorio\pv3\Logica\bin\Debug\HospitalAPP.dll
+C:\Users\User\OneDrive\Escritorio\pv3\Logica\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\User\OneDrive\Escritorio\pv3\Logica\bin\Debug\Datos.pdb
+C:\Users\User\OneDrive\Escritorio\pv3\Logica\bin\Debug\Datos.dll.config
+C:\Users\User\OneDrive\Escritorio\pv3\Logica\bin\Debug\HospitalAPP.pdb
+C:\Users\User\OneDrive\Escritorio\pv3\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Escritorio\pv3\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Escritorio\pv3\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\User\OneDrive\Escritorio\pv3\Logica\obj\Debug\Logica.dll
+C:\Users\User\OneDrive\Escritorio\pv3\Logica\obj\Debug\Logica.pdb
