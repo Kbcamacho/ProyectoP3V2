@@ -270,6 +270,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="NewLogo_1.ico" />
+    <None Include="Resources\pdf_filetype_icon_1775251.png" />
+    <None Include="Resources\ext_pdf_filetype_icon_176234.png" />
+    <None Include="Resources\adobe_pdf_document_14979.png" />
     <None Include="Resources\seo-social-web-network-internet_262_icon-icons.com_615181.png" />
     <None Include="Resources\editdocument_1051482.png" />
     <None Include="Resources\save_789351.png" />

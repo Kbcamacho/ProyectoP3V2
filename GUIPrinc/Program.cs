@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace GUIPrinc
 {
@@ -14,6 +16,11 @@ namespace GUIPrinc
         [STAThread]
         static void Main()
         {
+            //ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Login());
