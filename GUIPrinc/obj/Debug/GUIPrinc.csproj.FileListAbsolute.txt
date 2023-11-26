@@ -677,3 +677,4 @@ C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3V2\GUIPrinc\obj\Debug\GUIPrinc.c
 C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3V2\GUIPrinc\obj\Debug\GUIPrinc.csproj.CopyComplete
 C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3V2\GUIPrinc\obj\Debug\GUIPrinc.exe
 C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3V2\GUIPrinc\obj\Debug\GUIPrinc.pdb
+C:\Users\camac\Source\Repos\Kbcamacho\ProyectoP3V2\GUIPrinc\obj\Debug\GUIPrinc.csproj.ResolveComReference.cache
