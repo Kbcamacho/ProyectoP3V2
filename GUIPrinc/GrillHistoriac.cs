@@ -564,10 +564,16 @@ namespace GUIPrinc
 
         private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            DetallesHi Historial = new DetallesHi();
+            //DetallesHi Historial = new DetallesHi(TipoUsuario);
+            DetallesHi Historial = new DetallesHi(TipoUsuario);
             Historial.txtHistorial.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
             Historial.ShowDialog();
             this.Hide();
+        }
+
+        private void btnDetalle_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

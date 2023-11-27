@@ -181,14 +181,10 @@ namespace GUIPrinc
                IdCi = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
                 txtIdCita.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[0].Value);
                 txtCedula.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[1].Value);
-                CmbCedulaDoctor.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[2].Value);
-                dtpFechaCita.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[3].Value);
-                CmbHoraCita.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[4].Value);
-                CmbNombreDoctor.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[5].Value);
-
-
+                dtpFechaCita.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[2].Value);
+                CmbHoraCita.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[3].Value);
+                CmbNombreDoctor.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[4].Value);
             }
-
         }
         private void btnModificar_Click(object sender, EventArgs e)
         {

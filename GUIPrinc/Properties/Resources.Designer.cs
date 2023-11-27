@@ -330,5 +330,15 @@ namespace GUIPrinc.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap xmag_search_find_export_locate_5984 {
+            get {
+                object obj = ResourceManager.GetObject("xmag_search_find_export_locate_5984", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

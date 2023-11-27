@@ -776,3 +776,14 @@ C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\GUIPrinc\bin\Debug\System.Com
 C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\GUIPrinc\bin\Debug\EPPlus.xml
 C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\GUIPrinc\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
 C:\Users\camac\source\repos\Kbcamacho\ProyectoP3V2\GUIPrinc\obj\Debug\GUIPrinc.DetallesHi.resources
+C:\Users\User\OneDrive\Escritorio\pv3\GUIPrinc\bin\Debug\EPPlus.dll
+C:\Users\User\OneDrive\Escritorio\pv3\GUIPrinc\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\User\OneDrive\Escritorio\pv3\GUIPrinc\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\User\OneDrive\Escritorio\pv3\GUIPrinc\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\User\OneDrive\Escritorio\pv3\GUIPrinc\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\User\OneDrive\Escritorio\pv3\GUIPrinc\bin\Debug\Logica.dll.config
+C:\Users\User\OneDrive\Escritorio\pv3\GUIPrinc\bin\Debug\EPPlus.xml
+C:\Users\User\OneDrive\Escritorio\pv3\GUIPrinc\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\User\OneDrive\Escritorio\pv3\GUIPrinc\bin\Debug\System.Text.Json.xml
+C:\Users\User\OneDrive\Escritorio\pv3\GUIPrinc\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\User\OneDrive\Escritorio\pv3\GUIPrinc\obj\Debug\GUIPrinc.DetallesHi.resources

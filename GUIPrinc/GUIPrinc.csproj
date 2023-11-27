@@ -298,6 +298,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="NewLogo_1.ico" />
+    <None Include="Resources\xmag_search_find_export_locate_5984.png" />
     <None Include="Resources\pdf_filetype_icon_1775251.png" />
     <None Include="Resources\ext_pdf_filetype_icon_176234.png" />
     <None Include="Resources\adobe_pdf_document_14979.png" />
