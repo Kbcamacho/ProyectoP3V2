@@ -271,7 +271,7 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(750, 329);
+            this.dataGridView1.Size = new System.Drawing.Size(639, 329);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentDoubleClick);
             // 
@@ -292,7 +292,7 @@
             this.btnRegistrar.BackColor = System.Drawing.Color.LightSkyBlue;
             this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrar.Image = global::GUIPrinc.Properties.Resources._1492790860_8check_84164;
-            this.btnRegistrar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnRegistrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRegistrar.Location = new System.Drawing.Point(12, 316);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(245, 55);
@@ -318,7 +318,7 @@
             this.btnModificar.BackColor = System.Drawing.Color.LemonChiffon;
             this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnModificar.Image = global::GUIPrinc.Properties.Resources.editdocument_105148;
-            this.btnModificar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnModificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnModificar.Location = new System.Drawing.Point(264, 317);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(245, 55);
@@ -332,7 +332,7 @@
             this.btnCancelar.BackColor = System.Drawing.Color.PaleVioletRed;
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.Image = global::GUIPrinc.Properties.Resources._1492790846_9cancel_84247;
-            this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCancelar.Location = new System.Drawing.Point(12, 377);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(246, 55);
@@ -346,7 +346,7 @@
             this.BtnGuardarActualizado.BackColor = System.Drawing.Color.LightSkyBlue;
             this.BtnGuardarActualizado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnGuardarActualizado.Image = global::GUIPrinc.Properties.Resources.save_78935;
-            this.BtnGuardarActualizado.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnGuardarActualizado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnGuardarActualizado.Location = new System.Drawing.Point(264, 378);
             this.BtnGuardarActualizado.Name = "BtnGuardarActualizado";
             this.BtnGuardarActualizado.Size = new System.Drawing.Size(245, 55);
@@ -359,7 +359,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(1300, 502);
+            this.ClientSize = new System.Drawing.Size(1182, 502);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.CmbCedulaDoctor);
             this.Controls.Add(this.btnBuscar);

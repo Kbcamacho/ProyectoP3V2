@@ -82,7 +82,7 @@
             this.BtnBorrar.BackColor = System.Drawing.Color.PaleVioletRed;
             this.BtnBorrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnBorrar.Image = global::GUIPrinc.Properties.Resources.seo_social_web_network_internet_262_icon_icons_com_61518;
-            this.BtnBorrar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnBorrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnBorrar.Location = new System.Drawing.Point(86, 623);
             this.BtnBorrar.Name = "BtnBorrar";
             this.BtnBorrar.Size = new System.Drawing.Size(260, 50);
@@ -108,7 +108,7 @@
             this.BtnModificar.BackColor = System.Drawing.Color.LemonChiffon;
             this.BtnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnModificar.Image = global::GUIPrinc.Properties.Resources.edit_modify_icon_icons_com_72390;
-            this.BtnModificar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnModificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnModificar.Location = new System.Drawing.Point(86, 545);
             this.BtnModificar.Name = "BtnModificar";
             this.BtnModificar.Size = new System.Drawing.Size(260, 50);
@@ -392,7 +392,7 @@
             this.Grillausuarios.ReadOnly = true;
             this.Grillausuarios.RowHeadersWidth = 51;
             this.Grillausuarios.RowTemplate.Height = 24;
-            this.Grillausuarios.Size = new System.Drawing.Size(1052, 590);
+            this.Grillausuarios.Size = new System.Drawing.Size(1071, 590);
             this.Grillausuarios.TabIndex = 9;
             // 
             // btnRegistrar
@@ -400,7 +400,7 @@
             this.btnRegistrar.BackColor = System.Drawing.Color.LightSkyBlue;
             this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrar.Image = global::GUIPrinc.Properties.Resources.person_add_icon_icons_com_50077;
-            this.btnRegistrar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnRegistrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRegistrar.Location = new System.Drawing.Point(86, 471);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(260, 50);
@@ -413,7 +413,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(1513, 747);
+            this.ClientSize = new System.Drawing.Size(1537, 747);
             this.Controls.Add(this.btnVolverCC);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.BtnBuscar);

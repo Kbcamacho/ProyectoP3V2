@@ -135,7 +135,7 @@ namespace Datos.Repositorio
 
         public class DataAccessLayerDoctor
         {
-            string connectionString = "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=KliverGod)" +
+            string connectionString = "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=DESKTOP-MTFJRES)" +
                                           "(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=xepdb1)))" +
                                           ";User Id=CLINICA;Password=1234;";
 

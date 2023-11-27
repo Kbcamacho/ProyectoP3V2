@@ -14,7 +14,7 @@ namespace GUIPrinc
     public partial class DetallesHi : Form
     {
         bool TipoUsuario = true;
-        public DetallesHi()
+        public DetallesHi(bool tipoUsuario)
         {
             InitializeComponent();
             
@@ -43,6 +43,11 @@ namespace GUIPrinc
             GrillHistoriac grillHistoriac = new GrillHistoriac(TipoUsuario);
             grillHistoriac.Show();
             this.Close();
+        }
+
+        private void buscaslblIMG_Click(object sender, EventArgs e)
+        {
+            Mostrar(txtHistorial.Text.Trim());
         }
     }
 }

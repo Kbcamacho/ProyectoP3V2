@@ -277,7 +277,7 @@
             this.BtnGuardarM.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnGuardarM.ForeColor = System.Drawing.Color.Black;
             this.BtnGuardarM.Image = global::GUIPrinc.Properties.Resources.save_789351;
-            this.BtnGuardarM.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnGuardarM.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnGuardarM.Location = new System.Drawing.Point(29, 575);
             this.BtnGuardarM.Name = "BtnGuardarM";
             this.BtnGuardarM.Size = new System.Drawing.Size(275, 45);
@@ -302,7 +302,7 @@
             this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.ForeColor = System.Drawing.Color.Black;
             this.btnEliminar.Image = global::GUIPrinc.Properties.Resources.seo_social_web_network_internet_262_icon_icons1;
-            this.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEliminar.Location = new System.Drawing.Point(29, 630);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(275, 45);
@@ -326,7 +326,7 @@
             this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnModificar.ForeColor = System.Drawing.Color.Black;
             this.btnModificar.Image = global::GUIPrinc.Properties.Resources.editdocument_1051482;
-            this.btnModificar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnModificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnModificar.Location = new System.Drawing.Point(29, 517);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(275, 45);
@@ -352,7 +352,7 @@
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregar.ForeColor = System.Drawing.Color.Black;
             this.btnAgregar.Image = global::GUIPrinc.Properties.Resources.add_circle_create_expand_new_plus_icon_123218;
-            this.btnAgregar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAgregar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAgregar.Location = new System.Drawing.Point(29, 461);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(275, 45);
@@ -547,7 +547,7 @@
             this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(903, 135);
+            this.dataGridView1.Size = new System.Drawing.Size(728, 135);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentDoubleClick);
@@ -580,7 +580,7 @@
             this.dataGridView2.ReadOnly = true;
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(642, 135);
+            this.dataGridView2.Size = new System.Drawing.Size(728, 135);
             this.dataGridView2.TabIndex = 3;
             // 
             // btnBuscar
@@ -588,9 +588,9 @@
             this.btnBuscar.BackColor = System.Drawing.Color.Transparent;
             this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscar.Image = global::GUIPrinc.Properties.Resources._1490793870_user_interface25_82355;
-            this.btnBuscar.Location = new System.Drawing.Point(816, 349);
+            this.btnBuscar.Location = new System.Drawing.Point(821, 352);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(65, 65);
+            this.btnBuscar.Size = new System.Drawing.Size(65, 45);
             this.btnBuscar.TabIndex = 5;
             this.btnBuscar.UseVisualStyleBackColor = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
@@ -603,7 +603,7 @@
             this.groupBox3.ForeColor = System.Drawing.Color.LightCyan;
             this.groupBox3.Location = new System.Drawing.Point(361, 341);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(454, 71);
+            this.groupBox3.Size = new System.Drawing.Size(454, 58);
             this.groupBox3.TabIndex = 8;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Buscar";
@@ -611,7 +611,7 @@
             // label16
             // 
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(20, 31);
+            this.label16.Location = new System.Drawing.Point(20, 23);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(183, 20);
             this.label16.TabIndex = 15;
@@ -621,7 +621,7 @@
             // txtBuscar
             // 
             this.txtBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBuscar.Location = new System.Drawing.Point(209, 26);
+            this.txtBuscar.Location = new System.Drawing.Point(209, 20);
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(223, 27);
             this.txtBuscar.TabIndex = 15;
@@ -633,7 +633,7 @@
             this.btnPDF.BackColor = System.Drawing.Color.SteelBlue;
             this.btnPDF.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPDF.Image = global::GUIPrinc.Properties.Resources.pdf_filetype_icon_1775251;
-            this.btnPDF.Location = new System.Drawing.Point(1199, 347);
+            this.btnPDF.Location = new System.Drawing.Point(1024, 347);
             this.btnPDF.Name = "btnPDF";
             this.btnPDF.Size = new System.Drawing.Size(65, 65);
             this.btnPDF.TabIndex = 10;
@@ -657,7 +657,7 @@
             this.btnEXCEL.BackColor = System.Drawing.Color.SteelBlue;
             this.btnEXCEL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEXCEL.Image = global::GUIPrinc.Properties.Resources.msexcel_93695;
-            this.btnEXCEL.Location = new System.Drawing.Point(1116, 347);
+            this.btnEXCEL.Location = new System.Drawing.Point(936, 347);
             this.btnEXCEL.Name = "btnEXCEL";
             this.btnEXCEL.Size = new System.Drawing.Size(65, 65);
             this.btnEXCEL.TabIndex = 15;
